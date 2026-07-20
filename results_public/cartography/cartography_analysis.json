@@ -1,0 +1,271 @@
+{
+ "charts": [
+  {
+   "chart": [
+    "task190",
+    "task1391",
+    "task280"
+   ],
+   "per_task": {
+    "task190:answer": {
+     "r2_full_surface": 0.9563,
+     "hessian_eigs": [
+      -4.4704,
+      35.2868
+     ],
+     "convex_psd": false,
+     "max_abs_residual": 1.1895,
+     "surface_range": [
+      0.325,
+      8.123
+     ]
+    },
+    "task190:prompt": {
+     "r2_full_surface": 0.8659,
+     "hessian_eigs": [
+      0.3562,
+      2.4325
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.1177,
+     "surface_range": [
+      3.022,
+      3.734
+     ]
+    },
+    "task1391:answer": {
+     "r2_full_surface": 0.9139,
+     "hessian_eigs": [
+      6.3019,
+      41.8082
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.9198,
+     "surface_range": [
+      0.121,
+      7.712
+     ]
+    },
+    "task1391:prompt": {
+     "r2_full_surface": 0.8963,
+     "hessian_eigs": [
+      0.3666,
+      0.9833
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.0496,
+     "surface_range": [
+      4.01,
+      4.371
+     ]
+    },
+    "task280:answer": {
+     "r2_full_surface": 0.9483,
+     "hessian_eigs": [
+      9.3065,
+      48.4191
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 1.6371,
+     "surface_range": [
+      0.006,
+      8.329
+     ]
+    },
+    "task280:prompt": {
+     "r2_full_surface": 0.7936,
+     "hessian_eigs": [
+      0.1081,
+      0.899
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.0405,
+     "surface_range": [
+      2.836,
+      3.014
+     ]
+    }
+   }
+  },
+  {
+   "chart": [
+    "task290",
+    "task391",
+    "task363"
+   ],
+   "per_task": {
+    "task290:answer": {
+     "r2_full_surface": 0.8628,
+     "hessian_eigs": [
+      -0.0919,
+      3.7819
+     ],
+     "convex_psd": false,
+     "max_abs_residual": 0.1251,
+     "surface_range": [
+      0.157,
+      0.781
+     ]
+    },
+    "task290:prompt": {
+     "r2_full_surface": 0.9908,
+     "hessian_eigs": [
+      -0.0155,
+      0.2808
+     ],
+     "convex_psd": false,
+     "max_abs_residual": 0.0103,
+     "surface_range": [
+      3.172,
+      3.37
+     ]
+    },
+    "task391:answer": {
+     "r2_full_surface": 0.9687,
+     "hessian_eigs": [
+      1.0059,
+      5.573
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.1025,
+     "surface_range": [
+      0.085,
+      1.17
+     ]
+    },
+    "task391:prompt": {
+     "r2_full_surface": 0.9552,
+     "hessian_eigs": [
+      0.1334,
+      0.7228
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.0201,
+     "surface_range": [
+      3.579,
+      3.795
+     ]
+    },
+    "task363:answer": {
+     "r2_full_surface": 0.9727,
+     "hessian_eigs": [
+      0.0833,
+      7.1039
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.2176,
+     "surface_range": [
+      0.26,
+      1.961
+     ]
+    },
+    "task363:prompt": {
+     "r2_full_surface": 0.9427,
+     "hessian_eigs": [
+      0.0253,
+      0.9351
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.0204,
+     "surface_range": [
+      3.747,
+      3.975
+     ]
+    }
+   }
+  },
+  {
+   "chart": [
+    "task190",
+    "task363",
+    "task379"
+   ],
+   "per_task": {
+    "task190:answer": {
+     "r2_full_surface": 0.8444,
+     "hessian_eigs": [
+      -4.8828,
+      34.5791
+     ],
+     "convex_psd": false,
+     "max_abs_residual": 1.8101,
+     "surface_range": [
+      0.28,
+      7.537
+     ]
+    },
+    "task190:prompt": {
+     "r2_full_surface": 0.9713,
+     "hessian_eigs": [
+      0.422,
+      1.6797
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.0756,
+     "surface_range": [
+      2.935,
+      3.734
+     ]
+    },
+    "task363:answer": {
+     "r2_full_surface": 0.7486,
+     "hessian_eigs": [
+      0.5289,
+      6.9313
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.3633,
+     "surface_range": [
+      0.239,
+      1.902
+     ]
+    },
+    "task363:prompt": {
+     "r2_full_surface": 0.9108,
+     "hessian_eigs": [
+      0.2356,
+      0.5335
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.0233,
+     "surface_range": [
+      3.838,
+      3.975
+     ]
+    },
+    "task379:answer": {
+     "r2_full_surface": 0.8638,
+     "hessian_eigs": [
+      2.1333,
+      24.499
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 1.0888,
+     "surface_range": [
+      0.455,
+      5.751
+     ]
+    },
+    "task379:prompt": {
+     "r2_full_surface": 0.9592,
+     "hessian_eigs": [
+      0.2342,
+      1.6005
+     ],
+     "convex_psd": true,
+     "max_abs_residual": 0.0196,
+     "surface_range": [
+      2.758,
+      3.016
+     ]
+    }
+   }
+  }
+ ],
+ "summary": {
+  "answer_r2_median": 0.9139,
+  "answer_r2_min": 0.7486,
+  "answer_convex_fraction": 0.667,
+  "n_task_surfaces": 9
+ }
+}

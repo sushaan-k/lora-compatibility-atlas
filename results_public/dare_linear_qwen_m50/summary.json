@@ -1,0 +1,11 @@
+{
+  "source": "DARE-Linear sensitivity re-run on Qwen2.5-0.5B m=50 balanced/circulant slices",
+  "merge_method": "dare_linear",
+  "n_events": 1000,
+  "n_slices": 4,
+  "n_pairs": 600,
+  "n_triples": 400,
+  "feasible_rate": 0.149,
+  "atlas_auroc": 0.8703223211539524,
+  "atlas_auprc": 0.619189907863825
+}

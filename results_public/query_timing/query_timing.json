@@ -1,0 +1,176 @@
+{
+  "description": "CPU wall-clock timing of the production minimax atlas query (expB_shared_chart_decision.minimax_score: SLSQP epigraph over the full shared 8-adapter simplex, restarts=6, maxiter=300, ftol=1e-10, min_weight=0.0) and the r=2 core-table lookup path, on the released m=8 shared-chart jets.",
+  "platform": {
+    "cpu": "Apple M4 Pro",
+    "os": "macOS-26.0.1-arm64-arm-64bit",
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1"
+  },
+  "settings": {
+    "subset_sizes": [
+      2,
+      3,
+      5,
+      8
+    ],
+    "max_subsets_per_size": 100,
+    "subset_order": "lexicographic (itertools.combinations); truncation to the first 100 would apply only if a size exceeded 100 subsets -- at m=8 the counts are 28/56/56/1, so none were truncated",
+    "solver": "expB_shared_chart_decision.minimax_score (imported, not reimplemented)",
+    "restarts": 6,
+    "seed": 0,
+    "min_weight": 0.0,
+    "r": 2,
+    "tau": 0.65,
+    "n_lookups": 1000,
+    "warmup": "one untimed call per subset size and before lookup timing",
+    "timer": "time.perf_counter"
+  },
+  "substrates": {
+    "qwen8": {
+      "jets_file": "results_public/shared_chart_decision/qwen8_jets.npz",
+      "n_adapters": 8,
+      "chart_dim": 7,
+      "adapter_names": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "minimax_query_ms_per_subset_size": {
+        "2": {
+          "median_ms": 23.20995800000003,
+          "p90_ms": 31.24445009999994,
+          "max_ms": 34.847375000000014,
+          "n_queries": 28,
+          "n_subsets_available": 28,
+          "truncated_to_first_100_lexicographic": false
+        },
+        "3": {
+          "median_ms": 26.577208500000115,
+          "p90_ms": 38.653291499999966,
+          "max_ms": 54.08195800000026,
+          "n_queries": 56,
+          "n_subsets_available": 56,
+          "truncated_to_first_100_lexicographic": false
+        },
+        "5": {
+          "median_ms": 33.42237499999978,
+          "p90_ms": 44.84770849999986,
+          "max_ms": 49.63820899999938,
+          "n_queries": 56,
+          "n_subsets_available": 56,
+          "truncated_to_first_100_lexicographic": false
+        },
+        "8": {
+          "median_ms": 46.23983300000045,
+          "p90_ms": 46.23983300000045,
+          "max_ms": 46.23983300000045,
+          "n_queries": 1,
+          "n_subsets_available": 1,
+          "truncated_to_first_100_lexicographic": false
+        }
+      },
+      "core_table": {
+        "r": 2,
+        "core_order": 3,
+        "n_entries": 92,
+        "entry_sizes": "all subsets with |T| <= r+1 (sizes 1,2,3)",
+        "build_seconds": 2.3979694589999996,
+        "n_solver_calls": 92,
+        "threshold_lookup_size5": {
+          "median_ms": 0.0007090000000431473,
+          "p90_ms": 0.0007500000007709673,
+          "max_ms": 0.001292000000319149,
+          "n_queries": 1000
+        },
+        "threshold_lookup_size8": {
+          "median_ms": 0.0030839999993759193,
+          "p90_ms": 0.003167000000026121,
+          "max_ms": 0.004167000000165899,
+          "n_queries": 1000
+        },
+        "lookup_semantics": "max over (r+1)-subsets of S of precomputed rho_T, compared to tau=0.65; equals core_score's max over all |T|<=r+1 by monotonicity of rho in S"
+      }
+    },
+    "tinyllama": {
+      "jets_file": "results_public/shared_chart_decision/tinyllama_jets.npz",
+      "n_adapters": 8,
+      "chart_dim": 7,
+      "adapter_names": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "docker",
+        "colorist",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "minimax_query_ms_per_subset_size": {
+        "2": {
+          "median_ms": 13.103708500000533,
+          "p90_ms": 16.53057949999983,
+          "max_ms": 19.507041999999863,
+          "n_queries": 28,
+          "n_subsets_available": 28,
+          "truncated_to_first_100_lexicographic": false
+        },
+        "3": {
+          "median_ms": 17.318187499999027,
+          "p90_ms": 22.03583349999949,
+          "max_ms": 26.025208000000077,
+          "n_queries": 56,
+          "n_subsets_available": 56,
+          "truncated_to_first_100_lexicographic": false
+        },
+        "5": {
+          "median_ms": 24.915896000000437,
+          "p90_ms": 25.789541500000013,
+          "max_ms": 35.29104200000077,
+          "n_queries": 56,
+          "n_subsets_available": 56,
+          "truncated_to_first_100_lexicographic": false
+        },
+        "8": {
+          "median_ms": 36.31862499999983,
+          "p90_ms": 36.31862499999983,
+          "max_ms": 36.31862499999983,
+          "n_queries": 1,
+          "n_subsets_available": 1,
+          "truncated_to_first_100_lexicographic": false
+        }
+      },
+      "core_table": {
+        "r": 2,
+        "core_order": 3,
+        "n_entries": 92,
+        "entry_sizes": "all subsets with |T| <= r+1 (sizes 1,2,3)",
+        "build_seconds": 1.4362067500000002,
+        "n_solver_calls": 92,
+        "threshold_lookup_size5": {
+          "median_ms": 0.0007499999998827889,
+          "p90_ms": 0.0007919999998051708,
+          "max_ms": 0.0010419999991739815,
+          "n_queries": 1000
+        },
+        "threshold_lookup_size8": {
+          "median_ms": 0.0031669999991379427,
+          "p90_ms": 0.003208000000753941,
+          "max_ms": 0.008875000000685418,
+          "n_queries": 1000
+        },
+        "lookup_semantics": "max over (r+1)-subsets of S of precomputed rho_T, compared to tau=0.65; equals core_score's max over all |T|<=r+1 by monotonicity of rho in S"
+      }
+    }
+  },
+  "caveats": [
+    "Measured only on the released m=8 (d=7) shared-chart jets. The m=50 (d=49) jets are not on disk, so NO timing is reported or extrapolated for d=49; SLSQP cost grows with dimension and constraint count, so d=49 latency must be measured, not inferred from these numbers.",
+    "Single machine (Apple M4 Pro), single process, default BLAS threading; at d=7 the linear algebra is negligible and the cost is SLSQP iteration overhead.",
+    "Each timed query includes all 6 SLSQP restarts, matching the production defaults in expB's decide path."
+  ]
+}

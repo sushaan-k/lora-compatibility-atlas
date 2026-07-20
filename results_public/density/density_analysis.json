@@ -1,0 +1,36 @@
+{
+  "levels": [
+    {
+      "design_size": 36,
+      "redundancy": 1.0,
+      "n_test_member_events": 175,
+      "r_pred_vs_measured": 0.6953
+    },
+    {
+      "design_size": 50,
+      "redundancy": 1.39,
+      "n_test_member_events": 175,
+      "r_pred_vs_measured": 0.7024
+    },
+    {
+      "design_size": 64,
+      "redundancy": 1.78,
+      "n_test_member_events": 175,
+      "r_pred_vs_measured": 0.6908
+    },
+    {
+      "design_size": 78,
+      "redundancy": 2.17,
+      "n_test_member_events": 175,
+      "r_pred_vs_measured": 0.7164
+    },
+    {
+      "design_size": 92,
+      "redundancy": 2.56,
+      "n_test_member_events": 175,
+      "r_pred_vs_measured": 0.7579
+    }
+  ],
+  "n_singles_pairs": 36,
+  "d": 7
+}

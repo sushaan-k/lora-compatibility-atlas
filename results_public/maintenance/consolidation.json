@@ -1,0 +1,49 @@
+{
+ "consolidated_pair": [
+  "task190",
+  "task1391"
+ ],
+ "survivors": [
+  "task280",
+  "task290",
+  "task391",
+  "task363",
+  "task400",
+  "task379"
+ ],
+ "per_adapter": {
+  "task280": {
+   "before": 0.01465183988912031,
+   "after": 0.12034612444695085,
+   "delta": 0.10569428455783055
+  },
+  "task290": {
+   "before": 0.31118543329648674,
+   "after": 0.31748467311263084,
+   "delta": 0.006299239816144109
+  },
+  "task391": {
+   "before": 0.08488468689247383,
+   "after": 0.15123872393742205,
+   "delta": 0.06635403704494822
+  },
+  "task363": {
+   "before": 0.2688804147503106,
+   "after": 0.6755573145579546,
+   "delta": 0.40667689980764404
+  },
+  "task400": {
+   "before": 0.01581964424876787,
+   "after": 0.02768103656708263,
+   "delta": 0.011861392318314758
+  },
+  "task379": {
+   "before": 0.529160288212006,
+   "after": 0.6441796509549021,
+   "delta": 0.11501936274289615
+  }
+ },
+ "abs_drift_median": 0.08602416080138939,
+ "abs_drift_max": 0.40667689980764404,
+ "note": "drift is the change in each surviving adapter's alone answer-token loss after the accepted pair is baked into the base; compare to jet fit noise and certificate margins to set the refit schedule"
+}

@@ -1,0 +1,7 @@
+{
+ "n_subsets": 84,
+ "n_retained": 80,
+ "gradient_alignment_auroc": 0.496875,
+ "n_target_modules": 64,
+ "note": "answer-retention labels at tau=0.7; compare against the atlas AUROC on the same panel (0.95-0.98 central taus). Gradient signature is a per-module random projection of the base q/v-proj gradient with each adapter active."
+}

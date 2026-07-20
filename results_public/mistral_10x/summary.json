@@ -1,0 +1,4045 @@
+{
+  "best_method": "magnitude_prune",
+  "best_metrics": {
+    "auprc": 0.9142793136797411,
+    "auroc": 0.8094505494505495,
+    "feasible_rate": 0.7878787878787878,
+    "top_quartile_enrichment": 1.1785714285714286
+  },
+  "certificate_diagnostics": {
+    "continuous_certificate_count": 660,
+    "evaluated_coefficient_count": 0,
+    "max_certificate_gap": 1.3913842245028007e-08,
+    "median_certificate_gap": 0.0
+  },
+  "component_summaries": [
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "task039": 4.037820518016815,
+          "task1342": 4.037820518016815,
+          "task1391": 4.037820518016815,
+          "task1598": 4.037820518016815,
+          "task190": 4.037820518016815,
+          "task280": 4.037820518016815,
+          "task290": 4.037820518016815,
+          "task391": 4.037820518016815,
+          "task442": 4.037820518016815,
+          "task620": 4.037820518016815
+        },
+        "heldout": {
+          "task039": 3.99457186460495,
+          "task1342": 3.99457186460495,
+          "task1391": 3.99457186460495,
+          "task1598": 3.99457186460495,
+          "task190": 3.99457186460495,
+          "task280": 3.99457186460495,
+          "task290": 3.99457186460495,
+          "task391": 3.99457186460495,
+          "task442": 3.99457186460495,
+          "task620": 3.99457186460495
+        }
+      },
+      "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "best_method": "linear",
+      "best_metrics": {
+        "auprc": 0.8999910060133076,
+        "auroc": 0.783778552071235,
+        "feasible_rate": 0.7454545454545455,
+        "mean_coefficient_regret": 0.4340786040582831,
+        "top_quartile_enrichment": 1.245644599303136
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 272.78928348333784,
+        "median_fitted_hessian_eigenvalue": -13.548877643962502,
+        "min_fitted_hessian_eigenvalue": -272.78928348333784,
+        "projected_query_count": 121
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "task039": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1342": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1391": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1598": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task190": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task280": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task290": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task391": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task442": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task620": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "mistral7b_10x_licenseclean_contcert_20260504",
+      "feasible_count": 123,
+      "full_support_feasible_count": 123,
+      "full_support_pair_feasible_count": 36,
+      "full_support_triple_feasible_count": 87,
+      "metrics_by_method": {
+        "linear": {
+          "auprc": 0.8999910060133076,
+          "auroc": 0.783778552071235,
+          "feasible_rate": 0.7454545454545455,
+          "mean_coefficient_regret": 0.4340786040582831,
+          "top_quartile_enrichment": 1.245644599303136
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "task039": 9,
+            "task1342": 9,
+            "task1391": 9,
+            "task1598": 9,
+            "task190": 9,
+            "task280": 9,
+            "task290": 9,
+            "task391": 9,
+            "task442": 9,
+            "task620": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "task280",
+            "task190"
+          ],
+          [
+            "task280",
+            "task391"
+          ],
+          [
+            "task280",
+            "task290"
+          ],
+          [
+            "task280",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task442"
+          ],
+          [
+            "task280",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task039"
+          ],
+          [
+            "task190",
+            "task391"
+          ],
+          [
+            "task190",
+            "task290"
+          ],
+          [
+            "task190",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task442"
+          ],
+          [
+            "task190",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task039"
+          ],
+          [
+            "task391",
+            "task290"
+          ],
+          [
+            "task391",
+            "task1391"
+          ],
+          [
+            "task391",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task442"
+          ],
+          [
+            "task391",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1391"
+          ],
+          [
+            "task290",
+            "task1342"
+          ],
+          [
+            "task290",
+            "task442"
+          ],
+          [
+            "task290",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task1391",
+            "task442"
+          ],
+          [
+            "task1391",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task442"
+          ],
+          [
+            "task1342",
+            "task620"
+          ],
+          [
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task039"
+          ],
+          [
+            "task442",
+            "task620"
+          ],
+          [
+            "task442",
+            "task1598"
+          ],
+          [
+            "task442",
+            "task039"
+          ],
+          [
+            "task620",
+            "task1598"
+          ],
+          [
+            "task620",
+            "task039"
+          ],
+          [
+            "task1598",
+            "task039"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "task039": 45,
+            "task1342": 45,
+            "task1391": 45,
+            "task1598": 45,
+            "task190": 45,
+            "task280": 45,
+            "task290": 45,
+            "task391": 45,
+            "task442": 45,
+            "task620": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "task039": 36,
+            "task1342": 36,
+            "task1391": 36,
+            "task1598": 36,
+            "task190": 36,
+            "task280": 36,
+            "task290": 36,
+            "task391": 36,
+            "task442": 36,
+            "task620": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "task280",
+            "task190",
+            "task391"
+          ],
+          [
+            "task280",
+            "task190",
+            "task290"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task190",
+            "task442"
+          ],
+          [
+            "task280",
+            "task190",
+            "task620"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task190",
+            "task039"
+          ],
+          [
+            "task280",
+            "task391",
+            "task290"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task391",
+            "task442"
+          ],
+          [
+            "task280",
+            "task391",
+            "task620"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task391",
+            "task039"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task290",
+            "task442"
+          ],
+          [
+            "task280",
+            "task290",
+            "task620"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task290",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task280",
+            "task442",
+            "task620"
+          ],
+          [
+            "task280",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task442",
+            "task039"
+          ],
+          [
+            "task280",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task620",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task190",
+            "task391",
+            "task290"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task391",
+            "task442"
+          ],
+          [
+            "task190",
+            "task391",
+            "task620"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task391",
+            "task039"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task290",
+            "task442"
+          ],
+          [
+            "task190",
+            "task290",
+            "task620"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task290",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task190",
+            "task442",
+            "task620"
+          ],
+          [
+            "task190",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task442",
+            "task039"
+          ],
+          [
+            "task190",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task620",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task290",
+            "task442"
+          ],
+          [
+            "task391",
+            "task290",
+            "task620"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task290",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task391",
+            "task442",
+            "task620"
+          ],
+          [
+            "task391",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task442",
+            "task039"
+          ],
+          [
+            "task391",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task620",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task290",
+            "task442",
+            "task620"
+          ],
+          [
+            "task290",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task442",
+            "task039"
+          ],
+          [
+            "task290",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task620",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task620",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task620"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task620",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task442",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task442",
+            "task620",
+            "task039"
+          ],
+          [
+            "task442",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task620",
+            "task1598",
+            "task039"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 123 feasible subsets at a 0.745 feasible base rate, including 36 full-support feasible pairs and 87 full-support feasible triples. The best merge method was linear with AUROC 0.784, AUPRC 0.900, and top-quartile enrichment 1.246.",
+      "single_losses": {
+        "calibration": {
+          "task039": 4.059775650501251,
+          "task1342": 3.9990383982658386,
+          "task1391": 3.97820508480072,
+          "task1598": 4.051442325115204,
+          "task190": 4.204807758331299,
+          "task280": 4.1802884340286255,
+          "task290": 3.9995192885398865,
+          "task391": 3.920673131942749,
+          "task442": 4.027564108371735,
+          "task620": 3.976923167705536
+        },
+        "heldout": {
+          "task039": 3.955976128578186,
+          "task1342": 3.8824270367622375,
+          "task1391": 3.9401076436042786,
+          "task1598": 4.020464777946472,
+          "task190": 4.150182664394379,
+          "task280": 4.2415584325790405,
+          "task290": 3.8839895129203796,
+          "task391": 3.8609679341316223,
+          "task442": 3.953683018684387,
+          "task620": 3.899827539920807
+        }
+      },
+      "slice_id": "mistral7b_10x_licenseclean_contcert_20260504",
+      "source_run": "mistral7b_10x_licenseclean_contcert_20260504_linear_20260504_licenseclean",
+      "started_at": "2026-05-04T06:15:01Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 2,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    },
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "task039": 4.037820518016815,
+          "task1342": 4.037820518016815,
+          "task1391": 4.037820518016815,
+          "task1598": 4.037820518016815,
+          "task190": 4.037820518016815,
+          "task280": 4.037820518016815,
+          "task290": 4.037820518016815,
+          "task391": 4.037820518016815,
+          "task442": 4.037820518016815,
+          "task620": 4.037820518016815
+        },
+        "heldout": {
+          "task039": 3.99457186460495,
+          "task1342": 3.99457186460495,
+          "task1391": 3.99457186460495,
+          "task1598": 3.99457186460495,
+          "task190": 3.99457186460495,
+          "task280": 3.99457186460495,
+          "task290": 3.99457186460495,
+          "task391": 3.99457186460495,
+          "task442": 3.99457186460495,
+          "task620": 3.99457186460495
+        }
+      },
+      "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "best_method": "ties",
+      "best_metrics": {
+        "auprc": 0.6636382721360254,
+        "auroc": 0.7231404958677686,
+        "feasible_rate": 0.4,
+        "mean_coefficient_regret": 0.4659965799940437,
+        "top_quartile_enrichment": 1.4285714285714284
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 273.02830368754934,
+        "median_fitted_hessian_eigenvalue": -20.83390951241881,
+        "min_fitted_hessian_eigenvalue": -271.28570254429616,
+        "projected_query_count": 143
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "task039": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1342": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1391": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1598": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task190": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task280": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task290": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task391": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task442": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task620": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "mistral7b_10x_licenseclean_contcert_20260504",
+      "feasible_count": 66,
+      "full_support_feasible_count": 66,
+      "full_support_pair_feasible_count": 28,
+      "full_support_triple_feasible_count": 38,
+      "metrics_by_method": {
+        "ties": {
+          "auprc": 0.6636382721360254,
+          "auroc": 0.7231404958677686,
+          "feasible_rate": 0.4,
+          "mean_coefficient_regret": 0.4659965799940437,
+          "top_quartile_enrichment": 1.4285714285714284
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "task039": 9,
+            "task1342": 9,
+            "task1391": 9,
+            "task1598": 9,
+            "task190": 9,
+            "task280": 9,
+            "task290": 9,
+            "task391": 9,
+            "task442": 9,
+            "task620": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "task280",
+            "task190"
+          ],
+          [
+            "task280",
+            "task391"
+          ],
+          [
+            "task280",
+            "task290"
+          ],
+          [
+            "task280",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task442"
+          ],
+          [
+            "task280",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task039"
+          ],
+          [
+            "task190",
+            "task391"
+          ],
+          [
+            "task190",
+            "task290"
+          ],
+          [
+            "task190",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task442"
+          ],
+          [
+            "task190",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task039"
+          ],
+          [
+            "task391",
+            "task290"
+          ],
+          [
+            "task391",
+            "task1391"
+          ],
+          [
+            "task391",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task442"
+          ],
+          [
+            "task391",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1391"
+          ],
+          [
+            "task290",
+            "task1342"
+          ],
+          [
+            "task290",
+            "task442"
+          ],
+          [
+            "task290",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task1391",
+            "task442"
+          ],
+          [
+            "task1391",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task442"
+          ],
+          [
+            "task1342",
+            "task620"
+          ],
+          [
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task039"
+          ],
+          [
+            "task442",
+            "task620"
+          ],
+          [
+            "task442",
+            "task1598"
+          ],
+          [
+            "task442",
+            "task039"
+          ],
+          [
+            "task620",
+            "task1598"
+          ],
+          [
+            "task620",
+            "task039"
+          ],
+          [
+            "task1598",
+            "task039"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "task039": 45,
+            "task1342": 45,
+            "task1391": 45,
+            "task1598": 45,
+            "task190": 45,
+            "task280": 45,
+            "task290": 45,
+            "task391": 45,
+            "task442": 45,
+            "task620": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "task039": 36,
+            "task1342": 36,
+            "task1391": 36,
+            "task1598": 36,
+            "task190": 36,
+            "task280": 36,
+            "task290": 36,
+            "task391": 36,
+            "task442": 36,
+            "task620": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "task280",
+            "task190",
+            "task391"
+          ],
+          [
+            "task280",
+            "task190",
+            "task290"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task190",
+            "task442"
+          ],
+          [
+            "task280",
+            "task190",
+            "task620"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task190",
+            "task039"
+          ],
+          [
+            "task280",
+            "task391",
+            "task290"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task391",
+            "task442"
+          ],
+          [
+            "task280",
+            "task391",
+            "task620"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task391",
+            "task039"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task290",
+            "task442"
+          ],
+          [
+            "task280",
+            "task290",
+            "task620"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task290",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task280",
+            "task442",
+            "task620"
+          ],
+          [
+            "task280",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task442",
+            "task039"
+          ],
+          [
+            "task280",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task620",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task190",
+            "task391",
+            "task290"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task391",
+            "task442"
+          ],
+          [
+            "task190",
+            "task391",
+            "task620"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task391",
+            "task039"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task290",
+            "task442"
+          ],
+          [
+            "task190",
+            "task290",
+            "task620"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task290",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task190",
+            "task442",
+            "task620"
+          ],
+          [
+            "task190",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task442",
+            "task039"
+          ],
+          [
+            "task190",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task620",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task290",
+            "task442"
+          ],
+          [
+            "task391",
+            "task290",
+            "task620"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task290",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task391",
+            "task442",
+            "task620"
+          ],
+          [
+            "task391",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task442",
+            "task039"
+          ],
+          [
+            "task391",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task620",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task290",
+            "task442",
+            "task620"
+          ],
+          [
+            "task290",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task442",
+            "task039"
+          ],
+          [
+            "task290",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task620",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task620",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task620"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task620",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task442",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task442",
+            "task620",
+            "task039"
+          ],
+          [
+            "task442",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task620",
+            "task1598",
+            "task039"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 66 feasible subsets at a 0.400 feasible base rate, including 28 full-support feasible pairs and 38 full-support feasible triples. The best merge method was ties with AUROC 0.723, AUPRC 0.664, and top-quartile enrichment 1.429.",
+      "single_losses": {
+        "calibration": {
+          "task039": 4.059775650501251,
+          "task1342": 3.9990383982658386,
+          "task1391": 3.97820508480072,
+          "task1598": 4.051442325115204,
+          "task190": 4.204807758331299,
+          "task280": 4.1802884340286255,
+          "task290": 3.9995192885398865,
+          "task391": 3.920673131942749,
+          "task442": 4.027564108371735,
+          "task620": 3.976923167705536
+        },
+        "heldout": {
+          "task039": 3.955976128578186,
+          "task1342": 3.8824270367622375,
+          "task1391": 3.9401076436042786,
+          "task1598": 4.020464777946472,
+          "task190": 4.150182664394379,
+          "task280": 4.2415584325790405,
+          "task290": 3.8839895129203796,
+          "task391": 3.8609679341316223,
+          "task442": 3.953683018684387,
+          "task620": 3.899827539920807
+        }
+      },
+      "slice_id": "mistral7b_10x_licenseclean_contcert_20260504",
+      "source_run": "mistral7b_10x_licenseclean_contcert_20260504_ties_20260504_licenseclean",
+      "started_at": "2026-05-04T06:19:06Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 8,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    },
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "task039": 4.037820518016815,
+          "task1342": 4.037820518016815,
+          "task1391": 4.037820518016815,
+          "task1598": 4.037820518016815,
+          "task190": 4.037820518016815,
+          "task280": 4.037820518016815,
+          "task290": 4.037820518016815,
+          "task391": 4.037820518016815,
+          "task442": 4.037820518016815,
+          "task620": 4.037820518016815
+        },
+        "heldout": {
+          "task039": 3.99457186460495,
+          "task1342": 3.99457186460495,
+          "task1391": 3.99457186460495,
+          "task1598": 3.99457186460495,
+          "task190": 3.99457186460495,
+          "task280": 3.99457186460495,
+          "task290": 3.99457186460495,
+          "task391": 3.99457186460495,
+          "task442": 3.99457186460495,
+          "task620": 3.99457186460495
+        }
+      },
+      "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "best_method": "dare_ties",
+      "best_metrics": {
+        "auprc": 0.8342343385516579,
+        "auroc": 0.6435185185185185,
+        "feasible_rate": 0.7272727272727273,
+        "mean_coefficient_regret": 1.3261827755404585,
+        "top_quartile_enrichment": 1.1785714285714284
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 1228.5198891165678,
+        "median_fitted_hessian_eigenvalue": -127.80472636222837,
+        "min_fitted_hessian_eigenvalue": -1220.9182165864095,
+        "projected_query_count": 137
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "task039": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1342": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1391": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1598": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task190": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task280": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task290": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task391": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task442": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task620": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "mistral7b_10x_licenseclean_contcert_20260504",
+      "feasible_count": 120,
+      "full_support_feasible_count": 120,
+      "full_support_pair_feasible_count": 36,
+      "full_support_triple_feasible_count": 84,
+      "metrics_by_method": {
+        "dare_ties": {
+          "auprc": 0.8342343385516579,
+          "auroc": 0.6435185185185185,
+          "feasible_rate": 0.7272727272727273,
+          "mean_coefficient_regret": 1.3261827755404585,
+          "top_quartile_enrichment": 1.1785714285714284
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "task039": 9,
+            "task1342": 9,
+            "task1391": 9,
+            "task1598": 9,
+            "task190": 9,
+            "task280": 9,
+            "task290": 9,
+            "task391": 9,
+            "task442": 9,
+            "task620": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "task280",
+            "task190"
+          ],
+          [
+            "task280",
+            "task391"
+          ],
+          [
+            "task280",
+            "task290"
+          ],
+          [
+            "task280",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task442"
+          ],
+          [
+            "task280",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task039"
+          ],
+          [
+            "task190",
+            "task391"
+          ],
+          [
+            "task190",
+            "task290"
+          ],
+          [
+            "task190",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task442"
+          ],
+          [
+            "task190",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task039"
+          ],
+          [
+            "task391",
+            "task290"
+          ],
+          [
+            "task391",
+            "task1391"
+          ],
+          [
+            "task391",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task442"
+          ],
+          [
+            "task391",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1391"
+          ],
+          [
+            "task290",
+            "task1342"
+          ],
+          [
+            "task290",
+            "task442"
+          ],
+          [
+            "task290",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task1391",
+            "task442"
+          ],
+          [
+            "task1391",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task442"
+          ],
+          [
+            "task1342",
+            "task620"
+          ],
+          [
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task039"
+          ],
+          [
+            "task442",
+            "task620"
+          ],
+          [
+            "task442",
+            "task1598"
+          ],
+          [
+            "task442",
+            "task039"
+          ],
+          [
+            "task620",
+            "task1598"
+          ],
+          [
+            "task620",
+            "task039"
+          ],
+          [
+            "task1598",
+            "task039"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "task039": 45,
+            "task1342": 45,
+            "task1391": 45,
+            "task1598": 45,
+            "task190": 45,
+            "task280": 45,
+            "task290": 45,
+            "task391": 45,
+            "task442": 45,
+            "task620": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "task039": 36,
+            "task1342": 36,
+            "task1391": 36,
+            "task1598": 36,
+            "task190": 36,
+            "task280": 36,
+            "task290": 36,
+            "task391": 36,
+            "task442": 36,
+            "task620": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "task280",
+            "task190",
+            "task391"
+          ],
+          [
+            "task280",
+            "task190",
+            "task290"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task190",
+            "task442"
+          ],
+          [
+            "task280",
+            "task190",
+            "task620"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task190",
+            "task039"
+          ],
+          [
+            "task280",
+            "task391",
+            "task290"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task391",
+            "task442"
+          ],
+          [
+            "task280",
+            "task391",
+            "task620"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task391",
+            "task039"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task290",
+            "task442"
+          ],
+          [
+            "task280",
+            "task290",
+            "task620"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task290",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task280",
+            "task442",
+            "task620"
+          ],
+          [
+            "task280",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task442",
+            "task039"
+          ],
+          [
+            "task280",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task620",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task190",
+            "task391",
+            "task290"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task391",
+            "task442"
+          ],
+          [
+            "task190",
+            "task391",
+            "task620"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task391",
+            "task039"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task290",
+            "task442"
+          ],
+          [
+            "task190",
+            "task290",
+            "task620"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task290",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task190",
+            "task442",
+            "task620"
+          ],
+          [
+            "task190",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task442",
+            "task039"
+          ],
+          [
+            "task190",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task620",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task290",
+            "task442"
+          ],
+          [
+            "task391",
+            "task290",
+            "task620"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task290",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task391",
+            "task442",
+            "task620"
+          ],
+          [
+            "task391",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task442",
+            "task039"
+          ],
+          [
+            "task391",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task620",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task290",
+            "task442",
+            "task620"
+          ],
+          [
+            "task290",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task442",
+            "task039"
+          ],
+          [
+            "task290",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task620",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task620",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task620"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task620",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task442",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task442",
+            "task620",
+            "task039"
+          ],
+          [
+            "task442",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task620",
+            "task1598",
+            "task039"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 120 feasible subsets at a 0.727 feasible base rate, including 36 full-support feasible pairs and 84 full-support feasible triples. The best merge method was dare_ties with AUROC 0.644, AUPRC 0.834, and top-quartile enrichment 1.179.",
+      "single_losses": {
+        "calibration": {
+          "task039": 4.059775650501251,
+          "task1342": 3.9990383982658386,
+          "task1391": 3.97820508480072,
+          "task1598": 4.051442325115204,
+          "task190": 4.204807758331299,
+          "task280": 4.1802884340286255,
+          "task290": 3.9995192885398865,
+          "task391": 3.920673131942749,
+          "task442": 4.027564108371735,
+          "task620": 3.976923167705536
+        },
+        "heldout": {
+          "task039": 3.955976128578186,
+          "task1342": 3.8824270367622375,
+          "task1391": 3.9401076436042786,
+          "task1598": 4.020464777946472,
+          "task190": 4.150182664394379,
+          "task280": 4.2415584325790405,
+          "task290": 3.8839895129203796,
+          "task391": 3.8609679341316223,
+          "task442": 3.953683018684387,
+          "task620": 3.899827539920807
+        }
+      },
+      "slice_id": "mistral7b_10x_licenseclean_contcert_20260504",
+      "source_run": "mistral7b_10x_licenseclean_contcert_20260504_dare_ties_20260504_licenseclean",
+      "started_at": "2026-05-04T06:22:34Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 13,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    },
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "task039": 4.037820518016815,
+          "task1342": 4.037820518016815,
+          "task1391": 4.037820518016815,
+          "task1598": 4.037820518016815,
+          "task190": 4.037820518016815,
+          "task280": 4.037820518016815,
+          "task290": 4.037820518016815,
+          "task391": 4.037820518016815,
+          "task442": 4.037820518016815,
+          "task620": 4.037820518016815
+        },
+        "heldout": {
+          "task039": 3.99457186460495,
+          "task1342": 3.99457186460495,
+          "task1391": 3.99457186460495,
+          "task1598": 3.99457186460495,
+          "task190": 3.99457186460495,
+          "task280": 3.99457186460495,
+          "task290": 3.99457186460495,
+          "task391": 3.99457186460495,
+          "task442": 3.99457186460495,
+          "task620": 3.99457186460495
+        }
+      },
+      "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "best_method": "magnitude_prune",
+      "best_metrics": {
+        "auprc": 0.9142793136797411,
+        "auroc": 0.8094505494505495,
+        "feasible_rate": 0.7878787878787878,
+        "mean_coefficient_regret": 0.26563714689108275,
+        "top_quartile_enrichment": 1.1785714285714286
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 290.55531586604036,
+        "median_fitted_hessian_eigenvalue": -12.063531924219133,
+        "min_fitted_hessian_eigenvalue": -290.55531586604036,
+        "projected_query_count": 132
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "task039": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1342": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1391": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task1598": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task190": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task280": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task290": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task391": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task442": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "task620": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "mistral7b_10x_licenseclean_contcert_20260504",
+      "feasible_count": 130,
+      "full_support_feasible_count": 130,
+      "full_support_pair_feasible_count": 36,
+      "full_support_triple_feasible_count": 94,
+      "metrics_by_method": {
+        "magnitude_prune": {
+          "auprc": 0.9142793136797411,
+          "auroc": 0.8094505494505495,
+          "feasible_rate": 0.7878787878787878,
+          "mean_coefficient_regret": 0.26563714689108275,
+          "top_quartile_enrichment": 1.1785714285714286
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "task039": 9,
+            "task1342": 9,
+            "task1391": 9,
+            "task1598": 9,
+            "task190": 9,
+            "task280": 9,
+            "task290": 9,
+            "task391": 9,
+            "task442": 9,
+            "task620": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "task280",
+            "task190"
+          ],
+          [
+            "task280",
+            "task391"
+          ],
+          [
+            "task280",
+            "task290"
+          ],
+          [
+            "task280",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task442"
+          ],
+          [
+            "task280",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task039"
+          ],
+          [
+            "task190",
+            "task391"
+          ],
+          [
+            "task190",
+            "task290"
+          ],
+          [
+            "task190",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task442"
+          ],
+          [
+            "task190",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task039"
+          ],
+          [
+            "task391",
+            "task290"
+          ],
+          [
+            "task391",
+            "task1391"
+          ],
+          [
+            "task391",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task442"
+          ],
+          [
+            "task391",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1391"
+          ],
+          [
+            "task290",
+            "task1342"
+          ],
+          [
+            "task290",
+            "task442"
+          ],
+          [
+            "task290",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task1391",
+            "task442"
+          ],
+          [
+            "task1391",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task442"
+          ],
+          [
+            "task1342",
+            "task620"
+          ],
+          [
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task039"
+          ],
+          [
+            "task442",
+            "task620"
+          ],
+          [
+            "task442",
+            "task1598"
+          ],
+          [
+            "task442",
+            "task039"
+          ],
+          [
+            "task620",
+            "task1598"
+          ],
+          [
+            "task620",
+            "task039"
+          ],
+          [
+            "task1598",
+            "task039"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "task039": 45,
+            "task1342": 45,
+            "task1391": 45,
+            "task1598": 45,
+            "task190": 45,
+            "task280": 45,
+            "task290": 45,
+            "task391": 45,
+            "task442": 45,
+            "task620": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "task039": 36,
+            "task1342": 36,
+            "task1391": 36,
+            "task1598": 36,
+            "task190": 36,
+            "task280": 36,
+            "task290": 36,
+            "task391": 36,
+            "task442": 36,
+            "task620": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "task280",
+            "task190",
+            "task391"
+          ],
+          [
+            "task280",
+            "task190",
+            "task290"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task190",
+            "task442"
+          ],
+          [
+            "task280",
+            "task190",
+            "task620"
+          ],
+          [
+            "task280",
+            "task190",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task190",
+            "task039"
+          ],
+          [
+            "task280",
+            "task391",
+            "task290"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task391",
+            "task442"
+          ],
+          [
+            "task280",
+            "task391",
+            "task620"
+          ],
+          [
+            "task280",
+            "task391",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task391",
+            "task039"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task290",
+            "task442"
+          ],
+          [
+            "task280",
+            "task290",
+            "task620"
+          ],
+          [
+            "task280",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task290",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task280",
+            "task442",
+            "task620"
+          ],
+          [
+            "task280",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task442",
+            "task039"
+          ],
+          [
+            "task280",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task280",
+            "task620",
+            "task039"
+          ],
+          [
+            "task280",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task190",
+            "task391",
+            "task290"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task391",
+            "task442"
+          ],
+          [
+            "task190",
+            "task391",
+            "task620"
+          ],
+          [
+            "task190",
+            "task391",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task391",
+            "task039"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task290",
+            "task442"
+          ],
+          [
+            "task190",
+            "task290",
+            "task620"
+          ],
+          [
+            "task190",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task290",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task190",
+            "task442",
+            "task620"
+          ],
+          [
+            "task190",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task442",
+            "task039"
+          ],
+          [
+            "task190",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task190",
+            "task620",
+            "task039"
+          ],
+          [
+            "task190",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1391"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task290",
+            "task442"
+          ],
+          [
+            "task391",
+            "task290",
+            "task620"
+          ],
+          [
+            "task391",
+            "task290",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task290",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task391",
+            "task442",
+            "task620"
+          ],
+          [
+            "task391",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task442",
+            "task039"
+          ],
+          [
+            "task391",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task391",
+            "task620",
+            "task039"
+          ],
+          [
+            "task391",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task1342"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task442"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task1391",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task290",
+            "task442",
+            "task620"
+          ],
+          [
+            "task290",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task442",
+            "task039"
+          ],
+          [
+            "task290",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task290",
+            "task620",
+            "task039"
+          ],
+          [
+            "task290",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task442"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task1342",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task620"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task442",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task1391",
+            "task620",
+            "task039"
+          ],
+          [
+            "task1391",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task620"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task442",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task1342",
+            "task620",
+            "task039"
+          ],
+          [
+            "task1342",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task442",
+            "task620",
+            "task1598"
+          ],
+          [
+            "task442",
+            "task620",
+            "task039"
+          ],
+          [
+            "task442",
+            "task1598",
+            "task039"
+          ],
+          [
+            "task620",
+            "task1598",
+            "task039"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 130 feasible subsets at a 0.788 feasible base rate, including 36 full-support feasible pairs and 94 full-support feasible triples. The best merge method was magnitude_prune with AUROC 0.809, AUPRC 0.914, and top-quartile enrichment 1.179.",
+      "single_losses": {
+        "calibration": {
+          "task039": 4.059775650501251,
+          "task1342": 3.9990383982658386,
+          "task1391": 3.97820508480072,
+          "task1598": 4.051442325115204,
+          "task190": 4.204807758331299,
+          "task280": 4.1802884340286255,
+          "task290": 3.9995192885398865,
+          "task391": 3.920673131942749,
+          "task442": 4.027564108371735,
+          "task620": 3.976923167705536
+        },
+        "heldout": {
+          "task039": 3.955976128578186,
+          "task1342": 3.8824270367622375,
+          "task1391": 3.9401076436042786,
+          "task1598": 4.020464777946472,
+          "task190": 4.150182664394379,
+          "task280": 4.2415584325790405,
+          "task290": 3.8839895129203796,
+          "task391": 3.8609679341316223,
+          "task442": 3.953683018684387,
+          "task620": 3.899827539920807
+        }
+      },
+      "slice_id": "mistral7b_10x_licenseclean_contcert_20260504",
+      "source_run": "mistral7b_10x_licenseclean_contcert_20260504_magnitude_prune_20260504_licenseclean",
+      "started_at": "2026-05-04T06:25:08Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 1,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    }
+  ],
+  "convexity_diagnostics": {
+    "max_psd_adjustment_frobenius": 1228.5198891165678,
+    "median_fitted_hessian_eigenvalue": -24.51905404780901,
+    "min_fitted_hessian_eigenvalue": -1220.9182165864095,
+    "projected_query_count": 533
+  },
+  "error_count": 0,
+  "methods": [
+    "dare_ties",
+    "linear",
+    "magnitude_prune",
+    "ties"
+  ],
+  "metrics_by_method": {
+    "dare_ties": {
+      "auprc": 0.8342343385516579,
+      "auroc": 0.6435185185185185,
+      "feasible_rate": 0.7272727272727273,
+      "top_quartile_enrichment": 1.1785714285714284
+    },
+    "linear": {
+      "auprc": 0.8999910060133076,
+      "auroc": 0.783778552071235,
+      "feasible_rate": 0.7454545454545455,
+      "top_quartile_enrichment": 1.245644599303136
+    },
+    "magnitude_prune": {
+      "auprc": 0.9142793136797411,
+      "auroc": 0.8094505494505495,
+      "feasible_rate": 0.7878787878787878,
+      "top_quartile_enrichment": 1.1785714285714286
+    },
+    "ties": {
+      "auprc": 0.6636382721360254,
+      "auroc": 0.7231404958677686,
+      "feasible_rate": 0.4,
+      "top_quartile_enrichment": 1.4285714285714284
+    }
+  },
+  "pair_prefilter": {
+    "dare_ties": {
+      "pair_clique_false_negative_1_bad_pair": 30,
+      "pair_clique_false_negative_2_bad_pairs": 5,
+      "pair_clique_false_negative_3_bad_pairs": 0,
+      "pair_clique_false_positive_triples": 13,
+      "triples_with_missing_pair_faces": 0
+    },
+    "linear": {
+      "pair_clique_false_negative_1_bad_pair": 25,
+      "pair_clique_false_negative_2_bad_pairs": 0,
+      "pair_clique_false_negative_3_bad_pairs": 0,
+      "pair_clique_false_positive_triples": 2,
+      "triples_with_missing_pair_faces": 0
+    },
+    "magnitude_prune": {
+      "pair_clique_false_negative_1_bad_pair": 24,
+      "pair_clique_false_negative_2_bad_pairs": 2,
+      "pair_clique_false_negative_3_bad_pairs": 0,
+      "pair_clique_false_positive_triples": 1,
+      "triples_with_missing_pair_faces": 0
+    },
+    "ties": {
+      "pair_clique_false_negative_1_bad_pair": 15,
+      "pair_clique_false_negative_2_bad_pairs": 0,
+      "pair_clique_false_negative_3_bad_pairs": 0,
+      "pair_clique_false_positive_triples": 8,
+      "triples_with_missing_pair_faces": 0
+    }
+  },
+  "result_count": 660,
+  "source_run_count": 4,
+  "status": "completed"
+}

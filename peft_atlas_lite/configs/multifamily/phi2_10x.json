@@ -1,0 +1,117 @@
+{
+  "adapters": [
+    {
+      "name": "webglm1",
+      "probe_key": "webglm_qa",
+      "repo": "Gunslinger3D/fine-tuning-Phi2-with-webglm-qa-with-lora",
+      "task": "webglm_qa"
+    },
+    {
+      "name": "webglm2",
+      "probe_key": "webglm_qa",
+      "repo": "Gunslinger3D/fine-tuning-Phi2-with-webglm-qa-with-lora_2",
+      "task": "webglm_qa"
+    },
+    {
+      "name": "webglm3",
+      "probe_key": "webglm_qa",
+      "repo": "Gunslinger3D/fine-tuning-Phi2-with-webglm-qa-with-lora_3",
+      "task": "webglm_qa"
+    },
+    {
+      "name": "webglm4",
+      "probe_key": "webglm_qa",
+      "repo": "Gunslinger3D/fine-tuning-Phi2-with-webglm-qa-with-lora_4",
+      "task": "webglm_qa"
+    },
+    {
+      "name": "webglm5",
+      "probe_key": "webglm_qa",
+      "repo": "Gunslinger3D/fine-tuning-Phi2-with-webglm-qa-with-lora_5",
+      "task": "webglm_qa"
+    },
+    {
+      "name": "webglm6",
+      "probe_key": "webglm_qa",
+      "repo": "Gunslinger3D/fine-tuning-Phi2-with-webglm-qa-with-lora_6",
+      "task": "webglm_qa"
+    },
+    {
+      "name": "webglm7",
+      "probe_key": "webglm_qa",
+      "repo": "Gunslinger3D/fine-tuning-Phi2-with-webglm-qa-with-lora_7",
+      "task": "webglm_qa"
+    },
+    {
+      "name": "webglm8",
+      "probe_key": "webglm_qa",
+      "repo": "Gunslinger3D/fine-tuning-Phi2-with-webglm-qa-with-lora_8",
+      "task": "webglm_qa"
+    },
+    {
+      "name": "webglm9",
+      "probe_key": "webglm_qa",
+      "repo": "Gunslinger3D/fine-tuning-Phi2-with-webglm-qa-with-lora_9",
+      "task": "webglm_qa"
+    },
+    {
+      "name": "webglm10",
+      "probe_key": "webglm_qa",
+      "repo": "aisuko/fine-tuning-Phi2-with-webglm-qa-with-lora",
+      "task": "webglm_qa"
+    }
+  ],
+  "base_model": "microsoft/phi-2",
+  "density": 0.5,
+  "device_map": "auto",
+  "dtype": "bfloat16",
+  "experiment_id": "phi2_10x",
+  "license_policy": {
+    "adapter_license": "mit",
+    "allowed_machine_readable_licenses": [
+      "apache-2.0",
+      "mit"
+    ],
+    "base_model_license": "mit",
+    "weights_redistributed": false
+  },
+  "max_length": 384,
+  "merge_methods": [
+    "linear",
+    "ties",
+    "dare_ties",
+    "magnitude_prune"
+  ],
+  "min_single_adapter_gain": 0.005,
+  "pair_min_weight": 0.2,
+  "pair_step": 0.2,
+  "probes": {
+    "webglm_qa": {
+      "calibration": [
+        "Question: Why do search results sometimes disagree with each other? Answer carefully.",
+        "Question: How should a reader compare two sources about the same event? Answer carefully.",
+        "Question: What makes a web answer trustworthy? Answer carefully.",
+        "Question: How can a summary preserve uncertainty from its sources? Answer carefully."
+      ],
+      "heldout": [
+        "Question: Why should a user check the date of an online source? Answer carefully.",
+        "Question: How can citations help verify a technical answer? Answer carefully.",
+        "Question: What is a sensible way to handle conflicting web evidence? Answer carefully.",
+        "Question: How should a model answer when evidence is incomplete? Answer carefully."
+      ]
+    }
+  },
+  "project_psd": true,
+  "project_quadratic_hessian_psd": true,
+  "prompt_limit_per_split": 4,
+  "quantization": "4bit",
+  "query_design": "full_support_continuous_certificate",
+  "retention_threshold": 0.7,
+  "seed": 20260504,
+  "shuffle_queries": false,
+  "solve_continuous_certificate": true,
+  "tokenizer_model": "microsoft/phi-2",
+  "triple_min_weight": 0.2,
+  "triple_step": 0.2,
+  "trust_remote_code": true
+}

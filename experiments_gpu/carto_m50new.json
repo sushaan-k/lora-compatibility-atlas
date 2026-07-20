@@ -1,0 +1,80 @@
+{
+ "_note": "Dense-grid cartography on the new-at-fifty substrate: nine scored tasks from the twenty added at m=50, three disjoint 3-adapter charts, seed 0. Same protocol as the m=8 charts (91-point barycentric grid, step 1/12).",
+ "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+ "dtype": "bfloat16",
+ "max_length": 384,
+ "n_items": 30,
+ "adapters": [
+  {
+   "name": "task1207",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1207",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1207.json",
+   "answer_regex": "\\b(No|Yes)\\b"
+  },
+  {
+   "name": "task350",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task350",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task350.json",
+   "answer_regex": "\\b(Identifiable|Unidentifiable)\\b"
+  },
+  {
+   "name": "task276",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task276",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task276.json",
+   "answer_regex": "\\b(Adverb|Gender|Number|Synonym|Tense|Voice)\\b"
+  },
+  {
+   "name": "task139",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task139",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task139.json",
+   "answer_regex": "\\b(Completion A|Completion B)\\b"
+  },
+  {
+   "name": "task1312",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1312",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1312.json",
+   "answer_regex": "\\b(negative|positive)\\b"
+  },
+  {
+   "name": "task1285",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1285",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1285.json",
+   "answer_regex": "\\b(False|True)\\b"
+  },
+  {
+   "name": "task1539",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1539",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1539.json",
+   "answer_regex": "\\b(Not offensive|Offensive)\\b"
+  },
+  {
+   "name": "task1661",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1661",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1661.json",
+   "answer_regex": "\\b(0|1)\\b"
+  },
+  {
+   "name": "task1423",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1423",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1423.json",
+   "answer_regex": "\\b(a|b|c|d|e)\\b"
+  }
+ ],
+ "charts": [
+  [
+   0,
+   1,
+   2
+  ],
+  [
+   3,
+   4,
+   5
+  ],
+  [
+   6,
+   7,
+   8
+  ]
+ ]
+}

@@ -1,0 +1,4045 @@
+{
+  "best_method": "magnitude_prune",
+  "best_metrics": {
+    "auprc": 0.5214603610081722,
+    "auroc": 0.8744038155802861,
+    "feasible_rate": 0.10303030303030303,
+    "top_quartile_enrichment": 3.004201680672269
+  },
+  "certificate_diagnostics": {
+    "continuous_certificate_count": 660,
+    "evaluated_coefficient_count": 0,
+    "max_certificate_gap": 1.1841195569035463,
+    "median_certificate_gap": 0.0
+  },
+  "component_summaries": [
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "addition": 6.193750023841858,
+          "authors": 3.850446403026581,
+          "capitals": 3.046875,
+          "hemisphere": 4.269886374473572,
+          "modadd": 5.1875,
+          "multiplication": 5.599999904632568,
+          "nli": 3.9713850021362305,
+          "population": 4.511126935482025,
+          "sciq": 4.305397689342499,
+          "subtraction": 6.206249952316284
+        },
+        "heldout": {
+          "addition": 6.4999998807907104,
+          "authors": 4.495833337306976,
+          "capitals": 3.05859375,
+          "hemisphere": 4.291666686534882,
+          "modadd": 5.340277791023254,
+          "multiplication": 5.487500071525574,
+          "nli": 3.840773820877075,
+          "population": 4.7794190645217896,
+          "sciq": 3.99613094329834,
+          "subtraction": 6.331249952316284
+        }
+      },
+      "base_model": "EleutherAI/pythia-410m",
+      "best_method": "linear",
+      "best_metrics": {
+        "auprc": 0.4112150316032701,
+        "auroc": 0.7359676695105523,
+        "feasible_rate": 0.20606060606060606,
+        "mean_coefficient_regret": 10.995312311802605,
+        "top_quartile_enrichment": 2.1953781512605044
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 1992.2203092663167,
+        "median_fitted_hessian_eigenvalue": -279.15706864752406,
+        "min_fitted_hessian_eigenvalue": -1985.1561956406172,
+        "projected_query_count": 149
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "addition": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "authors": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "capitals": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "hemisphere": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "modadd": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "multiplication": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "nli": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "population": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "sciq": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "subtraction": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "pythia410m_10x_licenseclean_contcert_20260504",
+      "feasible_count": 34,
+      "full_support_feasible_count": 34,
+      "full_support_pair_feasible_count": 9,
+      "full_support_triple_feasible_count": 25,
+      "metrics_by_method": {
+        "linear": {
+          "auprc": 0.4112150316032701,
+          "auroc": 0.7359676695105523,
+          "feasible_rate": 0.20606060606060606,
+          "mean_coefficient_regret": 10.995312311802605,
+          "top_quartile_enrichment": 2.1953781512605044
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "addition": 9,
+            "authors": 9,
+            "capitals": 9,
+            "hemisphere": 9,
+            "modadd": 9,
+            "multiplication": 9,
+            "nli": 9,
+            "population": 9,
+            "sciq": 9,
+            "subtraction": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "sciq",
+            "population"
+          ],
+          [
+            "sciq",
+            "capitals"
+          ],
+          [
+            "sciq",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "nli"
+          ],
+          [
+            "sciq",
+            "authors"
+          ],
+          [
+            "sciq",
+            "addition"
+          ],
+          [
+            "sciq",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "modadd"
+          ],
+          [
+            "population",
+            "capitals"
+          ],
+          [
+            "population",
+            "hemisphere"
+          ],
+          [
+            "population",
+            "nli"
+          ],
+          [
+            "population",
+            "authors"
+          ],
+          [
+            "population",
+            "addition"
+          ],
+          [
+            "population",
+            "subtraction"
+          ],
+          [
+            "population",
+            "multiplication"
+          ],
+          [
+            "population",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "capitals",
+            "nli"
+          ],
+          [
+            "capitals",
+            "authors"
+          ],
+          [
+            "capitals",
+            "addition"
+          ],
+          [
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "nli",
+            "authors"
+          ],
+          [
+            "nli",
+            "addition"
+          ],
+          [
+            "nli",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "modadd"
+          ],
+          [
+            "authors",
+            "addition"
+          ],
+          [
+            "authors",
+            "subtraction"
+          ],
+          [
+            "authors",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "modadd"
+          ],
+          [
+            "addition",
+            "subtraction"
+          ],
+          [
+            "addition",
+            "multiplication"
+          ],
+          [
+            "addition",
+            "modadd"
+          ],
+          [
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "multiplication",
+            "modadd"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "addition": 45,
+            "authors": 45,
+            "capitals": 45,
+            "hemisphere": 45,
+            "modadd": 45,
+            "multiplication": 45,
+            "nli": 45,
+            "population": 45,
+            "sciq": 45,
+            "subtraction": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "addition": 36,
+            "authors": 36,
+            "capitals": 36,
+            "hemisphere": 36,
+            "modadd": 36,
+            "multiplication": 36,
+            "nli": 36,
+            "population": 36,
+            "sciq": 36,
+            "subtraction": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "sciq",
+            "population",
+            "capitals"
+          ],
+          [
+            "sciq",
+            "population",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "population",
+            "nli"
+          ],
+          [
+            "sciq",
+            "population",
+            "authors"
+          ],
+          [
+            "sciq",
+            "population",
+            "addition"
+          ],
+          [
+            "sciq",
+            "population",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "population",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "population",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "nli"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "authors"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "addition"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "nli",
+            "authors"
+          ],
+          [
+            "sciq",
+            "nli",
+            "addition"
+          ],
+          [
+            "sciq",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "nli",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "authors",
+            "addition"
+          ],
+          [
+            "sciq",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "authors",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "addition",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "population",
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "population",
+            "capitals",
+            "nli"
+          ],
+          [
+            "population",
+            "capitals",
+            "authors"
+          ],
+          [
+            "population",
+            "capitals",
+            "addition"
+          ],
+          [
+            "population",
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "population",
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "population",
+            "capitals",
+            "modadd"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "population",
+            "nli",
+            "authors"
+          ],
+          [
+            "population",
+            "nli",
+            "addition"
+          ],
+          [
+            "population",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "population",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "population",
+            "nli",
+            "modadd"
+          ],
+          [
+            "population",
+            "authors",
+            "addition"
+          ],
+          [
+            "population",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "population",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "population",
+            "authors",
+            "modadd"
+          ],
+          [
+            "population",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "population",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "population",
+            "addition",
+            "modadd"
+          ],
+          [
+            "population",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "population",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "population",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "nli",
+            "authors"
+          ],
+          [
+            "capitals",
+            "nli",
+            "addition"
+          ],
+          [
+            "capitals",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "nli",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "authors",
+            "addition"
+          ],
+          [
+            "capitals",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "authors",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "addition",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "authors"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "nli",
+            "authors",
+            "addition"
+          ],
+          [
+            "nli",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "authors",
+            "modadd"
+          ],
+          [
+            "nli",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "addition",
+            "modadd"
+          ],
+          [
+            "nli",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "nli",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "authors",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "authors",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "addition",
+            "modadd"
+          ],
+          [
+            "authors",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "authors",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "addition",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "addition",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "addition",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "subtraction",
+            "multiplication",
+            "modadd"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 34 feasible subsets at a 0.206 feasible base rate, including 9 full-support feasible pairs and 25 full-support feasible triples. The best merge method was linear with AUROC 0.736, AUPRC 0.411, and top-quartile enrichment 2.195.",
+      "single_losses": {
+        "calibration": {
+          "addition": 6.287500023841858,
+          "authors": 4.350000023841858,
+          "capitals": 2.9296875,
+          "hemisphere": 4.232007622718811,
+          "modadd": 5.520833253860474,
+          "multiplication": 5.668749928474426,
+          "nli": 4.055377185344696,
+          "population": 4.568497538566589,
+          "sciq": 4.270359933376312,
+          "subtraction": 6.381250023841858
+        },
+        "heldout": {
+          "addition": 6.674999952316284,
+          "authors": 5.043750047683716,
+          "capitals": 2.98828125,
+          "hemisphere": 4.254261374473572,
+          "modadd": 5.597222089767456,
+          "multiplication": 5.587499976158142,
+          "nli": 3.9501487612724304,
+          "population": 4.816919207572937,
+          "sciq": 3.940625011920929,
+          "subtraction": 6.787500023841858
+        }
+      },
+      "slice_id": "pythia410m_10x_licenseclean_contcert_20260504",
+      "source_run": "pythia410m_10x_licenseclean_contcert_20260504_linear_20260504_deep6_licenseclean",
+      "started_at": "2026-05-04T07:28:16Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 1,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    },
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "addition": 6.193750023841858,
+          "authors": 3.850446403026581,
+          "capitals": 3.046875,
+          "hemisphere": 4.269886374473572,
+          "modadd": 5.1875,
+          "multiplication": 5.599999904632568,
+          "nli": 3.9713850021362305,
+          "population": 4.511126935482025,
+          "sciq": 4.305397689342499,
+          "subtraction": 6.206249952316284
+        },
+        "heldout": {
+          "addition": 6.4999998807907104,
+          "authors": 4.495833337306976,
+          "capitals": 3.05859375,
+          "hemisphere": 4.291666686534882,
+          "modadd": 5.340277791023254,
+          "multiplication": 5.487500071525574,
+          "nli": 3.840773820877075,
+          "population": 4.7794190645217896,
+          "sciq": 3.99613094329834,
+          "subtraction": 6.331249952316284
+        }
+      },
+      "base_model": "EleutherAI/pythia-410m",
+      "best_method": "ties",
+      "best_metrics": {
+        "auprc": 0.17970827672800352,
+        "auroc": 0.7603485838779956,
+        "feasible_rate": 0.07272727272727272,
+        "mean_coefficient_regret": 5.701297581320584,
+        "top_quartile_enrichment": 2.9464285714285716
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 1547.5715260457712,
+        "median_fitted_hessian_eigenvalue": -249.99976158142107,
+        "min_fitted_hessian_eigenvalue": -1547.5715260457714,
+        "projected_query_count": 149
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "addition": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "authors": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "capitals": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "hemisphere": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "modadd": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "multiplication": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "nli": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "population": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "sciq": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "subtraction": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "pythia410m_10x_licenseclean_contcert_20260504",
+      "feasible_count": 12,
+      "full_support_feasible_count": 12,
+      "full_support_pair_feasible_count": 4,
+      "full_support_triple_feasible_count": 8,
+      "metrics_by_method": {
+        "ties": {
+          "auprc": 0.17970827672800352,
+          "auroc": 0.7603485838779956,
+          "feasible_rate": 0.07272727272727272,
+          "mean_coefficient_regret": 5.701297581320584,
+          "top_quartile_enrichment": 2.9464285714285716
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "addition": 9,
+            "authors": 9,
+            "capitals": 9,
+            "hemisphere": 9,
+            "modadd": 9,
+            "multiplication": 9,
+            "nli": 9,
+            "population": 9,
+            "sciq": 9,
+            "subtraction": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "sciq",
+            "population"
+          ],
+          [
+            "sciq",
+            "capitals"
+          ],
+          [
+            "sciq",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "nli"
+          ],
+          [
+            "sciq",
+            "authors"
+          ],
+          [
+            "sciq",
+            "addition"
+          ],
+          [
+            "sciq",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "modadd"
+          ],
+          [
+            "population",
+            "capitals"
+          ],
+          [
+            "population",
+            "hemisphere"
+          ],
+          [
+            "population",
+            "nli"
+          ],
+          [
+            "population",
+            "authors"
+          ],
+          [
+            "population",
+            "addition"
+          ],
+          [
+            "population",
+            "subtraction"
+          ],
+          [
+            "population",
+            "multiplication"
+          ],
+          [
+            "population",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "capitals",
+            "nli"
+          ],
+          [
+            "capitals",
+            "authors"
+          ],
+          [
+            "capitals",
+            "addition"
+          ],
+          [
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "nli",
+            "authors"
+          ],
+          [
+            "nli",
+            "addition"
+          ],
+          [
+            "nli",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "modadd"
+          ],
+          [
+            "authors",
+            "addition"
+          ],
+          [
+            "authors",
+            "subtraction"
+          ],
+          [
+            "authors",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "modadd"
+          ],
+          [
+            "addition",
+            "subtraction"
+          ],
+          [
+            "addition",
+            "multiplication"
+          ],
+          [
+            "addition",
+            "modadd"
+          ],
+          [
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "multiplication",
+            "modadd"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "addition": 45,
+            "authors": 45,
+            "capitals": 45,
+            "hemisphere": 45,
+            "modadd": 45,
+            "multiplication": 45,
+            "nli": 45,
+            "population": 45,
+            "sciq": 45,
+            "subtraction": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "addition": 36,
+            "authors": 36,
+            "capitals": 36,
+            "hemisphere": 36,
+            "modadd": 36,
+            "multiplication": 36,
+            "nli": 36,
+            "population": 36,
+            "sciq": 36,
+            "subtraction": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "sciq",
+            "population",
+            "capitals"
+          ],
+          [
+            "sciq",
+            "population",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "population",
+            "nli"
+          ],
+          [
+            "sciq",
+            "population",
+            "authors"
+          ],
+          [
+            "sciq",
+            "population",
+            "addition"
+          ],
+          [
+            "sciq",
+            "population",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "population",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "population",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "nli"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "authors"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "addition"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "nli",
+            "authors"
+          ],
+          [
+            "sciq",
+            "nli",
+            "addition"
+          ],
+          [
+            "sciq",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "nli",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "authors",
+            "addition"
+          ],
+          [
+            "sciq",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "authors",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "addition",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "population",
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "population",
+            "capitals",
+            "nli"
+          ],
+          [
+            "population",
+            "capitals",
+            "authors"
+          ],
+          [
+            "population",
+            "capitals",
+            "addition"
+          ],
+          [
+            "population",
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "population",
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "population",
+            "capitals",
+            "modadd"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "population",
+            "nli",
+            "authors"
+          ],
+          [
+            "population",
+            "nli",
+            "addition"
+          ],
+          [
+            "population",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "population",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "population",
+            "nli",
+            "modadd"
+          ],
+          [
+            "population",
+            "authors",
+            "addition"
+          ],
+          [
+            "population",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "population",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "population",
+            "authors",
+            "modadd"
+          ],
+          [
+            "population",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "population",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "population",
+            "addition",
+            "modadd"
+          ],
+          [
+            "population",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "population",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "population",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "nli",
+            "authors"
+          ],
+          [
+            "capitals",
+            "nli",
+            "addition"
+          ],
+          [
+            "capitals",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "nli",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "authors",
+            "addition"
+          ],
+          [
+            "capitals",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "authors",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "addition",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "authors"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "nli",
+            "authors",
+            "addition"
+          ],
+          [
+            "nli",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "authors",
+            "modadd"
+          ],
+          [
+            "nli",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "addition",
+            "modadd"
+          ],
+          [
+            "nli",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "nli",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "authors",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "authors",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "addition",
+            "modadd"
+          ],
+          [
+            "authors",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "authors",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "addition",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "addition",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "addition",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "subtraction",
+            "multiplication",
+            "modadd"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 12 feasible subsets at a 0.073 feasible base rate, including 4 full-support feasible pairs and 8 full-support feasible triples. The best merge method was ties with AUROC 0.760, AUPRC 0.180, and top-quartile enrichment 2.946.",
+      "single_losses": {
+        "calibration": {
+          "addition": 6.287500023841858,
+          "authors": 4.350000023841858,
+          "capitals": 2.9296875,
+          "hemisphere": 4.232007622718811,
+          "modadd": 5.520833253860474,
+          "multiplication": 5.668749928474426,
+          "nli": 4.055377185344696,
+          "population": 4.568497538566589,
+          "sciq": 4.270359933376312,
+          "subtraction": 6.381250023841858
+        },
+        "heldout": {
+          "addition": 6.674999952316284,
+          "authors": 5.043750047683716,
+          "capitals": 2.98828125,
+          "hemisphere": 4.254261374473572,
+          "modadd": 5.597222089767456,
+          "multiplication": 5.587499976158142,
+          "nli": 3.9501487612724304,
+          "population": 4.816919207572937,
+          "sciq": 3.940625011920929,
+          "subtraction": 6.787500023841858
+        }
+      },
+      "slice_id": "pythia410m_10x_licenseclean_contcert_20260504",
+      "source_run": "pythia410m_10x_licenseclean_contcert_20260504_ties_20260504_deep6_licenseclean",
+      "started_at": "2026-05-04T07:31:30Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 0,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    },
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "addition": 6.193750023841858,
+          "authors": 3.850446403026581,
+          "capitals": 3.046875,
+          "hemisphere": 4.269886374473572,
+          "modadd": 5.1875,
+          "multiplication": 5.599999904632568,
+          "nli": 3.9713850021362305,
+          "population": 4.511126935482025,
+          "sciq": 4.305397689342499,
+          "subtraction": 6.206249952316284
+        },
+        "heldout": {
+          "addition": 6.4999998807907104,
+          "authors": 4.495833337306976,
+          "capitals": 3.05859375,
+          "hemisphere": 4.291666686534882,
+          "modadd": 5.340277791023254,
+          "multiplication": 5.487500071525574,
+          "nli": 3.840773820877075,
+          "population": 4.7794190645217896,
+          "sciq": 3.99613094329834,
+          "subtraction": 6.331249952316284
+        }
+      },
+      "base_model": "EleutherAI/pythia-410m",
+      "best_method": "dare_ties",
+      "best_metrics": {
+        "auprc": 0.30699862123109617,
+        "auroc": 0.572463768115942,
+        "feasible_rate": 0.16363636363636364,
+        "mean_coefficient_regret": 7.167348420119024,
+        "top_quartile_enrichment": 1.455026455026455
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 2536.3857080890552,
+        "median_fitted_hessian_eigenvalue": -349.58727197440203,
+        "min_fitted_hessian_eigenvalue": -2536.3857080890552,
+        "projected_query_count": 153
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "addition": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "authors": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "capitals": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "hemisphere": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "modadd": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "multiplication": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "nli": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "population": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "sciq": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "subtraction": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "pythia410m_10x_licenseclean_contcert_20260504",
+      "feasible_count": 27,
+      "full_support_feasible_count": 27,
+      "full_support_pair_feasible_count": 10,
+      "full_support_triple_feasible_count": 17,
+      "metrics_by_method": {
+        "dare_ties": {
+          "auprc": 0.30699862123109617,
+          "auroc": 0.572463768115942,
+          "feasible_rate": 0.16363636363636364,
+          "mean_coefficient_regret": 7.167348420119024,
+          "top_quartile_enrichment": 1.455026455026455
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "addition": 9,
+            "authors": 9,
+            "capitals": 9,
+            "hemisphere": 9,
+            "modadd": 9,
+            "multiplication": 9,
+            "nli": 9,
+            "population": 9,
+            "sciq": 9,
+            "subtraction": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "sciq",
+            "population"
+          ],
+          [
+            "sciq",
+            "capitals"
+          ],
+          [
+            "sciq",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "nli"
+          ],
+          [
+            "sciq",
+            "authors"
+          ],
+          [
+            "sciq",
+            "addition"
+          ],
+          [
+            "sciq",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "modadd"
+          ],
+          [
+            "population",
+            "capitals"
+          ],
+          [
+            "population",
+            "hemisphere"
+          ],
+          [
+            "population",
+            "nli"
+          ],
+          [
+            "population",
+            "authors"
+          ],
+          [
+            "population",
+            "addition"
+          ],
+          [
+            "population",
+            "subtraction"
+          ],
+          [
+            "population",
+            "multiplication"
+          ],
+          [
+            "population",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "capitals",
+            "nli"
+          ],
+          [
+            "capitals",
+            "authors"
+          ],
+          [
+            "capitals",
+            "addition"
+          ],
+          [
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "nli",
+            "authors"
+          ],
+          [
+            "nli",
+            "addition"
+          ],
+          [
+            "nli",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "modadd"
+          ],
+          [
+            "authors",
+            "addition"
+          ],
+          [
+            "authors",
+            "subtraction"
+          ],
+          [
+            "authors",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "modadd"
+          ],
+          [
+            "addition",
+            "subtraction"
+          ],
+          [
+            "addition",
+            "multiplication"
+          ],
+          [
+            "addition",
+            "modadd"
+          ],
+          [
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "multiplication",
+            "modadd"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "addition": 45,
+            "authors": 45,
+            "capitals": 45,
+            "hemisphere": 45,
+            "modadd": 45,
+            "multiplication": 45,
+            "nli": 45,
+            "population": 45,
+            "sciq": 45,
+            "subtraction": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "addition": 36,
+            "authors": 36,
+            "capitals": 36,
+            "hemisphere": 36,
+            "modadd": 36,
+            "multiplication": 36,
+            "nli": 36,
+            "population": 36,
+            "sciq": 36,
+            "subtraction": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "sciq",
+            "population",
+            "capitals"
+          ],
+          [
+            "sciq",
+            "population",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "population",
+            "nli"
+          ],
+          [
+            "sciq",
+            "population",
+            "authors"
+          ],
+          [
+            "sciq",
+            "population",
+            "addition"
+          ],
+          [
+            "sciq",
+            "population",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "population",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "population",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "nli"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "authors"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "addition"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "nli",
+            "authors"
+          ],
+          [
+            "sciq",
+            "nli",
+            "addition"
+          ],
+          [
+            "sciq",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "nli",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "authors",
+            "addition"
+          ],
+          [
+            "sciq",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "authors",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "addition",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "population",
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "population",
+            "capitals",
+            "nli"
+          ],
+          [
+            "population",
+            "capitals",
+            "authors"
+          ],
+          [
+            "population",
+            "capitals",
+            "addition"
+          ],
+          [
+            "population",
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "population",
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "population",
+            "capitals",
+            "modadd"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "population",
+            "nli",
+            "authors"
+          ],
+          [
+            "population",
+            "nli",
+            "addition"
+          ],
+          [
+            "population",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "population",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "population",
+            "nli",
+            "modadd"
+          ],
+          [
+            "population",
+            "authors",
+            "addition"
+          ],
+          [
+            "population",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "population",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "population",
+            "authors",
+            "modadd"
+          ],
+          [
+            "population",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "population",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "population",
+            "addition",
+            "modadd"
+          ],
+          [
+            "population",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "population",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "population",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "nli",
+            "authors"
+          ],
+          [
+            "capitals",
+            "nli",
+            "addition"
+          ],
+          [
+            "capitals",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "nli",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "authors",
+            "addition"
+          ],
+          [
+            "capitals",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "authors",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "addition",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "authors"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "nli",
+            "authors",
+            "addition"
+          ],
+          [
+            "nli",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "authors",
+            "modadd"
+          ],
+          [
+            "nli",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "addition",
+            "modadd"
+          ],
+          [
+            "nli",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "nli",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "authors",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "authors",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "addition",
+            "modadd"
+          ],
+          [
+            "authors",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "authors",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "addition",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "addition",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "addition",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "subtraction",
+            "multiplication",
+            "modadd"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 27 feasible subsets at a 0.164 feasible base rate, including 10 full-support feasible pairs and 17 full-support feasible triples. The best merge method was dare_ties with AUROC 0.572, AUPRC 0.307, and top-quartile enrichment 1.455.",
+      "single_losses": {
+        "calibration": {
+          "addition": 6.287500023841858,
+          "authors": 4.350000023841858,
+          "capitals": 2.9296875,
+          "hemisphere": 4.232007622718811,
+          "modadd": 5.520833253860474,
+          "multiplication": 5.668749928474426,
+          "nli": 4.055377185344696,
+          "population": 4.568497538566589,
+          "sciq": 4.270359933376312,
+          "subtraction": 6.381250023841858
+        },
+        "heldout": {
+          "addition": 6.674999952316284,
+          "authors": 5.043750047683716,
+          "capitals": 2.98828125,
+          "hemisphere": 4.254261374473572,
+          "modadd": 5.597222089767456,
+          "multiplication": 5.587499976158142,
+          "nli": 3.9501487612724304,
+          "population": 4.816919207572937,
+          "sciq": 3.940625011920929,
+          "subtraction": 6.787500023841858
+        }
+      },
+      "slice_id": "pythia410m_10x_licenseclean_contcert_20260504",
+      "source_run": "pythia410m_10x_licenseclean_contcert_20260504_dare_ties_20260504_deep6_licenseclean",
+      "started_at": "2026-05-04T07:35:11Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 2,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    },
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "addition": 6.193750023841858,
+          "authors": 3.850446403026581,
+          "capitals": 3.046875,
+          "hemisphere": 4.269886374473572,
+          "modadd": 5.1875,
+          "multiplication": 5.599999904632568,
+          "nli": 3.9713850021362305,
+          "population": 4.511126935482025,
+          "sciq": 4.305397689342499,
+          "subtraction": 6.206249952316284
+        },
+        "heldout": {
+          "addition": 6.4999998807907104,
+          "authors": 4.495833337306976,
+          "capitals": 3.05859375,
+          "hemisphere": 4.291666686534882,
+          "modadd": 5.340277791023254,
+          "multiplication": 5.487500071525574,
+          "nli": 3.840773820877075,
+          "population": 4.7794190645217896,
+          "sciq": 3.99613094329834,
+          "subtraction": 6.331249952316284
+        }
+      },
+      "base_model": "EleutherAI/pythia-410m",
+      "best_method": "magnitude_prune",
+      "best_metrics": {
+        "auprc": 0.5214603610081722,
+        "auroc": 0.8744038155802861,
+        "feasible_rate": 0.10303030303030303,
+        "mean_coefficient_regret": 6.128216445071667,
+        "top_quartile_enrichment": 3.004201680672269
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 1937.4978542327917,
+        "median_fitted_hessian_eigenvalue": -307.6229435922788,
+        "min_fitted_hessian_eigenvalue": -1937.4978542327917,
+        "projected_query_count": 150
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "addition": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "authors": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "capitals": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "hemisphere": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "modadd": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "multiplication": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "nli": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "population": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "sciq": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "subtraction": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "pythia410m_10x_licenseclean_contcert_20260504",
+      "feasible_count": 17,
+      "full_support_feasible_count": 17,
+      "full_support_pair_feasible_count": 7,
+      "full_support_triple_feasible_count": 10,
+      "metrics_by_method": {
+        "magnitude_prune": {
+          "auprc": 0.5214603610081722,
+          "auroc": 0.8744038155802861,
+          "feasible_rate": 0.10303030303030303,
+          "mean_coefficient_regret": 6.128216445071667,
+          "top_quartile_enrichment": 3.004201680672269
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "addition": 9,
+            "authors": 9,
+            "capitals": 9,
+            "hemisphere": 9,
+            "modadd": 9,
+            "multiplication": 9,
+            "nli": 9,
+            "population": 9,
+            "sciq": 9,
+            "subtraction": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "sciq",
+            "population"
+          ],
+          [
+            "sciq",
+            "capitals"
+          ],
+          [
+            "sciq",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "nli"
+          ],
+          [
+            "sciq",
+            "authors"
+          ],
+          [
+            "sciq",
+            "addition"
+          ],
+          [
+            "sciq",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "modadd"
+          ],
+          [
+            "population",
+            "capitals"
+          ],
+          [
+            "population",
+            "hemisphere"
+          ],
+          [
+            "population",
+            "nli"
+          ],
+          [
+            "population",
+            "authors"
+          ],
+          [
+            "population",
+            "addition"
+          ],
+          [
+            "population",
+            "subtraction"
+          ],
+          [
+            "population",
+            "multiplication"
+          ],
+          [
+            "population",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "capitals",
+            "nli"
+          ],
+          [
+            "capitals",
+            "authors"
+          ],
+          [
+            "capitals",
+            "addition"
+          ],
+          [
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "nli",
+            "authors"
+          ],
+          [
+            "nli",
+            "addition"
+          ],
+          [
+            "nli",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "modadd"
+          ],
+          [
+            "authors",
+            "addition"
+          ],
+          [
+            "authors",
+            "subtraction"
+          ],
+          [
+            "authors",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "modadd"
+          ],
+          [
+            "addition",
+            "subtraction"
+          ],
+          [
+            "addition",
+            "multiplication"
+          ],
+          [
+            "addition",
+            "modadd"
+          ],
+          [
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "multiplication",
+            "modadd"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "addition": 45,
+            "authors": 45,
+            "capitals": 45,
+            "hemisphere": 45,
+            "modadd": 45,
+            "multiplication": 45,
+            "nli": 45,
+            "population": 45,
+            "sciq": 45,
+            "subtraction": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "addition": 36,
+            "authors": 36,
+            "capitals": 36,
+            "hemisphere": 36,
+            "modadd": 36,
+            "multiplication": 36,
+            "nli": 36,
+            "population": 36,
+            "sciq": 36,
+            "subtraction": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "sciq",
+            "population",
+            "capitals"
+          ],
+          [
+            "sciq",
+            "population",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "population",
+            "nli"
+          ],
+          [
+            "sciq",
+            "population",
+            "authors"
+          ],
+          [
+            "sciq",
+            "population",
+            "addition"
+          ],
+          [
+            "sciq",
+            "population",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "population",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "population",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "nli"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "authors"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "addition"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "capitals",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "nli",
+            "authors"
+          ],
+          [
+            "sciq",
+            "nli",
+            "addition"
+          ],
+          [
+            "sciq",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "nli",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "authors",
+            "addition"
+          ],
+          [
+            "sciq",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "authors",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "sciq",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "addition",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "sciq",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "sciq",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "population",
+            "capitals",
+            "hemisphere"
+          ],
+          [
+            "population",
+            "capitals",
+            "nli"
+          ],
+          [
+            "population",
+            "capitals",
+            "authors"
+          ],
+          [
+            "population",
+            "capitals",
+            "addition"
+          ],
+          [
+            "population",
+            "capitals",
+            "subtraction"
+          ],
+          [
+            "population",
+            "capitals",
+            "multiplication"
+          ],
+          [
+            "population",
+            "capitals",
+            "modadd"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "population",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "population",
+            "nli",
+            "authors"
+          ],
+          [
+            "population",
+            "nli",
+            "addition"
+          ],
+          [
+            "population",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "population",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "population",
+            "nli",
+            "modadd"
+          ],
+          [
+            "population",
+            "authors",
+            "addition"
+          ],
+          [
+            "population",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "population",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "population",
+            "authors",
+            "modadd"
+          ],
+          [
+            "population",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "population",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "population",
+            "addition",
+            "modadd"
+          ],
+          [
+            "population",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "population",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "population",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "nli"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "authors"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "addition"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "hemisphere",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "nli",
+            "authors"
+          ],
+          [
+            "capitals",
+            "nli",
+            "addition"
+          ],
+          [
+            "capitals",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "nli",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "authors",
+            "addition"
+          ],
+          [
+            "capitals",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "authors",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "capitals",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "addition",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "capitals",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "capitals",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "authors"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "nli",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "addition"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "authors",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "addition",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "hemisphere",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "hemisphere",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "nli",
+            "authors",
+            "addition"
+          ],
+          [
+            "nli",
+            "authors",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "authors",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "authors",
+            "modadd"
+          ],
+          [
+            "nli",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "nli",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "addition",
+            "modadd"
+          ],
+          [
+            "nli",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "nli",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "nli",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "authors",
+            "addition",
+            "subtraction"
+          ],
+          [
+            "authors",
+            "addition",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "addition",
+            "modadd"
+          ],
+          [
+            "authors",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "authors",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "authors",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "addition",
+            "subtraction",
+            "multiplication"
+          ],
+          [
+            "addition",
+            "subtraction",
+            "modadd"
+          ],
+          [
+            "addition",
+            "multiplication",
+            "modadd"
+          ],
+          [
+            "subtraction",
+            "multiplication",
+            "modadd"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 17 feasible subsets at a 0.103 feasible base rate, including 7 full-support feasible pairs and 10 full-support feasible triples. The best merge method was magnitude_prune with AUROC 0.874, AUPRC 0.521, and top-quartile enrichment 3.004.",
+      "single_losses": {
+        "calibration": {
+          "addition": 6.287500023841858,
+          "authors": 4.350000023841858,
+          "capitals": 2.9296875,
+          "hemisphere": 4.232007622718811,
+          "modadd": 5.520833253860474,
+          "multiplication": 5.668749928474426,
+          "nli": 4.055377185344696,
+          "population": 4.568497538566589,
+          "sciq": 4.270359933376312,
+          "subtraction": 6.381250023841858
+        },
+        "heldout": {
+          "addition": 6.674999952316284,
+          "authors": 5.043750047683716,
+          "capitals": 2.98828125,
+          "hemisphere": 4.254261374473572,
+          "modadd": 5.597222089767456,
+          "multiplication": 5.587499976158142,
+          "nli": 3.9501487612724304,
+          "population": 4.816919207572937,
+          "sciq": 3.940625011920929,
+          "subtraction": 6.787500023841858
+        }
+      },
+      "slice_id": "pythia410m_10x_licenseclean_contcert_20260504",
+      "source_run": "pythia410m_10x_licenseclean_contcert_20260504_magnitude_prune_20260504_deep6_licenseclean",
+      "started_at": "2026-05-04T07:37:55Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 0,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    }
+  ],
+  "convexity_diagnostics": {
+    "max_psd_adjustment_frobenius": 2536.3857080890552,
+    "median_fitted_hessian_eigenvalue": -296.87494039535517,
+    "min_fitted_hessian_eigenvalue": -2536.3857080890552,
+    "projected_query_count": 601
+  },
+  "error_count": 0,
+  "methods": [
+    "dare_ties",
+    "linear",
+    "magnitude_prune",
+    "ties"
+  ],
+  "metrics_by_method": {
+    "dare_ties": {
+      "auprc": 0.30699862123109617,
+      "auroc": 0.572463768115942,
+      "feasible_rate": 0.16363636363636364,
+      "top_quartile_enrichment": 1.455026455026455
+    },
+    "linear": {
+      "auprc": 0.4112150316032701,
+      "auroc": 0.7359676695105523,
+      "feasible_rate": 0.20606060606060606,
+      "top_quartile_enrichment": 2.1953781512605044
+    },
+    "magnitude_prune": {
+      "auprc": 0.5214603610081722,
+      "auroc": 0.8744038155802861,
+      "feasible_rate": 0.10303030303030303,
+      "top_quartile_enrichment": 3.004201680672269
+    },
+    "ties": {
+      "auprc": 0.17970827672800352,
+      "auroc": 0.7603485838779956,
+      "feasible_rate": 0.07272727272727272,
+      "top_quartile_enrichment": 2.9464285714285716
+    }
+  },
+  "pair_prefilter": {
+    "dare_ties": {
+      "pair_clique_false_negative_1_bad_pair": 4,
+      "pair_clique_false_negative_2_bad_pairs": 6,
+      "pair_clique_false_negative_3_bad_pairs": 7,
+      "pair_clique_false_positive_triples": 2,
+      "triples_with_missing_pair_faces": 0
+    },
+    "linear": {
+      "pair_clique_false_negative_1_bad_pair": 9,
+      "pair_clique_false_negative_2_bad_pairs": 10,
+      "pair_clique_false_negative_3_bad_pairs": 5,
+      "pair_clique_false_positive_triples": 1,
+      "triples_with_missing_pair_faces": 0
+    },
+    "magnitude_prune": {
+      "pair_clique_false_negative_1_bad_pair": 3,
+      "pair_clique_false_negative_2_bad_pairs": 4,
+      "pair_clique_false_negative_3_bad_pairs": 2,
+      "pair_clique_false_positive_triples": 0,
+      "triples_with_missing_pair_faces": 0
+    },
+    "ties": {
+      "pair_clique_false_negative_1_bad_pair": 2,
+      "pair_clique_false_negative_2_bad_pairs": 3,
+      "pair_clique_false_negative_3_bad_pairs": 3,
+      "pair_clique_false_positive_triples": 0,
+      "triples_with_missing_pair_faces": 0
+    }
+  },
+  "result_count": 660,
+  "source_run_count": 4,
+  "status": "completed"
+}

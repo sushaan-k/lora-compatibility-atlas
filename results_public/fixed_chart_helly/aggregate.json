@@ -1,0 +1,608 @@
+{
+  "n_triples": 50,
+  "n_helly_events": 0,
+  "helly_rate": 0.0,
+  "per_triple": [
+    {
+      "adapters": "chauhoang_4909ad74_a335_4972_9+datlaaaaaaa_0dbe42c8_b07b_4785+mrhungddddh_911f6275_22fd_4f41",
+      "triple_score": 36.95224933624264,
+      "triple_feasible": false,
+      "pair_scores": [
+        36.95224933624264,
+        36.95224933624264,
+        23.94015007019039
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "duyphu_4909ad74_a335_4972_9ed8+hongngo_7e251dfc_e0f7_4f73_aae+tuanna08go_7647f014_8af3_4266",
+      "triple_score": -1.6472941949186173,
+      "triple_feasible": true,
+      "pair_scores": [
+        -23.020072650909462,
+        -1.6472941949186173,
+        -1.6472941949186173
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "adammandic87_3d7a58a6_4380_4e3+chauhoang_4909ad74_a335_4972_9+nbninh_a1f78795_1b61_4923_9235",
+      "triple_score": -3.900774192810097,
+      "triple_feasible": true,
+      "pair_scores": [
+        -3.900774192810097,
+        -3.900774192810097,
+        -11.220832538604775
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "datlaaaaaaa_0dbe42c8_b07b_4785+nhoxinh_2f944a50_cbd3_4334_af8+nhung03_7b6cdc3c_7130_4c2c_a2c",
+      "triple_score": 30.909828472137413,
+      "triple_feasible": false,
+      "pair_scores": [
+        30.909828472137413,
+        30.909828472137413,
+        23.50672893524166
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_b7496e73_1762+datlaaaaaaa_0dbe42c8_b07b_4785+nhung03_7b6cdc3c_7130_4c2c_a2c",
+      "triple_score": 49.896578121185264,
+      "triple_feasible": false,
+      "pair_scores": [
+        49.896578121185264,
+        42.25017242431637,
+        47.690133380889854
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "duyphu_0112d9da_9934_4614_b233+hongngo_7e251dfc_e0f7_4f73_aae+nbninh_a1f78795_1b61_4923_9235",
+      "triple_score": 50.45530014038082,
+      "triple_feasible": false,
+      "pair_scores": [
+        50.45530014038082,
+        50.45530014038082,
+        31.90415315628048
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_b7496e73_1762+hongngo_9d92894f_7b7b_49e0_8f3+nhung02_db2c9545_4607_487b_9cc",
+      "triple_score": 35.20909957885738,
+      "triple_feasible": false,
+      "pair_scores": [
+        21.231822299957237,
+        35.20909957885738,
+        35.20909957885738
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "datlaaaaaaa_e8cccbe1_c136_409a+laquythang_8444c3be_8779_4769+tuanna08go_c1cf0152_7ae6_43b6",
+      "triple_score": 3.8592737197875593,
+      "triple_feasible": false,
+      "pair_scores": [
+        -0.41154212951663993,
+        3.8592737197875593,
+        2.553204822540245
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_b7496e73_1762+datlaaaaaaa_e8cccbe1_c136_409a+mrhunghd_9e58333c_df22_4a00_9c",
+      "triple_score": 23.050002384185753,
+      "triple_feasible": false,
+      "pair_scores": [
+        10.622100162506065,
+        23.050002384185753,
+        16.799990463256798
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "datlaaaaaaa_e8cccbe1_c136_409a+duyphu_7aba420b_74ac_4209_b514+laquythang_8444c3be_8779_4769",
+      "triple_score": 33.84328298568722,
+      "triple_feasible": false,
+      "pair_scores": [
+        30.357674884796104,
+        12.889746952056846,
+        33.84328298568722
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_4909ad74_a335+duyphu_0112d9da_9934_4614_b233+duyphu_4909ad74_a335_4972_9ed8",
+      "triple_score": 40.46477489471432,
+      "triple_feasible": false,
+      "pair_scores": [
+        40.46477489471432,
+        36.69583015441891,
+        40.46477489471432
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "datlaaaaaaa_e8cccbe1_c136_409a+hongngo_7e251dfc_e0f7_4f73_aae+versil91_8444c3be_8779_4769_a0",
+      "triple_score": 1.5916507720946882,
+      "triple_feasible": false,
+      "pair_scores": [
+        1.5916507720946882,
+        -0.4251257283266014,
+        -0.4699015049821549
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "duyphu_0112d9da_9934_4614_b233+nhoxinh_0c66c9c5_5cc2_46a8_9db+versil91_01a5620a_fb5f_4bab_94",
+      "triple_score": 0.17331941509530102,
+      "triple_feasible": false,
+      "pair_scores": [
+        -4.232199859619179,
+        0.17331941509530102,
+        0.17331941509530102
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_b7496e73_1762+mrhungddddh_911f6275_22fd_4f41+nhung02_db2c9545_4607_487b_9cc",
+      "triple_score": 33.39163475036617,
+      "triple_feasible": false,
+      "pair_scores": [
+        20.265905189514122,
+        33.39163475036617,
+        33.39163475036617
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "nhoxinh_0c66c9c5_5cc2_46a8_9db+nhoxinh_2f944a50_cbd3_4334_af8+nhung03_7b6cdc3c_7130_4c2c_a2c",
+      "triple_score": 37.993172931671104,
+      "triple_feasible": false,
+      "pair_scores": [
+        37.993172931671104,
+        37.993172931671104,
+        29.492298889160118
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_4909ad74_a335+datlaaaaaaa_0dbe42c8_b07b_4785+phungkhaccuong_a992b7f5_9d18_c",
+      "triple_score": 33.73179845809933,
+      "triple_feasible": false,
+      "pair_scores": [
+        33.73179845809933,
+        33.73179845809933,
+        28.457180786132774
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "datlaaaaaaa_e8cccbe1_c136_409a+duyphu_4909ad74_a335_4972_9ed8+hongngo_7e251dfc_e0f7_4f73_aae",
+      "triple_score": 21.591667461395225,
+      "triple_feasible": false,
+      "pair_scores": [
+        20.521597194671592,
+        15.654150772094688,
+        21.591667461395225
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "duyphu_0112d9da_9934_4614_b233+duyphu_7aba420b_74ac_4209_b514+thaffggg_8a78a9b2_d3fa_4615_b8",
+      "triple_score": 40.98560028076168,
+      "triple_feasible": false,
+      "pair_scores": [
+        40.98560028076168,
+        39.65984992980953,
+        34.82083492279049
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "adammandic87_3d7a58a6_4380_4e3+datlaaaaaaa_e8cccbe1_c136_409a+nbninh_0d8b128b_8753_46c3_b80f",
+      "triple_score": -0.03714151382450126,
+      "triple_feasible": true,
+      "pair_scores": [
+        -0.03714151382450126,
+        -0.03714151382450126,
+        -2.679176998138466
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "chauhoang_4909ad74_a335_4972_9+nhoxinh_0c66c9c5_5cc2_46a8_9db+nhung02_db2c9545_4607_487b_9cc",
+      "triple_score": 71.28861360549922,
+      "triple_feasible": false,
+      "pair_scores": [
+        68.40036325454707,
+        60.590080547332725,
+        71.28861360549922
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "mrhunghd_9e58333c_df22_4a00_9c+nbninh_a1f78795_1b61_4923_9235+nhung03_7b6cdc3c_7130_4c2c_a2c",
+      "triple_score": 32.40095787048336,
+      "triple_feasible": false,
+      "pair_scores": [
+        16.17499999999996,
+        32.40095787048336,
+        32.40095787048336
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "chauhoang_4909ad74_a335_4972_9+mrhungddddh_9b1deaac_4565_48f2+nbninh_a1f78795_1b61_4923_9235",
+      "triple_score": 32.12051801681515,
+      "triple_feasible": false,
+      "pair_scores": [
+        32.12051801681515,
+        32.12051801681515,
+        23.987511920928917
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "adammandic87_f28f18cf_4abb_4db+cunghoctienganh_b7496e73_1762+nhung02_db2c9545_4607_487b_9cc",
+      "triple_score": 6.042424964904747,
+      "triple_feasible": false,
+      "pair_scores": [
+        -0.08999890136802229,
+        6.042424964904747,
+        6.042424964904747
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "mrhungddddh_9b1deaac_4565_48f2+nbninh_a1f78795_1b61_4923_9235+tuanna08go_c1cf0152_7ae6_43b6",
+      "triple_score": 1.231817531585655,
+      "triple_feasible": false,
+      "pair_scores": [
+        0.8624952316283796,
+        1.231817531585655,
+        0.42251758575435616
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_c1cf0152_7ae6+nhoxinh_0c66c9c5_5cc2_46a8_9db+thaffggg_8a78a9b2_d3fa_4615_b8",
+      "triple_score": 1.7999928474425886,
+      "triple_feasible": false,
+      "pair_scores": [
+        1.0234754562377546,
+        1.7999928474425886,
+        1.7999928474425886
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_c1cf0152_7ae6+datlaaaaaaa_e8cccbe1_c136_409a+nblinh63_0eb73af3_0631_437a_ad",
+      "triple_score": 3.650943565368614,
+      "triple_feasible": false,
+      "pair_scores": [
+        3.2342951774596784,
+        0.4035871505736921,
+        3.650943565368614
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "phungkhaccuong_2b1522e6_bef2_7+tuanna08go_6af2bb68_a65f_4331+versil91_63cd5c4a_5a68_4c25_bd",
+      "triple_score": -0.9725373661292189,
+      "triple_feasible": true,
+      "pair_scores": [
+        -1.487034368317648,
+        -1.7488302594192877,
+        -0.9725373661292189
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "chauhoang_4909ad74_a335_4972_9+mrhungddddh_fe499423_02f3_4cfd+phungkhaccuong_a992b7f5_9d18_c",
+      "triple_score": 24.839774894714317,
+      "triple_feasible": false,
+      "pair_scores": [
+        24.839774894714317,
+        24.03557710647579,
+        15.228025245666466
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "lhong4759_f68c5c87_934d_4399_b+mrhunghddddd_d692685b_fdb4_477+tuanna08go_6af2bb68_a65f_4331",
+      "triple_score": -0.8203691145024192,
+      "triple_feasible": true,
+      "pair_scores": [
+        -3.8730937957764056,
+        -0.8203691145024192,
+        -0.8203691145024192
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "mrhungddddh_fe499423_02f3_4cfd+nhoxinh_2f944a50_cbd3_4334_af8+thaffggg_8c87f3d3_d4bb_475a_a8",
+      "triple_score": 41.61060266494747,
+      "triple_feasible": false,
+      "pair_scores": [
+        41.61060266494747,
+        41.61060266494747,
+        34.35608558654781
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "hongngo_9d92894f_7b7b_49e0_8f3+nhoxinh_0c66c9c5_5cc2_46a8_9db+tuanna08go_6af2bb68_a65f_4331",
+      "triple_score": -0.3574066617358088,
+      "triple_feasible": true,
+      "pair_scores": [
+        -8.285244178772011,
+        -0.3574066617358088,
+        -0.3574066617358088
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "mrhunghd_9e58333c_df22_4a00_9c+mrhunghddddd_d692685b_fdb4_477+thaffggg_8a78a9b2_d3fa_4615_b8",
+      "triple_score": 57.128516960144005,
+      "triple_feasible": false,
+      "pair_scores": [
+        49.444214630126915,
+        47.70907573699947,
+        57.128516960144005
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "laquythang_8444c3be_8779_4769+nblinh63_0eb73af3_0631_437a_ad+phungkhaccuong_a992b7f5_9d18_c",
+      "triple_score": 33.591954040527305,
+      "triple_feasible": false,
+      "pair_scores": [
+        33.591954040527305,
+        30.333642292022667,
+        33.591954040527305
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_b7496e73_1762+denbeo_d9ae91c0_fed9_4fb4_8ddd+mrhunghddddd_d692685b_fdb4_477",
+      "triple_score": 52.789954471588096,
+      "triple_feasible": false,
+      "pair_scores": [
+        52.789954471588096,
+        44.02244501113888,
+        52.789954471588096
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_4909ad74_a335+hongngo_687b8c72_c89b_4cb7_b7c+nblinh63_0eb73af3_0631_437a_ad",
+      "triple_score": 37.91740350723263,
+      "triple_feasible": false,
+      "pair_scores": [
+        37.91740350723263,
+        28.883306312560997,
+        29.49667387008663
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "mrhunghddddd_d692685b_fdb4_477+phungkhaccuong_2b1522e6_bef2_7+versil91_e9f26c47_9b78_4e3f_81",
+      "triple_score": -3.7415523297294433,
+      "triple_feasible": true,
+      "pair_scores": [
+        -6.893928718566933,
+        -3.7415523297294433,
+        -3.7415523297294433
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "mrhunghd_9e58333c_df22_4a00_9c+nblinh63_0eb73af3_0631_437a_ad+versil91_e9f26c47_9b78_4e3f_81",
+      "triple_score": -0.6134892431809553,
+      "triple_feasible": true,
+      "pair_scores": [
+        -3.2611925125122454,
+        -0.6134892431809553,
+        -0.6134892431809553
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "datlaaaaaaa_cc1f8701_0976_4f48+mrhunghddddd_d692685b_fdb4_477+tuanna08go_c1cf0152_7ae6_43b6",
+      "triple_score": 0.42251758575435616,
+      "triple_feasible": false,
+      "pair_scores": [
+        -1.349063587188759,
+        0.42251758575435616,
+        0.42251758575435616
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_b7496e73_1762+cunghoctienganh_c1cf0152_7ae6+mrhunghddddd_d692685b_fdb4_477",
+      "triple_score": 0.5499999999999616,
+      "triple_feasible": false,
+      "pair_scores": [
+        0.5499999999999616,
+        0.2943079948424909,
+        -2.518923950195351
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "duyphu_7aba420b_74ac_4209_b514+lhong4759_f68c5c87_934d_4399_b+nhoxinh_9214fc0d_4490_4bdd_9ff",
+      "triple_score": 40.75831584930416,
+      "triple_feasible": false,
+      "pair_scores": [
+        40.34167938232418,
+        40.75831584930416,
+        38.987509536743126
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "duyphu_4909ad74_a335_4972_9ed8+mrhungddddh_fe499423_02f3_4cfd+tuanna08go_c1cf0152_7ae6_43b6",
+      "triple_score": 0.42251758575435616,
+      "triple_feasible": false,
+      "pair_scores": [
+        -0.7000047683716204,
+        0.42251758575435616,
+        0.42251758575435616
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "datlaaaaaaa_e8cccbe1_c136_409a+hongngo_9d92894f_7b7b_49e0_8f3+mrhunghddddd_d692685b_fdb4_477",
+      "triple_score": 12.368170547485313,
+      "triple_feasible": false,
+      "pair_scores": [
+        12.31135540008541,
+        5.477885532379112,
+        12.368170547485313
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "nblinh63_0eb73af3_0631_437a_ad+tuanna08go_6af2bb68_a65f_4331+versil91_e9f26c47_9b78_4e3f_81",
+      "triple_score": -0.8388894775769817,
+      "triple_feasible": true,
+      "pair_scores": [
+        -0.8388894775769817,
+        -3.087602217221897,
+        -0.8388894775769817
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_c1cf0152_7ae6+nblinh63_0eb73af3_0631_437a_ad+versil91_474890ea_012d_4a25_96",
+      "triple_score": -1.4954525947571184,
+      "triple_feasible": true,
+      "pair_scores": [
+        -2.437325191497841,
+        -1.4954525947571184,
+        -1.4954525947571184
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "adammandic87_3d7a58a6_4380_4e3+cunghoctienganh_4909ad74_a335+nblinh63_0eb73af3_0631_437a_ad",
+      "triple_score": -1.7606098175049212,
+      "triple_feasible": true,
+      "pair_scores": [
+        -1.7606098175049212,
+        -1.7606098175049212,
+        -4.198690128326454
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "mrhunghddddd_d692685b_fdb4_477+nbninh_0d8b128b_8753_46c3_b80f+nbninh_a1f78795_1b61_4923_9235",
+      "triple_score": 16.10287837982174,
+      "triple_feasible": false,
+      "pair_scores": [
+        14.091662693023643,
+        16.10287837982174,
+        10.550014305114708
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "mrhungddddh_911f6275_22fd_4f41+nbninh_0d8b128b_8753_46c3_b80f+tuanna08go_6af2bb68_a65f_4331",
+      "triple_score": -0.4916746139526751,
+      "triple_feasible": true,
+      "pair_scores": [
+        -7.911523056030312,
+        -0.7648122638330455,
+        -0.4916746139526751
+      ],
+      "all_pairs_feasible": true,
+      "helly_event": false
+    },
+    {
+      "adapters": "mrhungddddh_fe499423_02f3_4cfd+nbninh_0d8b128b_8753_46c3_b80f+tuanna08go_6af2bb68_a65f_4331",
+      "triple_score": 0.3833358058233561,
+      "triple_feasible": false,
+      "pair_scores": [
+        -5.737884712219277,
+        0.3833358058233561,
+        0.3833358058233561
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "cunghoctienganh_4909ad74_a335+mrhungddddh_9b1deaac_4565_48f2+mrhungddddh_fe499423_02f3_4cfd",
+      "triple_score": 57.90795497894283,
+      "triple_feasible": false,
+      "pair_scores": [
+        48.84545021057125,
+        57.90795497894283,
+        57.90795497894283
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    },
+    {
+      "adapters": "duyphu_0112d9da_9934_4614_b233+mrhungddddh_fe499423_02f3_4cfd+mrhunghd_9e58333c_df22_4a00_9c",
+      "triple_score": 42.73749999999996,
+      "triple_feasible": false,
+      "pair_scores": [
+        42.73749999999996,
+        42.73749999999996,
+        34.20529775619503
+      ],
+      "all_pairs_feasible": false,
+      "helly_event": false
+    }
+  ],
+  "n_unique_triples": 50
+}

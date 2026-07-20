@@ -1,0 +1,404 @@
+{
+  "n_subsets_requested": 20,
+  "n_subsets_ok": 20,
+  "r_eps020_distribution": {
+    "1": 3,
+    "2": 11,
+    "3": 6
+  },
+  "r_eps010_distribution": {
+    "1": 1,
+    "2": 2,
+    "3": 14,
+    "4": 3
+  },
+  "reduction_at_eps020_per_r": {
+    "1": 1729.6,
+    "2": 108.1,
+    "3": 9.2
+  },
+  "median_r_eps020": 2,
+  "max_r_eps020": 3,
+  "rows": [
+    {
+      "subset": 0,
+      "adapters": [
+        "datlaaaaaaa_cc1f8701_0976_4f48",
+        "mrhunghd_9e58333c_df22_4a00_9c",
+        "nbninh_a1f78795_1b61_4923_9235",
+        "nhung02_08157847_d833_4d45_90f",
+        "thaffggg_8c87f3d3_d4bb_475a_a8"
+      ],
+      "r_eps010": 2,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.2657,
+        "2": 0.096,
+        "3": 0.0669,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 1,
+      "adapters": [
+        "cunghoctienganh_b7496e73_1762",
+        "denbeo_d9ae91c0_fed9_4fb4_8ddd",
+        "thaffggg_8a78a9b2_d3fa_4615_b8",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 3,
+      "resid": {
+        "0": 1.0,
+        "1": 0.5626,
+        "2": 0.2134,
+        "3": 0.0661,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 2,
+      "adapters": [
+        "nhoxinh_0c66c9c5_5cc2_46a8_9db",
+        "phungkhaccuong_2b1522e6_bef2_7",
+        "phungkhaccuong_731c6dec_a942_4",
+        "tuanna08go_7647f014_8af3_4266",
+        "versil91_121ef6e9_0ded_4fc3_8c"
+      ],
+      "r_eps010": 2,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.4631,
+        "2": 0.0709,
+        "3": 0.0266,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 3,
+      "adapters": [
+        "duyphu_0112d9da_9934_4614_b233",
+        "mrhungddddh_911f6275_22fd_4f41",
+        "nhoxinh_2f944a50_cbd3_4334_af8",
+        "taronklm_trained_model",
+        "versil91_474890ea_012d_4a25_96"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.3052,
+        "2": 0.1905,
+        "3": 0.0869,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 4,
+      "adapters": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "cunghoctienganh_c1cf0152_7ae6",
+        "datlaaaaaaa_e8cccbe1_c136_409a",
+        "hongngo_9d92894f_7b7b_49e0_8f3",
+        "tuanna08go_7647f014_8af3_4266"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 3,
+      "resid": {
+        "0": 1.0,
+        "1": 0.3983,
+        "2": 0.217,
+        "3": 0.0626,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 5,
+      "adapters": [
+        "hongngo_9d92894f_7b7b_49e0_8f3",
+        "mrhungddddh_911f6275_22fd_4f41",
+        "nhung02_db2c9545_4607_487b_9cc",
+        "versil91_121ef6e9_0ded_4fc3_8c",
+        "versil91_474890ea_012d_4a25_96"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 3,
+      "resid": {
+        "0": 1.0,
+        "1": 0.2886,
+        "2": 0.2371,
+        "3": 0.0906,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 6,
+      "adapters": [
+        "chauhoang_4909ad74_a335_4972_9",
+        "denbeo_d9ae91c0_fed9_4fb4_8ddd",
+        "laquythang_8444c3be_8779_4769",
+        "taronklm_trained_model",
+        "tuanna08go_7647f014_8af3_4266"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 3,
+      "resid": {
+        "0": 1.0,
+        "1": 0.4172,
+        "2": 0.2765,
+        "3": 0.0931,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 7,
+      "adapters": [
+        "adammandic87_f28f18cf_4abb_4db",
+        "hongngo_687b8c72_c89b_4cb7_b7c",
+        "laquythang_8444c3be_8779_4769",
+        "nhung02_08157847_d833_4d45_90f",
+        "versil91_474890ea_012d_4a25_96"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.3316,
+        "2": 0.1203,
+        "3": 0.0629,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 8,
+      "adapters": [
+        "adammandic87_f28f18cf_4abb_4db",
+        "chauhoang_2aa4f343_5524_f86e_b",
+        "laquythang_efe15045_778f_4dfa",
+        "phungkhaccuong_731c6dec_a942_4",
+        "thaffggg_8c87f3d3_d4bb_475a_a8"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.2152,
+        "2": 0.1182,
+        "3": 0.0613,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 9,
+      "adapters": [
+        "chauhoang_2aa4f343_5524_f86e_b",
+        "cunghoctienganh_4909ad74_a335",
+        "datlaaaaaaa_cc1f8701_0976_4f48",
+        "hongngo_7e251dfc_e0f7_4f73_aae",
+        "mrhungddddh_fe499423_02f3_4cfd"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.239,
+        "2": 0.1437,
+        "3": 0.0801,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 10,
+      "adapters": [
+        "datlaaaaaaa_cc1f8701_0976_4f48",
+        "mrhunghddddd_d692685b_fdb4_477",
+        "nbninh_0d8b128b_8753_46c3_b80f",
+        "nhoxinh_9214fc0d_4490_4bdd_9ff",
+        "taronklm_trained_model"
+      ],
+      "r_eps010": 1,
+      "r_eps020": 1,
+      "resid": {
+        "0": 1.0,
+        "1": 0.0692,
+        "2": 0.0281,
+        "3": 0.0113,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 11,
+      "adapters": [
+        "chauhoang_2aa4f343_5524_f86e_b",
+        "mrhunghd_9e58333c_df22_4a00_9c",
+        "nblinh63_0eb73af3_0631_437a_ad",
+        "thaffggg_8a78a9b2_d3fa_4615_b8",
+        "thaffggg_8c87f3d3_d4bb_475a_a8"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 1,
+      "resid": {
+        "0": 1.0,
+        "1": 0.1954,
+        "2": 0.1521,
+        "3": 0.0569,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 12,
+      "adapters": [
+        "cunghoctienganh_4909ad74_a335",
+        "duyphu_4909ad74_a335_4972_9ed8",
+        "duyphu_7aba420b_74ac_4209_b514",
+        "lhong4759_f68c5c87_934d_4399_b",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "r_eps010": 4,
+      "r_eps020": 3,
+      "resid": {
+        "0": 1.0,
+        "1": 0.5904,
+        "2": 0.2823,
+        "3": 0.1572,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 13,
+      "adapters": [
+        "denbeo_d9ae91c0_fed9_4fb4_8ddd",
+        "mrhungddddh_fe499423_02f3_4cfd",
+        "mrhunghd_9e58333c_df22_4a00_9c",
+        "mrhunghddddd_d692685b_fdb4_477",
+        "nhoxinh_2f944a50_cbd3_4334_af8"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.3542,
+        "2": 0.1462,
+        "3": 0.087,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 14,
+      "adapters": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "mrhunghddddd_d692685b_fdb4_477",
+        "nhung02_db2c9545_4607_487b_9cc",
+        "thaffggg_8a78a9b2_d3fa_4615_b8",
+        "versil91_474890ea_012d_4a25_96"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.5943,
+        "2": 0.1728,
+        "3": 0.0786,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 15,
+      "adapters": [
+        "cunghoctienganh_b7496e73_1762",
+        "denbeo_d9ae91c0_fed9_4fb4_8ddd",
+        "nhung02_08157847_d833_4d45_90f",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_121ef6e9_0ded_4fc3_8c"
+      ],
+      "r_eps010": 4,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.4088,
+        "2": 0.1668,
+        "3": 0.1294,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 16,
+      "adapters": [
+        "datlaaaaaaa_cc1f8701_0976_4f48",
+        "lhong4759_f68c5c87_934d_4399_b",
+        "nhoxinh_2f944a50_cbd3_4334_af8",
+        "versil91_8444c3be_8779_4769_a0",
+        "versil91_e9f26c47_9b78_4e3f_81"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.3368,
+        "2": 0.1413,
+        "3": 0.0821,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 17,
+      "adapters": [
+        "datlaaaaaaa_cc1f8701_0976_4f48",
+        "duyphu_7aba420b_74ac_4209_b514",
+        "nbninh_a1f78795_1b61_4923_9235",
+        "nbninh_c4ae10ba_efe4_401e_8dd7",
+        "phungkhaccuong_731c6dec_a942_4"
+      ],
+      "r_eps010": 4,
+      "r_eps020": 3,
+      "resid": {
+        "0": 1.0,
+        "1": 0.6661,
+        "2": 0.3128,
+        "3": 0.1329,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 18,
+      "adapters": [
+        "chauhoang_2aa4f343_5524_f86e_b",
+        "duyphu_0112d9da_9934_4614_b233",
+        "nbninh_0d8b128b_8753_46c3_b80f",
+        "nbninh_c4ae10ba_efe4_401e_8dd7",
+        "tuanna08go_c1cf0152_7ae6_43b6"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 2,
+      "resid": {
+        "0": 1.0,
+        "1": 0.4666,
+        "2": 0.137,
+        "3": 0.0816,
+        "4": 0.0
+      }
+    },
+    {
+      "subset": 19,
+      "adapters": [
+        "datlaaaaaaa_cc1f8701_0976_4f48",
+        "duyphu_0112d9da_9934_4614_b233",
+        "nblinh63_0eb73af3_0631_437a_ad",
+        "phungkhaccuong_731c6dec_a942_4",
+        "versil91_474890ea_012d_4a25_96"
+      ],
+      "r_eps010": 3,
+      "r_eps020": 1,
+      "resid": {
+        "0": 1.0,
+        "1": 0.1952,
+        "2": 0.1286,
+        "3": 0.0441,
+        "4": 0.0
+      }
+    }
+  ]
+}

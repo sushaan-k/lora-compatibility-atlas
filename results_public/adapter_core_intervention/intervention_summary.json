@@ -1,0 +1,35 @@
+{
+  "equal8": {
+    "worst_L_answer": 3.646,
+    "mean_acc": 0.631
+  },
+  "minimax_full": {
+    "worst_L_answer": 1.592,
+    "mean_acc": 0.719
+  },
+  "adapter_core_rank2": {
+    "worst_L_answer": 3.458,
+    "mean_acc": 0.675
+  },
+  "top3_minimax": {
+    "worst_L_answer": 2.9,
+    "mean_acc": 0.653
+  },
+  "random3_a": {
+    "worst_L_answer": 8.164,
+    "mean_acc": 0.625
+  },
+  "random3_b": {
+    "worst_L_answer": 9.866,
+    "mean_acc": 0.666
+  },
+  "random3_c": {
+    "worst_L_answer": 3.194,
+    "mean_acc": 0.666
+  },
+  "_random3_worst_mean": 7.075,
+  "_random3_worst_range": [
+    3.194,
+    9.866
+  ]
+}

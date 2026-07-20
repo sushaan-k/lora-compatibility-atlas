@@ -1,0 +1,344 @@
+{
+ "results": {
+  "equal8": {
+   "task190": {
+    "accuracy": 0.3,
+    "L_answer": 3.6456
+   },
+   "task1391": {
+    "accuracy": 0.55,
+    "L_answer": 2.3025
+   },
+   "task280": {
+    "accuracy": 0.575,
+    "L_answer": 2.0347
+   },
+   "task290": {
+    "accuracy": 0.7,
+    "L_answer": 0.2681
+   },
+   "task391": {
+    "accuracy": 0.675,
+    "L_answer": 0.7808
+   },
+   "task363": {
+    "accuracy": 0.825,
+    "L_answer": 0.7568
+   },
+   "task400": {
+    "accuracy": 0.725,
+    "L_answer": 0.1965
+   },
+   "task379": {
+    "accuracy": 0.7,
+    "L_answer": 1.368
+   }
+  },
+  "minimax_full": {
+   "task190": {
+    "accuracy": 0.925,
+    "L_answer": 0.2635
+   },
+   "task1391": {
+    "accuracy": 0.75,
+    "L_answer": 1.3796
+   },
+   "task280": {
+    "accuracy": 0.65,
+    "L_answer": 1.0587
+   },
+   "task290": {
+    "accuracy": 0.625,
+    "L_answer": 0.6258
+   },
+   "task391": {
+    "accuracy": 0.675,
+    "L_answer": 1.5916
+   },
+   "task363": {
+    "accuracy": 0.85,
+    "L_answer": 0.5748
+   },
+   "task400": {
+    "accuracy": 0.55,
+    "L_answer": 0.4527
+   },
+   "task379": {
+    "accuracy": 0.725,
+    "L_answer": 1.4443
+   }
+  },
+  "adapter_core_rank2": {
+   "task190": {
+    "accuracy": 0.75,
+    "L_answer": 0.6509
+   },
+   "task1391": {
+    "accuracy": 0.5,
+    "L_answer": 3.4579
+   },
+   "task280": {
+    "accuracy": 0.425,
+    "L_answer": 2.6769
+   },
+   "task290": {
+    "accuracy": 0.625,
+    "L_answer": 0.5013
+   },
+   "task391": {
+    "accuracy": 0.675,
+    "L_answer": 2.1575
+   },
+   "task363": {
+    "accuracy": 0.8,
+    "L_answer": 0.4869
+   },
+   "task400": {
+    "accuracy": 0.875,
+    "L_answer": 0.1057
+   },
+   "task379": {
+    "accuracy": 0.75,
+    "L_answer": 0.7814
+   }
+  },
+  "top3_minimax": {
+   "task190": {
+    "accuracy": 0.925,
+    "L_answer": 0.2473
+   },
+   "task1391": {
+    "accuracy": 0.45,
+    "L_answer": 2.8999
+   },
+   "task280": {
+    "accuracy": 0.675,
+    "L_answer": 0.6491
+   },
+   "task290": {
+    "accuracy": 0.65,
+    "L_answer": 0.6309
+   },
+   "task391": {
+    "accuracy": 0.6,
+    "L_answer": 2.05
+   },
+   "task363": {
+    "accuracy": 0.775,
+    "L_answer": 0.5077
+   },
+   "task400": {
+    "accuracy": 0.525,
+    "L_answer": 0.4738
+   },
+   "task379": {
+    "accuracy": 0.625,
+    "L_answer": 1.3076
+   }
+  },
+  "random3_a": {
+   "task190": {
+    "accuracy": 0.3,
+    "L_answer": 8.1642
+   },
+   "task1391": {
+    "accuracy": 0.925,
+    "L_answer": 0.3402
+   },
+   "task280": {
+    "accuracy": 0.225,
+    "L_answer": 5.2184
+   },
+   "task290": {
+    "accuracy": 0.825,
+    "L_answer": 0.1929
+   },
+   "task391": {
+    "accuracy": 0.65,
+    "L_answer": 0.7353
+   },
+   "task363": {
+    "accuracy": 0.875,
+    "L_answer": 0.5937
+   },
+   "task400": {
+    "accuracy": 0.625,
+    "L_answer": 0.2605
+   },
+   "task379": {
+    "accuracy": 0.575,
+    "L_answer": 1.9961
+   }
+  },
+  "random3_b": {
+   "task190": {
+    "accuracy": 0.275,
+    "L_answer": 9.8664
+   },
+   "task1391": {
+    "accuracy": 0.375,
+    "L_answer": 5.439
+   },
+   "task280": {
+    "accuracy": 0.9,
+    "L_answer": 0.3123
+   },
+   "task290": {
+    "accuracy": 0.625,
+    "L_answer": 0.4818
+   },
+   "task391": {
+    "accuracy": 0.75,
+    "L_answer": 0.822
+   },
+   "task363": {
+    "accuracy": 0.85,
+    "L_answer": 0.9365
+   },
+   "task400": {
+    "accuracy": 0.85,
+    "L_answer": 0.1161
+   },
+   "task379": {
+    "accuracy": 0.7,
+    "L_answer": 1.5968
+   }
+  },
+  "random3_c": {
+   "task190": {
+    "accuracy": 0.85,
+    "L_answer": 0.4007
+   },
+   "task1391": {
+    "accuracy": 0.5,
+    "L_answer": 2.9237
+   },
+   "task280": {
+    "accuracy": 0.275,
+    "L_answer": 3.1941
+   },
+   "task290": {
+    "accuracy": 0.825,
+    "L_answer": 0.1983
+   },
+   "task391": {
+    "accuracy": 0.675,
+    "L_answer": 1.3825
+   },
+   "task363": {
+    "accuracy": 0.775,
+    "L_answer": 0.6978
+   },
+   "task400": {
+    "accuracy": 0.875,
+    "L_answer": 0.0659
+   },
+   "task379": {
+    "accuracy": 0.55,
+    "L_answer": 2.6968
+   }
+  },
+  "random3_a_reopt": {
+   "task190": {
+    "accuracy": 0.3,
+    "L_answer": 7.0381
+   },
+   "task1391": {
+    "accuracy": 0.725,
+    "L_answer": 1.2278
+   },
+   "task280": {
+    "accuracy": 0.225,
+    "L_answer": 5.3352
+   },
+   "task290": {
+    "accuracy": 0.625,
+    "L_answer": 0.4408
+   },
+   "task391": {
+    "accuracy": 0.575,
+    "L_answer": 0.8478
+   },
+   "task363": {
+    "accuracy": 0.875,
+    "L_answer": 0.4621
+   },
+   "task400": {
+    "accuracy": 0.5,
+    "L_answer": 0.3336
+   },
+   "task379": {
+    "accuracy": 0.6,
+    "L_answer": 1.8875
+   }
+  },
+  "random3_b_reopt": {
+   "task190": {
+    "accuracy": 0.275,
+    "L_answer": 10.4891
+   },
+   "task1391": {
+    "accuracy": 0.425,
+    "L_answer": 4.2736
+   },
+   "task280": {
+    "accuracy": 0.475,
+    "L_answer": 3.4327
+   },
+   "task290": {
+    "accuracy": 0.625,
+    "L_answer": 0.454
+   },
+   "task391": {
+    "accuracy": 0.95,
+    "L_answer": 0.0684
+   },
+   "task363": {
+    "accuracy": 0.825,
+    "L_answer": 0.803
+   },
+   "task400": {
+    "accuracy": 0.825,
+    "L_answer": 0.1281
+   },
+   "task379": {
+    "accuracy": 0.575,
+    "L_answer": 2.9473
+   }
+  },
+  "random3_c_reopt": {
+   "task190": {
+    "accuracy": 0.95,
+    "L_answer": 0.2626
+   },
+   "task1391": {
+    "accuracy": 0.525,
+    "L_answer": 2.6014
+   },
+   "task280": {
+    "accuracy": 0.225,
+    "L_answer": 3.3303
+   },
+   "task290": {
+    "accuracy": 0.8,
+    "L_answer": 0.2217
+   },
+   "task391": {
+    "accuracy": 0.675,
+    "L_answer": 1.516
+   },
+   "task363": {
+    "accuracy": 0.775,
+    "L_answer": 0.6054
+   },
+   "task400": {
+    "accuracy": 0.85,
+    "L_answer": 0.0929
+   },
+   "task379": {
+    "accuracy": 0.525,
+    "L_answer": 2.6808
+   }
+  }
+ }
+}

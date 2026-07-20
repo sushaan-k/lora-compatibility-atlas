@@ -1,0 +1,242 @@
+{
+  "adapters": [
+    {
+      "name": "sciq",
+      "probe_key": "sciq",
+      "repo": "EleutherAI/pythia-410m-sciq",
+      "task": "sciq"
+    },
+    {
+      "name": "population",
+      "probe_key": "population",
+      "repo": "EleutherAI/pythia-410m-population",
+      "task": "population"
+    },
+    {
+      "name": "capitals",
+      "probe_key": "capitals",
+      "repo": "EleutherAI/pythia-410m-capitals",
+      "task": "capitals"
+    },
+    {
+      "name": "hemisphere",
+      "probe_key": "hemisphere",
+      "repo": "EleutherAI/pythia-410m-hemisphere",
+      "task": "hemisphere"
+    },
+    {
+      "name": "nli",
+      "probe_key": "nli",
+      "repo": "EleutherAI/pythia-410m-nli",
+      "task": "nli"
+    },
+    {
+      "name": "authors",
+      "probe_key": "authors",
+      "repo": "EleutherAI/pythia-410m-authors",
+      "task": "authors"
+    },
+    {
+      "name": "addition",
+      "probe_key": "addition_increment0",
+      "repo": "EleutherAI/pythia-410m-addition_increment0",
+      "task": "addition_increment0"
+    },
+    {
+      "name": "subtraction",
+      "probe_key": "subtraction_increment0",
+      "repo": "EleutherAI/pythia-410m-subtraction_increment0",
+      "task": "subtraction_increment0"
+    },
+    {
+      "name": "multiplication",
+      "probe_key": "multiplication_increment0",
+      "repo": "EleutherAI/pythia-410m-multiplication_increment0",
+      "task": "multiplication_increment0"
+    },
+    {
+      "name": "modadd",
+      "probe_key": "modularaddition_increment0",
+      "repo": "EleutherAI/pythia-410m-modularaddition_increment0",
+      "task": "modularaddition_increment0"
+    }
+  ],
+  "base_model": "EleutherAI/pythia-410m",
+  "density": 0.5,
+  "device_map": "auto",
+  "dtype": "bfloat16",
+  "experiment_id": "pythia410m_10x",
+  "license_policy": {
+    "adapter_license": "apache-2.0",
+    "allowed_machine_readable_licenses": [
+      "apache-2.0",
+      "mit"
+    ],
+    "base_model_license": "apache-2.0",
+    "weights_redistributed": false
+  },
+  "max_length": 384,
+  "merge_methods": [
+    "linear",
+    "ties",
+    "dare_ties",
+    "magnitude_prune"
+  ],
+  "min_single_adapter_gain": 0.005,
+  "pair_min_weight": 0.2,
+  "pair_step": 0.2,
+  "probes": {
+    "addition_increment0": {
+      "calibration": [
+        "Compute 17 + 28.",
+        "Compute 54 + 19.",
+        "Compute 103 + 46.",
+        "Compute 88 + 12."
+      ],
+      "heldout": [
+        "Compute 23 + 49.",
+        "Compute 76 + 18.",
+        "Compute 131 + 27.",
+        "Compute 92 + 35."
+      ]
+    },
+    "authors": {
+      "calibration": [
+        "Who wrote Pride and Prejudice?",
+        "Who wrote The Hobbit?",
+        "Who wrote Hamlet?",
+        "Who wrote Frankenstein?"
+      ],
+      "heldout": [
+        "Who wrote 1984?",
+        "Who wrote Moby-Dick?",
+        "Who wrote Jane Eyre?",
+        "Who wrote The Odyssey?"
+      ]
+    },
+    "capitals": {
+      "calibration": [
+        "Question: What is the capital of France?",
+        "Question: What is the capital of Japan?",
+        "Question: What is the capital of Canada?",
+        "Question: What is the capital of Kenya?"
+      ],
+      "heldout": [
+        "Question: What is the capital of Italy?",
+        "Question: What is the capital of Australia?",
+        "Question: What is the capital of Chile?",
+        "Question: What is the capital of Morocco?"
+      ]
+    },
+    "hemisphere": {
+      "calibration": [
+        "Is Argentina mostly in the Northern or Southern Hemisphere?",
+        "Is Norway mostly in the Northern or Southern Hemisphere?",
+        "Is South Africa mostly in the Northern or Southern Hemisphere?",
+        "Is Mexico mostly in the Northern or Southern Hemisphere?"
+      ],
+      "heldout": [
+        "Is Australia mostly in the Northern or Southern Hemisphere?",
+        "Is Canada mostly in the Northern or Southern Hemisphere?",
+        "Is New Zealand mostly in the Northern or Southern Hemisphere?",
+        "Is Egypt mostly in the Northern or Southern Hemisphere?"
+      ]
+    },
+    "modularaddition_increment0": {
+      "calibration": [
+        "Compute (7 + 9) modulo 10.",
+        "Compute (13 + 8) modulo 10.",
+        "Compute (24 + 19) modulo 10.",
+        "Compute (31 + 12) modulo 10."
+      ],
+      "heldout": [
+        "Compute (6 + 8) modulo 10.",
+        "Compute (17 + 25) modulo 10.",
+        "Compute (42 + 11) modulo 10.",
+        "Compute (29 + 34) modulo 10."
+      ]
+    },
+    "multiplication_increment0": {
+      "calibration": [
+        "Compute 7 times 8.",
+        "Compute 12 times 9.",
+        "Compute 15 times 6.",
+        "Compute 11 times 11."
+      ],
+      "heldout": [
+        "Compute 9 times 9.",
+        "Compute 14 times 5.",
+        "Compute 13 times 7.",
+        "Compute 16 times 4."
+      ]
+    },
+    "nli": {
+      "calibration": [
+        "Premise: A child is playing piano. Hypothesis: Someone is making music. Is this entailed?",
+        "Premise: The street is empty. Hypothesis: There are many cars on the street. Is this contradicted?",
+        "Premise: A chef chops onions. Hypothesis: A person is preparing food. Is this entailed?",
+        "Premise: The dog is asleep. Hypothesis: The dog is running outside. Is this contradicted?"
+      ],
+      "heldout": [
+        "Premise: A student reads a textbook. Hypothesis: Someone is studying. Is this entailed?",
+        "Premise: The room is dark. Hypothesis: The lights are on. Is this contradicted?",
+        "Premise: A cyclist wears a helmet. Hypothesis: A person is riding safely. Is this entailed?",
+        "Premise: The cup is full. Hypothesis: The cup is empty. Is this contradicted?"
+      ]
+    },
+    "population": {
+      "calibration": [
+        "Estimate which city has a larger population: Tokyo or Oslo.",
+        "Rank these countries by population: Canada, India, Iceland.",
+        "Which is more populous, Brazil or Portugal?",
+        "Explain why population estimates change over time."
+      ],
+      "heldout": [
+        "Estimate which city has a larger population: Cairo or Reykjavik.",
+        "Rank these countries by population: China, Norway, Chile.",
+        "Which is more populous, Mexico or Belgium?",
+        "Explain why census and estimate numbers may differ."
+      ]
+    },
+    "sciq": {
+      "calibration": [
+        "Science question: What process lets plants convert sunlight into chemical energy?",
+        "Science question: Which force keeps planets in orbit around the Sun?",
+        "Science question: What gas do humans exhale after respiration?",
+        "Science question: What organ pumps blood through the human body?"
+      ],
+      "heldout": [
+        "Science question: What particle has a negative electric charge?",
+        "Science question: What is the freezing point of water in Celsius?",
+        "Science question: Which layer of Earth contains tectonic plates?",
+        "Science question: What molecule carries genetic information in cells?"
+      ]
+    },
+    "subtraction_increment0": {
+      "calibration": [
+        "Compute 83 - 27.",
+        "Compute 120 - 45.",
+        "Compute 91 - 36.",
+        "Compute 64 - 18."
+      ],
+      "heldout": [
+        "Compute 74 - 29.",
+        "Compute 150 - 63.",
+        "Compute 98 - 41.",
+        "Compute 57 - 22."
+      ]
+    }
+  },
+  "project_psd": true,
+  "project_quadratic_hessian_psd": true,
+  "prompt_limit_per_split": 4,
+  "quantization": "4bit",
+  "query_design": "full_support_continuous_certificate",
+  "retention_threshold": 0.7,
+  "seed": 20260504,
+  "shuffle_queries": false,
+  "solve_continuous_certificate": true,
+  "tokenizer_model": "EleutherAI/pythia-410m",
+  "triple_min_weight": 0.2,
+  "triple_step": 0.2
+}

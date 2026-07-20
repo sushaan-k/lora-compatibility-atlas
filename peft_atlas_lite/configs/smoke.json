@@ -1,0 +1,80 @@
+{
+  "adapters": [
+    {
+      "name": "conversation",
+      "probe_key": "conversation",
+      "repo": "mogaio/tinyllama-con-lora",
+      "task": "conversation"
+    },
+    {
+      "name": "gsm8k",
+      "probe_key": "math_reasoning",
+      "repo": "philimon/TinyLlama-gsm8k-lora",
+      "task": "math_reasoning"
+    },
+    {
+      "name": "textsql",
+      "probe_key": "sql_generation",
+      "repo": "tushkulange/tinyllama-text-to-sql-lora",
+      "task": "sql_generation"
+    }
+  ],
+  "base_model": "PY007/TinyLlama-1.1B-Chat-v0.3",
+  "density": 0.5,
+  "device_map": "auto",
+  "dtype": "bfloat16",
+  "experiment_id": "tinyllama_smoke",
+  "max_length": 384,
+  "merge_methods": [
+    "linear",
+    "ties",
+    "dare_ties",
+    "magnitude_prune"
+  ],
+  "min_single_adapter_gain": 0.005,
+  "pair_min_weight": 0.2,
+  "pair_step": 0.2,
+  "probes": {
+    "conversation": [
+      "I had a stressful day and need a simple plan for tonight.",
+      "Can you help me write a friendly message to reschedule a meeting?",
+      "Explain in plain language why sleep matters for learning.",
+      "Give me three questions to ask before starting a new project.",
+      "How should I politely disagree with a teammate?",
+      "Make a short checklist for preparing for a job interview.",
+      "What is a good way to organize my notes for a class?",
+      "Help me respond kindly to a friend who is upset."
+    ],
+    "math_reasoning": [
+      "If a train travels 60 miles in 90 minutes, what is its average speed in mph? Show steps.",
+      "A store discounts a $80 jacket by 25%. What is the sale price? Show steps.",
+      "If 3 notebooks cost $7.50, how much do 8 notebooks cost at the same rate?",
+      "Maria has 12 apples and gives away one third. How many are left?",
+      "A rectangle has width 5 and area 45. What is its length?",
+      "If a recipe for 4 people uses 2 cups of rice, how much for 10 people?",
+      "What is 18% of 250? Show a quick method.",
+      "A car uses 3 gallons for 75 miles. How many gallons for 200 miles?"
+    ],
+    "sql_generation": [
+      "Write SQL to count orders by customer_id from a table named orders.",
+      "Write a SQL query selecting employees with salary above 100000 from employees.",
+      "Write SQL to join users and purchases on user_id and return user email and purchase total.",
+      "Write SQL to find the average rating per product_id from reviews.",
+      "Write SQL to list the top 5 cities by number of customers.",
+      "Write SQL to delete rows from sessions older than 30 days.",
+      "Write SQL to create an index on orders(created_at).",
+      "Write SQL to group support tickets by status and count them."
+    ]
+  },
+  "project_psd": true,
+  "prompt_limit_per_split": 4,
+  "quantization": "4bit",
+  "query_design": "full_support_continuous_certificate",
+  "retention_threshold": 0.7,
+  "seed": 20260503,
+  "shuffle_queries": false,
+  "solve_continuous_certificate": true,
+  "tokenizer_model": "PY007/TinyLlama-1.1B-Chat-v0.3",
+  "triple_min_weight": 0.2,
+  "triple_step": 0.2
+}

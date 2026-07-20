@@ -1,0 +1,18 @@
+events=4000  adapters=50  feasible=1365
+
+point estimates (must match paper):
+  dare_ties    AUROC 0.761
+  linear       AUROC 0.894
+  magnitude_prune AUROC 0.847
+  ties         AUROC 0.793
+  pooled       AUROC 0.822
+  20% budget: recall 0.455 precision 0.776
+
+pigeonhole bootstrap, B=2000, 95% percentile intervals:
+  dare_ties    [0.673, 0.835]  (excludes 0.5: True)
+  linear       [0.821, 0.946]  (excludes 0.5: True)
+  magnitude_prune [0.758, 0.918]  (excludes 0.5: True)
+  ties         [0.691, 0.883]  (excludes 0.5: True)
+  pooled       [0.748, 0.884]  (excludes 0.5: True)
+  20%-budget recall    [0.342, 0.596]
+  20%-budget precision [0.608, 0.913]

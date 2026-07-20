@@ -1,0 +1,147 @@
+{
+  "experiment_id": "shared_chart_decision_tinyllama8",
+  "base_model": "PY007/TinyLlama-1.1B-Chat-v0.3",
+  "tokenizer_model": "PY007/TinyLlama-1.1B-Chat-v0.3",
+  "dtype": "bfloat16",
+  "quantization": "none",
+  "device_map": "auto",
+  "max_length": 384,
+  "retention_threshold": 0.7,
+  "min_single_adapter_gain": 0.005,
+  "density": 0.5,
+  "project_psd": true,
+  "seed": 20260503,
+  "_note": "8 task-diverse TinyLlama adapters on ONE shared 7-simplex; task-specific probes give a meaningful retention target (Experiment B-2).",
+  "adapters": [
+    {
+      "name": "conversation",
+      "probe_key": "conversation",
+      "repo": "mogaio/tinyllama-con-lora",
+      "task": "conversation"
+    },
+    {
+      "name": "colorist",
+      "probe_key": "color_advice",
+      "repo": "jashing/tinyllama-colorist-lora",
+      "task": "color_advice"
+    },
+    {
+      "name": "physics",
+      "probe_key": "physics",
+      "repo": "aloobun/tinyllama-physics-lora_1",
+      "task": "physics"
+    },
+    {
+      "name": "empathy",
+      "probe_key": "empathetic_conversation",
+      "repo": "mogaio/TinyLlama-con-emp-lora-ada",
+      "task": "empathetic_conversation"
+    },
+    {
+      "name": "creative",
+      "probe_key": "creative_writing",
+      "repo": "mogaio/TinyLlama-con-creative-writing-lora-ada",
+      "task": "creative_writing"
+    },
+    {
+      "name": "docker",
+      "probe_key": "docker",
+      "repo": "philimon/tinyllama-docker-lora",
+      "task": "docker"
+    },
+    {
+      "name": "gsm8k",
+      "probe_key": "math_reasoning",
+      "repo": "philimon/TinyLlama-gsm8k-lora",
+      "task": "math_reasoning"
+    },
+    {
+      "name": "textsql",
+      "probe_key": "sql_generation",
+      "repo": "tushkulange/tinyllama-text-to-sql-lora",
+      "task": "sql_generation"
+    }
+  ],
+  "probes": {
+    "conversation": [
+      "I had a stressful day and need a simple plan for tonight.",
+      "Can you help me write a friendly message to reschedule a meeting?",
+      "Explain in plain language why sleep matters for learning.",
+      "Give me three questions to ask before starting a new project.",
+      "How should I politely disagree with a teammate?",
+      "Make a short checklist for preparing for a job interview.",
+      "What is a good way to organize my notes for a class?",
+      "Help me respond kindly to a friend who is upset."
+    ],
+    "color_advice": [
+      "Suggest a calm color palette for a meditation app.",
+      "Pick three accent colors for a bakery logo and explain the mood.",
+      "Recommend wall colors for a small home office with little sunlight.",
+      "Create a color palette for an eco-friendly cleaning brand.",
+      "Explain why blue and orange can work well together in a poster.",
+      "Suggest colors for a children's science fair booth.",
+      "Choose a high-contrast palette for a dashboard warning state.",
+      "Recommend brand colors for a premium coffee subscription."
+    ],
+    "physics": [
+      "Explain Newton's third law with a skateboard example.",
+      "Solve conceptually why a heavier and lighter ball fall similarly in vacuum.",
+      "Describe conservation of momentum in a two-cart collision.",
+      "Explain the difference between speed and velocity.",
+      "Give an intuitive explanation of electric current.",
+      "Explain why pressure increases underwater.",
+      "Describe why a pendulum slows down in air.",
+      "Explain kinetic and potential energy using a roller coaster."
+    ],
+    "empathetic_conversation": [
+      "I feel overwhelmed by school and do not know where to start.",
+      "My friend cancelled plans again and I feel hurt.",
+      "I made a mistake at work and I am embarrassed.",
+      "I am nervous before a presentation tomorrow.",
+      "I feel left out of a group chat.",
+      "I am trying to build a habit but keep failing.",
+      "I got disappointing feedback and need perspective.",
+      "I am worried about asking for help."
+    ],
+    "creative_writing": [
+      "Write an opening paragraph about a lighthouse that receives a message in a bottle.",
+      "Write a short scene where two rivals must share an umbrella.",
+      "Create a vivid description of a market at dawn.",
+      "Write a poem about a train leaving a quiet town.",
+      "Draft a fantasy premise involving a library of weather.",
+      "Write dialogue between a chef and a time traveler.",
+      "Describe a mysterious door in an ordinary apartment.",
+      "Write a micro-story about a lost key and a garden."
+    ],
+    "docker": [
+      "Explain what a Docker image is in simple terms.",
+      "Write a basic Dockerfile for a Python web app.",
+      "Explain the difference between a container and a virtual machine.",
+      "Give commands to build and run a Docker image locally.",
+      "Describe how Docker volumes persist data.",
+      "Explain why .dockerignore can speed up builds.",
+      "Write a docker compose service for a Redis container.",
+      "List common reasons a container exits immediately."
+    ],
+    "math_reasoning": [
+      "If a train travels 60 miles in 90 minutes, what is its average speed in mph? Show steps.",
+      "A store discounts a $80 jacket by 25%. What is the sale price? Show steps.",
+      "If 3 notebooks cost $7.50, how much do 8 notebooks cost at the same rate?",
+      "Maria has 12 apples and gives away one third. How many are left?",
+      "A rectangle has width 5 and area 45. What is its length?",
+      "If a recipe for 4 people uses 2 cups of rice, how much for 10 people?",
+      "What is 18% of 250? Show a quick method.",
+      "A car uses 3 gallons for 75 miles. How many gallons for 200 miles?"
+    ],
+    "sql_generation": [
+      "Write SQL to count orders by customer_id from a table named orders.",
+      "Write a SQL query selecting employees with salary above 100000 from employees.",
+      "Write SQL to join users and purchases on user_id and return user email and purchase total.",
+      "Write SQL to find the average rating per product_id from reviews.",
+      "Write SQL to list the top 5 cities by number of customers.",
+      "Write SQL to delete rows from sessions older than 30 days.",
+      "Write SQL to create an index on orders(created_at).",
+      "Write SQL to group support tickets by status and count them."
+    ]
+  }
+}

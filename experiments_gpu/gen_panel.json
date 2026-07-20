@@ -1,0 +1,31 @@
+{
+ "_note": "C3 generative boundary panel: 4 short-answer free-form NI tasks (trivia/analogy/math/quartz), Mistral adapters. Scored by normalized exact-match + token-F1 on generated answers.",
+ "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+ "dtype": "bfloat16",
+ "max_length": 384,
+ "max_new_tokens": 10,
+ "n_items": 40,
+ "seed": 5,
+ "adapters": [
+  {
+   "name": "task1564",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1564",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1564.json"
+  },
+  {
+   "name": "task1152",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1152",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1152.json"
+  },
+  {
+   "name": "task835",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task835",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task835.json"
+  },
+  {
+   "name": "task1731",
+   "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1731",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1731.json"
+  }
+ ]
+}

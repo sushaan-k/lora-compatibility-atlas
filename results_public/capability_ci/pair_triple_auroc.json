@@ -1,0 +1,105 @@
+{
+ "tau": 0.7,
+ "description": "Pair-only vs triple-only screening AUROC/AUPRC for the answer-token capability panels. Pairs are on the poised fit design; triples are off-design extrapolation. AUROC and AUPRC are the capability_dependence_ci / expD and peft_atlas_lite definitions; both are null (undefined) for single-class buckets.",
+ "auprc_definition": "step-wise average precision (auc_pr, peft_atlas_lite/run_peft_atlas_lite.py)",
+ "panels": {
+  "mistral_m16_linear": {
+   "label": "Mistral-7B m=16 linear",
+   "results_dir": "results_public/scale_m16",
+   "tau": 0.7,
+   "n_adapters": 16,
+   "buckets": {
+    "combined": {
+     "n_subsets": 240,
+     "n_feasible": 200,
+     "n_infeasible": 40,
+     "feasible_rate": 0.8333333333333334,
+     "auroc": 0.99275,
+     "auprc": 0.9986153501413931,
+     "single_class": false,
+     "auroc_undefined": false,
+     "auprc_undefined": false
+    },
+    "pairs": {
+     "n_subsets": 120,
+     "n_feasible": 106,
+     "n_infeasible": 14,
+     "feasible_rate": 0.8833333333333333,
+     "auroc": 0.9905660377358491,
+     "auprc": 0.9988013294868934,
+     "single_class": false,
+     "auroc_undefined": false,
+     "auprc_undefined": false
+    },
+    "triples": {
+     "n_subsets": 120,
+     "n_feasible": 94,
+     "n_infeasible": 26,
+     "feasible_rate": 0.7833333333333333,
+     "auroc": 0.9971358428805237,
+     "auprc": 0.9992000637585613,
+     "single_class": false,
+     "auroc_undefined": false,
+     "auprc_undefined": false
+    }
+   },
+   "published_crosscheck": {
+    "auroc_pooled_published": 0.99275,
+    "auroc_pairs_published": 0.9905660377358491,
+    "auroc_triples_published": 0.9971358428805237,
+    "reproduces_pooled": true,
+    "reproduces_pairs": true,
+    "reproduces_triples": true
+   }
+  },
+  "mistral_m8_linear": {
+   "label": "Mistral-7B m=8 linear",
+   "results_dir": "results_public/answer_panel_m8",
+   "tau": 0.7,
+   "n_adapters": 8,
+   "buckets": {
+    "combined": {
+     "n_subsets": 84,
+     "n_feasible": 80,
+     "n_infeasible": 4,
+     "feasible_rate": 0.9523809523809523,
+     "auroc": 0.98125,
+     "auprc": 0.9990679957175532,
+     "single_class": false,
+     "auroc_undefined": false,
+     "auprc_undefined": false
+    },
+    "pairs": {
+     "n_subsets": 28,
+     "n_feasible": 28,
+     "n_infeasible": 0,
+     "feasible_rate": 1.0,
+     "auroc": null,
+     "auprc": 1.0,
+     "single_class": true,
+     "auroc_undefined": true,
+     "auprc_undefined": false
+    },
+    "triples": {
+     "n_subsets": 56,
+     "n_feasible": 52,
+     "n_infeasible": 4,
+     "feasible_rate": 0.9285714285714286,
+     "auroc": 0.9807692307692307,
+     "auprc": 0.9985408528960565,
+     "single_class": false,
+     "auroc_undefined": false,
+     "auprc_undefined": false
+    }
+   },
+   "published_crosscheck": {
+    "auroc_pooled_published": 0.98125,
+    "auroc_pairs_published": null,
+    "auroc_triples_published": 0.9807692307692307,
+    "reproduces_pooled": true,
+    "reproduces_pairs": true,
+    "reproduces_triples": true
+   }
+  }
+ }
+}

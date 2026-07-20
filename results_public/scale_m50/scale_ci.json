@@ -1,0 +1,45 @@
+{
+ "panel": "Mistral-7B m=50 linear",
+ "tau": 0.7,
+ "n_subsets": 1096,
+ "n_scored_tasks": 44,
+ "excluded_tasks": [
+  "task484",
+  "task903",
+  "task211",
+  "task1538",
+  "task1640",
+  "task265"
+ ],
+ "published_reproduced": {
+  "auroc_pooled": 0.9454567721392522,
+  "auroc_triples": 0.944998575092619,
+  "fidelity_triples_pooled": 0.8481945427846049
+ },
+ "loao_auroc_pooled": {
+  "min": 0.9372010813058848,
+  "max": 0.9575340703578428,
+  "n_defined": 44,
+  "n_undefined": 0
+ },
+ "adapter_block_bootstrap": {
+  "auroc_pooled": {
+   "n_valid": 2000,
+   "median": 0.9479732658929818,
+   "ci_lo_2.5": 0.8871058867489502,
+   "ci_hi_97.5": 0.9830746822645599
+  },
+  "auroc_triples": {
+   "n_valid": 1993,
+   "median": 0.958517380449395,
+   "ci_lo_2.5": 0.7755080213903743,
+   "ci_hi_97.5": 1.0
+  },
+  "fidelity_triples_pooled": {
+   "n_valid": 2000,
+   "median": 0.8501168026607335,
+   "ci_lo_2.5": 0.616336172292293,
+   "ci_hi_97.5": 0.9543451025072369
+  }
+ }
+}

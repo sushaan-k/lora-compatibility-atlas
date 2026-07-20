@@ -1,0 +1,154 @@
+{
+  "adapter_count": 12,
+  "base_losses": {
+    "calibration": {
+      "brainstorming": 4.515052914619446,
+      "colorist": 4.285833716392517,
+      "company": 4.04324609041214,
+      "conversation": 3.6020044684410095,
+      "creative": 4.208860397338867,
+      "docker": 4.49594259262085,
+      "empathy": 4.2760016322135925,
+      "energy": 3.9552769660949707,
+      "flex": 4.472393095493317,
+      "gsm8k": 3.311130464076996,
+      "physics": 3.9379900097846985,
+      "textsql": 4.21440064907074
+    },
+    "heldout": {
+      "brainstorming": 4.397770166397095,
+      "colorist": 4.050611734390259,
+      "company": 4.114787042140961,
+      "conversation": 3.6697301268577576,
+      "creative": 4.122421383857727,
+      "docker": 3.608964443206787,
+      "empathy": 4.010264694690704,
+      "energy": 4.210970163345337,
+      "flex": 4.367824733257294,
+      "gsm8k": 3.619217097759247,
+      "physics": 4.144506335258484,
+      "textsql": 3.6529951095581055
+    }
+  },
+  "base_model": "PY007/TinyLlama-1.1B-Chat-v0.3",
+  "best_method": "linear",
+  "best_metrics": {
+    "auprc": 0.43843438538205975,
+    "auroc": 0.9565602836879432,
+    "feasible_rate": 0.013986013986013986,
+    "mean_coefficient_regret": 1.9003805940712055,
+    "top_quartile_enrichment": 3.972222222222222
+  },
+  "error_count": 0,
+  "evaluation_split_counts": {
+    "brainstorming": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "colorist": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "company": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "conversation": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "creative": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "docker": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "empathy": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "energy": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "flex": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "gsm8k": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "physics": {
+      "calibration": 4,
+      "heldout": 4
+    },
+    "textsql": {
+      "calibration": 4,
+      "heldout": 4
+    }
+  },
+  "experiment_id": "tinyllama_v03_public_peft_atlas_strong_fullsupport_12x_v1_tau0p85_seed20260429",
+  "feasible_count": 4,
+  "full_support_feasible_count": 4,
+  "full_support_pair_feasible_count": 2,
+  "full_support_triple_feasible_count": 2,
+  "host": "anonymized",
+  "metrics_by_method": {
+    "linear": {
+      "auprc": 0.43843438538205975,
+      "auroc": 0.9565602836879432,
+      "feasible_rate": 0.013986013986013986,
+      "mean_coefficient_regret": 1.9003805940712055,
+      "top_quartile_enrichment": 3.972222222222222
+    }
+  },
+  "pair_count": 66,
+  "platform": "recorded in source run; see requirements",
+  "result_count": 286,
+  "result_sentence": "The public PEFT atlas-lite run evaluated 286 completed queries over 12 adapters with 0 errors; it isolated 4 feasible subsets at a 0.014 feasible base rate, including 2 full-support feasible pairs and 2 full-support feasible triples. The best merge method was linear with AUROC 0.957, AUPRC 0.438, and top-quartile enrichment 3.972.",
+  "single_losses": {
+    "calibration": {
+      "brainstorming": 4.6337597370147705,
+      "colorist": 4.546935439109802,
+      "company": 4.5135791301727295,
+      "conversation": 3.5299147367477417,
+      "creative": 4.344867944717407,
+      "docker": 4.915058672428131,
+      "empathy": 4.120239198207855,
+      "energy": 4.179393768310547,
+      "flex": 5.221437215805054,
+      "gsm8k": 3.449411928653717,
+      "physics": 4.578952312469482,
+      "textsql": 4.0312381982803345
+    },
+    "heldout": {
+      "brainstorming": 4.520681619644165,
+      "colorist": 4.398878991603851,
+      "company": 4.501465559005737,
+      "conversation": 3.7226242423057556,
+      "creative": 4.209171175956726,
+      "docker": 3.886025130748749,
+      "empathy": 3.8386664390563965,
+      "energy": 4.495952010154724,
+      "flex": 4.981425166130066,
+      "gsm8k": 3.675672471523285,
+      "physics": 4.6584392786026,
+      "textsql": 3.635136127471924
+    }
+  },
+  "started_at": "2026-04-26T21:30:28Z",
+  "status": "completed",
+  "triple_count": 220,
+  "triple_obstructions": 0,
+  "versions": {
+    "accelerate": "1.13.0",
+    "bitsandbytes": "0.49.2",
+    "numpy": "2.2.6",
+    "peft": "0.19.1",
+    "torch": "2.11.0",
+    "transformers": "5.6.2"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_note": "Experiment A final: 5 answer-bearing classification tasks from the released Mistral-7B panel (Lots-of-LoRAs / Natural Instructions). Task JSONs are fixed-seed shuffled so the first 40 held-out items are label-mixed. NI task190 file contains labels C/N only; task290 is naturally 80/20 skewed. Regexes ordered so multi-word negative labels match before their substrings.",
+  "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+  "dtype": "bfloat16",
+  "max_length": 384,
+  "max_new_tokens": 6,
+  "n_items": 40,
+  "n_merges_per_task": 12,
+  "seed": 5,
+  "adapters": [
+    {
+      "name": "task190",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task190",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task190.json",
+      "answer_regex": "\\b([ECN])\\b"
+    },
+    {
+      "name": "task1391",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1391",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task1391.json",
+      "answer_regex": "\\b([AB])\\b"
+    },
+    {
+      "name": "task280",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task280",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task280.json",
+      "answer_regex": "\\b(RACE|PROFESSION|GENDER|RELIGION)\\b"
+    },
+    {
+      "name": "task290",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task290",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task290.json",
+      "answer_regex": "\\b(NOT ANSWERABLE|ANSWERABLE)\\b"
+    },
+    {
+      "name": "task391",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task391",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task391.json",
+      "answer_regex": "\\b(NOT PLAUSIBLE|PLAUSIBLE)\\b"
+    }
+  ]
+}

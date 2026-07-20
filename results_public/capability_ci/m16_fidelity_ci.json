@@ -1,0 +1,16 @@
+{
+ "triple_r_published": 0.9567195550334567,
+ "triple_r_recomputed": 0.9567195550334568,
+ "n_triple_members": 360,
+ "loo_range": [
+  0.8579380268743101,
+  0.9653969932964278
+ ],
+ "n_loo": 16,
+ "adapter_block_bootstrap": {
+  "n_valid": 2000,
+  "median": 0.9559559666735562,
+  "ci_lo_2.5": 0.7485083636916682,
+  "ci_hi_97.5": 0.9845292452873723
+ }
+}

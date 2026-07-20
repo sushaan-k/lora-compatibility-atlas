@@ -1,0 +1,1605 @@
+{
+  "r": 1,
+  "core_order_rplus1": 2,
+  "full_core_order": 8,
+  "shared_projector_strict_max_residual": 0.6851238006144909,
+  "n_queries": 126,
+  "query_sizes": [
+    4,
+    5
+  ],
+  "mean_abs_score_error": 0.0005587464169731646,
+  "max_abs_score_error": 0.021980789177688198,
+  "per_tau_decision_preservation": [
+    {
+      "tau": 0.55,
+      "decision_preserved_frac": 1.0
+    },
+    {
+      "tau": 0.65,
+      "decision_preserved_frac": 1.0
+    },
+    {
+      "tau": 0.7,
+      "decision_preserved_frac": 1.0
+    },
+    {
+      "tau": 0.75,
+      "decision_preserved_frac": 1.0
+    },
+    {
+      "tau": 0.85,
+      "decision_preserved_frac": 1.0
+    }
+  ],
+  "queries": [
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "docker"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125455877,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 7.91033905045424e-15
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "colorist"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125456106,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.0200174038743626e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726443354,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.0946664541776627e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125456106,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.0200174038743626e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "colorist"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125455877,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 7.91033905045424e-15
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726510793,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.1027235508341846e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125455877,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 7.91033905045424e-15
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "colorist",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "colorist",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654372638312,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.088643147324376e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "colorist",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125456106,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.0200174038743626e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726405326,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.0908635933736264e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654372639975,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.0903060532484474e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "colorist"
+      ],
+      "size": 4,
+      "rho_full": -0.40159773550941885,
+      "rho_rplus1": -0.42357852468710705,
+      "abs_err": 0.021980789177688198
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.22279085400261595,
+      "rho_rplus1": -0.22388526358141242,
+      "abs_err": 0.0010944095787964736
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705847843,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 3.642849910612256e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.3600686091551333,
+      "rho_rplus1": -0.3603995081977473,
+      "abs_err": 0.00033089904261401903
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "colorist",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.25886943211401214,
+      "rho_rplus1": -0.25939806410744726,
+      "abs_err": 0.0005286319934351136
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "colorist",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705676792,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 1.8010246072286407e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "colorist",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.360068609155976,
+      "rho_rplus1": -0.3603995081977473,
+      "abs_err": 0.00033089904177130425
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705993403,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 4.96713781217295e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.22090603168575523,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 0.0009171953238217012
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705832834,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 3.361443068339298e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "colorist",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.22279085400261595,
+      "rho_rplus1": -0.22388526358141242,
+      "abs_err": 0.0010944095787964736
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "colorist",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654370551458,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 3.102379464436922e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "colorist",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.36039950824452816,
+      "rho_rplus1": -0.3603995081977473,
+      "abs_err": 4.678085696596668e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.2159097455158079,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 0.005913481493769024
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654370624311,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 7.595521434033969e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705993403,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 4.96713781217295e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.2209060316857489,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 0.0009171953238280295
+    },
+    {
+      "members": [
+        "gsm8k",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705537147,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 4.0457220906731095e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705993403,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 4.96713781217295e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "colorist"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975264591,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 3.833044992518353e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975268787,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 4.252570517948584e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654372636339,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.0879832585141145e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975234235,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 7.974176874370187e-14
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "colorist",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975272745,
+      "rho_rplus1": -0.11078496975250449,
+      "abs_err": 2.2296053892034706e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "colorist",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726429733,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 2.0918974885653085e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "colorist",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975258781,
+      "rho_rplus1": -0.11078496975249616,
+      "abs_err": 9.164891068280667e-14
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726345686,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 2.083492753324201e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975272745,
+      "rho_rplus1": -0.11078496975249616,
+      "abs_err": 2.3128721160503574e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726426316,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 2.091555748040541e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "colorist",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975233648,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 7.387146450099635e-14
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "colorist",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654372635774,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.0874180856056412e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "colorist",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975268415,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 4.215378046623641e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726335607,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.08520492539499e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975268787,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 4.252570517948584e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654372636339,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.0879832585141145e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726366246,
+      "rho_rplus1": -0.028626543705613582,
+      "abs_err": 2.0752663476564237e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.11078496975272745,
+      "rho_rplus1": -0.11078496975249616,
+      "abs_err": 2.3128721160503574e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726429733,
+      "rho_rplus1": -0.028626543705542767,
+      "abs_err": 2.088696576807436e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543726345686,
+      "rho_rplus1": -0.028626543705542767,
+      "abs_err": 2.0802918415663285e-11
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "colorist",
+        "creative"
+      ],
+      "size": 4,
+      "rho_full": -0.22388526358140506,
+      "rho_rplus1": -0.22388526358141242,
+      "abs_err": 7.355227538141662e-15
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "colorist",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705502744,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 1.9186041644303486e-14
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "colorist",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.5284095578371802,
+      "rho_rplus1": -0.5353073227925361,
+      "abs_err": 0.006897764955355878
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.21641425857460778,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 0.005408968434969158
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705730086,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.4652849206496796e-13
+    },
+    {
+      "members": [
+        "physics",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654370552625,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 1.5491080640472887e-14
+    },
+    {
+      "members": [
+        "physics",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.2218232270075174,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 2.0595469774065123e-12
+    },
+    {
+      "members": [
+        "physics",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.028626543705977375,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 4.666163289090974e-13
+    },
+    {
+      "members": [
+        "physics",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.0286265437056418,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 1.31041011375288e-13
+    },
+    {
+      "members": [
+        "docker",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 4,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    },
+    {
+      "members": [
+        "docker",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.21641425857463872,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 0.0054089684349382106
+    },
+    {
+      "members": [
+        "docker",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654370547466,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.89913143176102e-15
+    },
+    {
+      "members": [
+        "docker",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    },
+    {
+      "members": [
+        "colorist",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 4,
+      "rho_full": -0.02862654370555537,
+      "rho_rplus1": -0.028626543705542767,
+      "abs_err": 1.2601031329495527e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "docker",
+        "colorist"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125455877,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 7.91033905045424e-15
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "docker",
+        "creative"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "docker",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.02862654372637117,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.0887611085207425e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "docker",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125455877,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 7.91033905045424e-15
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "colorist",
+        "creative"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "colorist",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726474284,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.0977594661353294e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "colorist",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125456106,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.0200174038743626e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726373074,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.0876383954870903e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "physics",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726443354,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.0946664541776627e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "colorist",
+        "creative"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "colorist",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726337446,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.0853888060834436e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "colorist",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125455877,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 7.91033905045424e-15
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726431076,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.0947518025726808e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "docker",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726510793,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.1027235508341846e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726398643,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.09019537789068e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11041777125456793,
+      "rho_rplus1": -0.11041777125455086,
+      "abs_err": 1.7069679003611782e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726394137,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.0897446967316213e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "textsql",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726405326,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 2.0908635933736264e-11
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "colorist",
+        "creative"
+      ],
+      "size": 5,
+      "rho_full": -0.22279085400261595,
+      "rho_rplus1": -0.22388526358141242,
+      "abs_err": 0.0010944095787964736
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "colorist",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543705847843,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 3.642849910612256e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "colorist",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.36006860915513267,
+      "rho_rplus1": -0.3603995081977473,
+      "abs_err": 0.00033089904261462966
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.21590974551777425,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 0.00591348149180268
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "docker",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.02862654370624311,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 7.595521434033969e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543705993403,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 4.96713781217295e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.22090603168575523,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 0.0009171953238217012
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543705832834,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 3.361443068339298e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "physics",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543705993403,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 4.96713781217295e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.2159097455158079,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 0.005913481493769024
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.02862654370624311,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 7.595521434033969e-13
+    },
+    {
+      "members": [
+        "gsm8k",
+        "docker",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    },
+    {
+      "members": [
+        "gsm8k",
+        "colorist",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543705993403,
+      "rho_rplus1": -0.02862654370549669,
+      "abs_err": 4.96713781217295e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "colorist",
+        "creative"
+      ],
+      "size": 5,
+      "rho_full": -0.11078496975233648,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 7.387146450099635e-14
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "colorist",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.02862654372635774,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.0874180856056412e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "colorist",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11078496975268415,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 4.215378046623641e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726335607,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.08520492539499e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11078496975268787,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 4.252570517948584e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "docker",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.02862654372636339,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.0879832585141145e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726366246,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 2.0855487475879286e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11078496975272745,
+      "rho_rplus1": -0.11078496975249616,
+      "abs_err": 2.3128721160503574e-13
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726429733,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 2.0918974885653085e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "physics",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726345686,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 2.083492753324201e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726335607,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.08520492539499e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.11078496975233648,
+      "rho_rplus1": -0.11078496975226261,
+      "abs_err": 7.387146450099635e-14
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.02862654372635774,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.0874180856056412e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "docker",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726335607,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.08520492539499e-11
+    },
+    {
+      "members": [
+        "textsql",
+        "colorist",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543726366246,
+      "rho_rplus1": -0.028626543705542767,
+      "abs_err": 2.0823478358300562e-11
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "colorist",
+        "creative",
+        "empathy"
+      ],
+      "size": 5,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "colorist",
+        "creative",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.21641425857460778,
+      "rho_rplus1": -0.22182322700957693,
+      "abs_err": 0.005408968434969158
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "colorist",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.028626543705730086,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 2.4652849206496796e-13
+    },
+    {
+      "members": [
+        "physics",
+        "docker",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    },
+    {
+      "members": [
+        "physics",
+        "colorist",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.0286265437056418,
+      "rho_rplus1": -0.02862654370551076,
+      "abs_err": 1.31041011375288e-13
+    },
+    {
+      "members": [
+        "docker",
+        "colorist",
+        "creative",
+        "empathy",
+        "conversation"
+      ],
+      "size": 5,
+      "rho_full": -0.0286265437055677,
+      "rho_rplus1": -0.028626543705483558,
+      "abs_err": 8.414102747877905e-14
+    }
+  ]
+}

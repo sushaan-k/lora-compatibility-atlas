@@ -1,0 +1,43 @@
+{
+  "panel": "mistral_m8_answer",
+  "query": "8-way",
+  "names": [
+    "task190",
+    "task1391",
+    "task280",
+    "task290",
+    "task391",
+    "task363",
+    "task400",
+    "task379"
+  ],
+  "rho_full": 1.5813,
+  "rho_rank2": 3.3895,
+  "gap_full_rank2": 1.8082,
+  "merges": {
+    "equal8": {
+      "task190": 0.125,
+      "task1391": 0.125,
+      "task280": 0.125,
+      "task290": 0.125,
+      "task391": 0.125,
+      "task363": 0.125,
+      "task400": 0.125,
+      "task379": 0.125
+    },
+    "minimax_full": {
+      "task190": 0.43494464597968663,
+      "task1391": 0.12140162838601899,
+      "task280": 0.21264128865820434,
+      "task391": 0.09987896503233647,
+      "task379": 0.13113347194375313
+    },
+    "adapter_core_rank2": {
+      "task190": 0.3191733788787006,
+      "task400": 0.27900550079483294,
+      "task379": 0.40182112032646644
+    }
+  },
+  "adapter_core_full_size": 5,
+  "adapter_core_rank2_size": 3
+}

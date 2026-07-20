@@ -1,0 +1,146 @@
+{
+  "adapters": [
+    "lhong4759_f68c5c87_934d_4399_b",
+    "adammandic87_3d7a58a6_4380_4e3",
+    "versil91_01a5620a_fb5f_4bab_94",
+    "taronklm_trained_model",
+    "tuanna08go_6af2bb68_a65f_4331"
+  ],
+  "n_adapters_m": 5,
+  "chart_dim_d": 4,
+  "n_design_points": 70,
+  "N_d_required": 15,
+  "per_adapter": [
+    {
+      "name": "lhong4759_f68c5c87_934d_4399_b",
+      "hessian_frobenius": 560.3952878777047,
+      "hessian_eigvals": [
+        1.2900281587287778e-14,
+        48.87567073518864,
+        132.70814091441937,
+        542.2569472314392
+      ],
+      "linear_b_norm": 209.76922750567914,
+      "min_eigenvalue_before_psd": -3.655394263806667,
+      "psd_projected": true,
+      "psd_adjustment_frob": 3.6553942638066337
+    },
+    {
+      "name": "adammandic87_3d7a58a6_4380_4e3",
+      "hessian_frobenius": 99.59307604034936,
+      "hessian_eigvals": [
+        3.2000556629341723,
+        5.329634258242659,
+        44.11075578677991,
+        89.07511808314015
+      ],
+      "linear_b_norm": 31.526302937843308,
+      "min_eigenvalue_before_psd": 3.2000556629341723,
+      "psd_projected": false,
+      "psd_adjustment_frob": 0.0
+    },
+    {
+      "name": "versil91_01a5620a_fb5f_4bab_94",
+      "hessian_frobenius": 91.73570954405086,
+      "hessian_eigvals": [
+        2.1299910011171588,
+        11.649827261007374,
+        22.627191241460114,
+        88.10899661894183
+      ],
+      "linear_b_norm": 40.0266896787993,
+      "min_eigenvalue_before_psd": 2.1299910011171588,
+      "psd_projected": false,
+      "psd_adjustment_frob": 0.0
+    },
+    {
+      "name": "taronklm_trained_model",
+      "hessian_frobenius": 25.70110539215241,
+      "hessian_eigvals": [
+        0.7538403712111553,
+        2.7392742847004183,
+        15.28408992180368,
+        20.466350791693575
+      ],
+      "linear_b_norm": 11.169821670852755,
+      "min_eigenvalue_before_psd": 0.7538403712111553,
+      "psd_projected": false,
+      "psd_adjustment_frob": 0.0
+    },
+    {
+      "name": "tuanna08go_6af2bb68_a65f_4331",
+      "hessian_frobenius": 550.8181431318386,
+      "hessian_eigvals": [
+        18.708505807871514,
+        45.708816368368446,
+        163.68077700419815,
+        523.612381403599
+      ],
+      "linear_b_norm": 277.390738136404,
+      "min_eigenvalue_before_psd": 18.708505807871514,
+      "psd_projected": false,
+      "psd_adjustment_frob": 0.0
+    }
+  ],
+  "spectrum": {
+    "eigvals_H_bar": [
+      250.78438488568827,
+      74.4338114422018,
+      22.770446803375286,
+      8.216629818357909
+    ],
+    "L_F_max_task_frobenius": 560.3952878777047,
+    "chart_diameter_D": 1.4142135623730951,
+    "trace_H_bar": 356.20527294962335
+  },
+  "strict_max_residuals_per_r": [
+    {
+      "r": 0,
+      "max_task_hessian_residual_frobenius": 560.3952878777047,
+      "max_task_hessian_residual_relative": 1.0,
+      "max_task_first_order_residual_times_D": 392.2897439491863
+    },
+    {
+      "r": 1,
+      "max_task_hessian_residual_frobenius": 182.5016214285885,
+      "max_task_hessian_residual_relative": 0.3256658743861813,
+      "max_task_first_order_residual_times_D": 40.73640954158492
+    },
+    {
+      "r": 2,
+      "max_task_hessian_residual_frobenius": 72.50503647164216,
+      "max_task_hessian_residual_relative": 0.12938195241831682,
+      "max_task_first_order_residual_times_D": 33.562699832526526
+    },
+    {
+      "r": 3,
+      "max_task_hessian_residual_frobenius": 52.91006133968562,
+      "max_task_hessian_residual_relative": 0.09441560713342793,
+      "max_task_first_order_residual_times_D": 8.002935174488027
+    },
+    {
+      "r": 4,
+      "max_task_hessian_residual_frobenius": 2.609854517025864e-13,
+      "max_task_hessian_residual_relative": 4.657167134487778e-16,
+      "max_task_first_order_residual_times_D": 8.658714710175233e-14
+    }
+  ],
+  "sigma_adim_eps_strict": [
+    {
+      "eps": 0.01,
+      "r_eps_strict_max": 4
+    },
+    {
+      "eps": 0.05,
+      "r_eps_strict_max": 4
+    },
+    {
+      "eps": 0.1,
+      "r_eps_strict_max": 3
+    },
+    {
+      "eps": 0.2,
+      "r_eps_strict_max": 2
+    }
+  ]
+}

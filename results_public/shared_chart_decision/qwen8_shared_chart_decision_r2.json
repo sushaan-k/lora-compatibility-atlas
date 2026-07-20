@@ -1,0 +1,1605 @@
+{
+  "r": 2,
+  "core_order_rplus1": 3,
+  "full_core_order": 8,
+  "shared_projector_strict_max_residual": 0.14290945428415688,
+  "n_queries": 126,
+  "query_sizes": [
+    4,
+    5
+  ],
+  "mean_abs_score_error": 2.383312594897039e-11,
+  "max_abs_score_error": 9.57385282163159e-11,
+  "per_tau_decision_preservation": [
+    {
+      "tau": 0.55,
+      "decision_preserved_frac": 1.0
+    },
+    {
+      "tau": 0.65,
+      "decision_preserved_frac": 1.0
+    },
+    {
+      "tau": 0.7,
+      "decision_preserved_frac": 1.0
+    },
+    {
+      "tau": 0.75,
+      "decision_preserved_frac": 1.0
+    },
+    {
+      "tau": 0.85,
+      "decision_preserved_frac": 1.0
+    }
+  ],
+  "queries": [
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594633683,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 1.530864324195136e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594636799,
+      "abs_err": 9.743317264110374e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.8900436771218665e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594637549,
+      "abs_err": 1.049293985033728e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 9.414691248821327e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594638433,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.0544454198679887e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594636799,
+      "abs_err": 9.743317264110374e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 9.414691248821327e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.8900436771218665e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594637167,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 6.963318810448982e-13
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232009112,
+      "rho_rplus1": -22.366997232008202,
+      "abs_err": 9.094947017729282e-13
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232060072,
+      "rho_rplus1": -22.36699723200386,
+      "abs_err": 5.6211035825981526e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232009112,
+      "rho_rplus1": -22.366997232009407,
+      "abs_err": 2.948752353404416e-13
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232008618,
+      "rho_rplus1": -22.366997232008202,
+      "abs_err": 4.156675004196586e-13
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232009112,
+      "rho_rplus1": -22.366997232008202,
+      "abs_err": 9.094947017729282e-13
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232049854,
+      "rho_rplus1": -22.36699723200386,
+      "abs_err": 4.5993431285751285e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -54.32563496366822,
+      "rho_rplus1": -54.32563496363242,
+      "abs_err": 3.580424845495145e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -45.145914675368466,
+      "rho_rplus1": -45.1459146753495,
+      "abs_err": 1.8964385617437074e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -53.473902355048054,
+      "rho_rplus1": -53.47390235500161,
+      "abs_err": 4.644107320928015e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -45.145914675371685,
+      "rho_rplus1": -45.14591467533762,
+      "abs_err": 3.40634187523392e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -53.236316849041486,
+      "rho_rplus1": -53.236316849032605,
+      "abs_err": 8.881784197001252e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -45.145914675347385,
+      "rho_rplus1": -45.1459146753364,
+      "abs_err": 1.0984990694851149e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -45.14591467541174,
+      "rho_rplus1": -45.14591467533762,
+      "abs_err": 7.411671276713605e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -53.23631684905402,
+      "rho_rplus1": -53.236316849032605,
+      "abs_err": 2.141575805580942e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -45.14591467535179,
+      "rho_rplus1": -45.1459146753364,
+      "abs_err": 1.539035565656377e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -45.14591467543013,
+      "rho_rplus1": -45.1459146753364,
+      "abs_err": 9.372769227411482e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 7.624123554705875e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 7.624123554705875e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 5.17701437274809e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594633683,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 1.530864324195136e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594638202,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 1.9827695041385596e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.8900436771218665e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594636799,
+      "abs_err": 9.743317264110374e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 9.414691248821327e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.8900436771218665e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 9.414691248821327e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594638433,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.0544454198679887e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 9.414691248821327e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 4,
+      "rho_full": -22.366997231995573,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 1.1656453580144444e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232008618,
+      "rho_rplus1": -22.36699723200386,
+      "abs_err": 4.757083615913871e-12
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232009112,
+      "rho_rplus1": -22.366997232008202,
+      "abs_err": 9.094947017729282e-13
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -22.366997231995573,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 1.1656453580144444e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.366997231995573,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 1.1656453580144444e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.36699723202706,
+      "rho_rplus1": -22.36699723200386,
+      "abs_err": 2.319922032256727e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -22.366997231995573,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 1.1656453580144444e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.366997231995573,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 1.1656453580144444e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.366997232024307,
+      "rho_rplus1": -22.36699723200386,
+      "abs_err": 2.0445867221496883e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -22.36699723201442,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 3.05035996461811e-11
+    },
+    {
+      "members": [
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 4,
+      "rho_full": -45.14591467534748,
+      "rho_rplus1": -45.14591467533762,
+      "abs_err": 9.85522774499259e-12
+    },
+    {
+      "members": [
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -53.23631684905402,
+      "rho_rplus1": -53.236316849033265,
+      "abs_err": 2.0754953311552526e-11
+    },
+    {
+      "members": [
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -45.14591467535037,
+      "rho_rplus1": -45.14591467534861,
+      "abs_err": 1.7621459846850485e-12
+    },
+    {
+      "members": [
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -45.145914675355634,
+      "rho_rplus1": -45.14591467533762,
+      "abs_err": 1.801225835151854e-11
+    },
+    {
+      "members": [
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 4,
+      "rho_full": -45.1459146753622,
+      "rho_rplus1": -45.14591467533762,
+      "abs_err": 2.4577673229941865e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 7.624123554705875e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 7.624123554705875e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 5.17701437274809e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594633683,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 1.530864324195136e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.8900436771218665e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594636799,
+      "abs_err": 9.743317264110374e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 9.414691248821327e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.8900436771218665e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 9.414691248821327e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594638433,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.0544454198679887e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 9.414691248821327e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232008618,
+      "rho_rplus1": -22.36699723200386,
+      "abs_err": 4.757083615913871e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232009112,
+      "rho_rplus1": -22.366997232008202,
+      "abs_err": 9.094947017729282e-13
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.36699723202706,
+      "rho_rplus1": -22.36699723200386,
+      "abs_err": 2.319922032256727e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232008618,
+      "rho_rplus1": -22.36699723200386,
+      "abs_err": 4.757083615913871e-12
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232057432,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 7.351630415541877e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -45.14591467538305,
+      "rho_rplus1": -45.14591467533762,
+      "abs_err": 4.5424997097143205e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -53.236316849053715,
+      "rho_rplus1": -53.236316849032605,
+      "abs_err": 2.1110224679432577e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -45.14591467541138,
+      "rho_rplus1": -45.1459146753364,
+      "abs_err": 7.498357490476337e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -45.14591467543013,
+      "rho_rplus1": -45.1459146753364,
+      "abs_err": 9.372769227411482e-11
+    },
+    {
+      "members": [
+        "lhong4759_f68c5c87_934d_4399_b",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -45.14591467543214,
+      "rho_rplus1": -45.1459146753364,
+      "abs_err": 9.57385282163159e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 7.624123554705875e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 5.17701437274809e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 7.624123554705875e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 5.17701437274809e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 7.624123554705875e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 8.681055874149024e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594618375,
+      "abs_err": 5.17701437274809e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594625999,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 1.8900436771218665e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594627056,
+      "rho_rplus1": -9.62419759463647,
+      "abs_err": 9.414691248821327e-12
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "adammandic87_3d7a58a6_4380_4e3",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -9.624197594670145,
+      "rho_rplus1": -9.624197594627889,
+      "abs_err": 4.225597649565316e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331"
+      ],
+      "size": 5,
+      "rho_full": -22.366997231995573,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 1.1656453580144444e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.366997231995573,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 1.1656453580144444e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.366997232008618,
+      "rho_rplus1": -22.36699723200386,
+      "abs_err": 4.757083615913871e-12
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "taronklm_trained_model",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.366997231995573,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 1.1656453580144444e-11
+    },
+    {
+      "members": [
+        "versil91_01a5620a_fb5f_4bab_94",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -22.366997231995573,
+      "rho_rplus1": -22.366997231983916,
+      "abs_err": 1.1656453580144444e-11
+    },
+    {
+      "members": [
+        "taronklm_trained_model",
+        "versil91_e9f26c47_9b78_4e3f_81",
+        "versil91_8444c3be_8779_4769_a0",
+        "tuanna08go_6af2bb68_a65f_4331",
+        "duyphu_7aba420b_74ac_4209_b514"
+      ],
+      "size": 5,
+      "rho_full": -45.145914675366626,
+      "rho_rplus1": -45.14591467533762,
+      "abs_err": 2.900435447372729e-11
+    }
+  ]
+}

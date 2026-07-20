@@ -1,0 +1,59 @@
+{
+  "_note": "Experiment D: m=8 answer-token screening panel. The five Experiment A tasks plus three new families (SST-2 sentiment, PAWS paraphrase, AG News topic), all Lots-of-LoRAs adapters on Mistral-7B-Instruct-v0.2 with Natural Instructions task JSONs (fixed-seed-5 shuffle, first 40 items held out, label-mixed; task363/task400/task379 built 2026-07-10 from allenai/natural-instructions master). Fit: expC_answer_jets.py fit --step 0.5 gives the 36-point singles-and-pairs poised design on the shared 7-simplex. Validate/analyze: expD_answer_panel.py.",
+  "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+  "dtype": "bfloat16",
+  "max_length": 384,
+  "max_new_tokens": 6,
+  "n_items": 40,
+  "seed": 5,
+  "adapters": [
+    {
+      "name": "task190",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task190",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task190.json",
+      "answer_regex": "\\b([ECN])\\b"
+    },
+    {
+      "name": "task1391",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1391",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task1391.json",
+      "answer_regex": "\\b([AB])\\b"
+    },
+    {
+      "name": "task280",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task280",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task280.json",
+      "answer_regex": "\\b(RACE|PROFESSION|GENDER|RELIGION)\\b"
+    },
+    {
+      "name": "task290",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task290",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task290.json",
+      "answer_regex": "\\b(NOT ANSWERABLE|ANSWERABLE)\\b"
+    },
+    {
+      "name": "task391",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task391",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task391.json",
+      "answer_regex": "\\b(NOT PLAUSIBLE|PLAUSIBLE)\\b"
+    },
+    {
+      "name": "task363",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task363",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task363.json",
+      "answer_regex": "\\b(POS|NEG)\\b"
+    },
+    {
+      "name": "task400",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task400",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task400.json",
+      "answer_regex": "\\b(NOT PARAPHRASE|PARAPHRASE)\\b"
+    },
+    {
+      "name": "task379",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task379",
+      "task_json": "/teamspace/studios/this_studio/atlas_expB/tasks/task379.json",
+      "answer_regex": "\\b(WORLD|SPORTS|BUSINESS|SCI/TECH)\\b"
+    }
+  ]
+}

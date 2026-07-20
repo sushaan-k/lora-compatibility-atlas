@@ -1,0 +1,80 @@
+{
+  "source": "results_public/qwen25_m50_balanced/results.csv",
+  "seed": 0,
+  "n_folds": 4,
+  "modes": {
+    "same_probe": {
+      "feature_dim": 14,
+      "per_operator": [
+        {
+          "method": "dare_ties",
+          "n": 1000,
+          "n_positive": 429,
+          "atlas": {
+            "auroc": 0.760964079703134,
+            "auprc": 0.7584457732401618
+          },
+          "gbm_strong": {
+            "auroc": 0.7798325434052229,
+            "auprc": 0.7555460305700237
+          },
+          "mlp_strong": {
+            "auroc": 0.7732804265203566,
+            "auprc": 0.7551303983360256
+          }
+        },
+        {
+          "method": "linear",
+          "n": 1000,
+          "n_positive": 325,
+          "atlas": {
+            "auroc": 0.8940900284900285,
+            "auprc": 0.785774835461583
+          },
+          "gbm_strong": {
+            "auroc": 0.9082119658119658,
+            "auprc": 0.8184976114753378
+          },
+          "mlp_strong": {
+            "auroc": 0.8795988603988605,
+            "auprc": 0.7597600557485311
+          }
+        },
+        {
+          "method": "magnitude_prune",
+          "n": 1000,
+          "n_positive": 303,
+          "atlas": {
+            "auroc": 0.8472520135801241,
+            "auprc": 0.7136375293284485
+          },
+          "gbm_strong": {
+            "auroc": 0.8504079245801195,
+            "auprc": 0.7261286500975234
+          },
+          "mlp_strong": {
+            "auroc": 0.8307598335156328,
+            "auprc": 0.6848381592563937
+          }
+        },
+        {
+          "method": "ties",
+          "n": 1000,
+          "n_positive": 308,
+          "atlas": {
+            "auroc": 0.7931696193979432,
+            "auprc": 0.6806544054759911
+          },
+          "gbm_strong": {
+            "auroc": 0.769642387958862,
+            "auprc": 0.6502905692970951
+          },
+          "mlp_strong": {
+            "auroc": 0.7750403498235868,
+            "auprc": 0.6560997542353761
+          }
+        }
+      ]
+    }
+  }
+}

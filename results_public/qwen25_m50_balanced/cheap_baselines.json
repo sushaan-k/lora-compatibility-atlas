@@ -1,0 +1,33 @@
+{
+ "convention": "Reconstructs the three geometry-free baselines on the balanced Qwen m=50\nevents from the released artifacts alone, under one documented convention\neach, so the table regenerates from the release:",
+ "per_operator": {
+  "dare_ties": {
+   "n": 1000,
+   "n_triples": 400,
+   "single_gain_auroc": 0.6842655301499435,
+   "learned_auroc": 0.6870006817467413,
+   "clique_face_closure_auroc_triples": 0.7740038684719536
+  },
+  "linear": {
+   "n": 1000,
+   "n_triples": 400,
+   "single_gain_auroc": 0.7252626780626781,
+   "learned_auroc": 0.8050598290598291,
+   "clique_face_closure_auroc_triples": 0.8720604395604395
+  },
+  "magnitude_prune": {
+   "n": 1000,
+   "n_triples": 400,
+   "single_gain_auroc": 0.711067232978678,
+   "learned_auroc": 0.7588486251781562,
+   "clique_face_closure_auroc_triples": 0.833564073721554
+  },
+  "ties": {
+   "n": 1000,
+   "n_triples": 400,
+   "single_gain_auroc": 0.6383811275429773,
+   "learned_auroc": 0.6246950304031229,
+   "clique_face_closure_auroc_triples": 0.7722696217841849
+  }
+ }
+}

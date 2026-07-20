@@ -1,0 +1,10 @@
+{
+ "n_triples": 56,
+ "worst_member_loss_delta_mean": -0.23160046992203678,
+ "worst_member_loss_better_count": 45,
+ "n_hard_triples": 4,
+ "n_easy_triples": 52,
+ "hard_worst_member_acc_delta_mean": 0.06875,
+ "hard_worst_member_acc_wins": 3,
+ "easy_worst_member_acc_delta_mean": -0.06586538461538462
+}

@@ -1,0 +1,110 @@
+{
+  "adapters": [
+    {
+      "name": "conversation",
+      "probe_key": "conversation",
+      "repo": "mogaio/tinyllama-con-lora",
+      "task": "conversation"
+    },
+    {
+      "name": "colorist",
+      "probe_key": "color_advice",
+      "repo": "jashing/tinyllama-colorist-lora",
+      "task": "color_advice"
+    },
+    {
+      "name": "flex",
+      "probe_key": "fitness_coaching",
+      "repo": "madroid/tinyllama-flex-lora",
+      "task": "fitness_coaching"
+    },
+    {
+      "name": "energy",
+      "probe_key": "energy_advice",
+      "repo": "jashing/tinyllama-energy-lora",
+      "task": "energy_advice"
+    },
+    {
+      "name": "physics",
+      "probe_key": "physics",
+      "repo": "aloobun/tinyllama-physics-lora_1",
+      "task": "physics"
+    },
+    {
+      "name": "empathy",
+      "probe_key": "empathetic_conversation",
+      "repo": "mogaio/TinyLlama-con-emp-lora-ada",
+      "task": "empathetic_conversation"
+    },
+    {
+      "name": "brainstorming",
+      "probe_key": "brainstorming",
+      "repo": "mogaio/TinyLlama-con-brainstorming-lora-ada",
+      "task": "brainstorming"
+    },
+    {
+      "name": "creative",
+      "probe_key": "creative_writing",
+      "repo": "mogaio/TinyLlama-con-creative-writing-lora-ada",
+      "task": "creative_writing"
+    },
+    {
+      "name": "company",
+      "probe_key": "company_qa",
+      "repo": "jawadmohmmad/tinyllama-company-lora",
+      "task": "company_qa"
+    },
+    {
+      "name": "docker",
+      "probe_key": "docker",
+      "repo": "philimon/tinyllama-docker-lora",
+      "task": "docker"
+    },
+    {
+      "name": "gsm8k",
+      "probe_key": "math_reasoning",
+      "repo": "philimon/TinyLlama-gsm8k-lora",
+      "task": "math_reasoning"
+    },
+    {
+      "name": "textsql",
+      "probe_key": "sql_generation",
+      "repo": "tushkulange/tinyllama-text-to-sql-lora",
+      "task": "sql_generation"
+    }
+  ],
+  "base_model": "PY007/TinyLlama-1.1B-Chat-v0.3",
+  "density": 0.5,
+  "device_map": "auto",
+  "dtype": "bfloat16",
+  "experiment_id": "tinyllama_v03_public_peft_atlas_strong_fullsupport_12x_v1_tau0p65_seed20260430",
+  "max_length": 384,
+  "merge_methods": [
+    "linear"
+  ],
+  "min_single_adapter_gain": 0.005,
+  "pair_min_weight": 0.2,
+  "pair_step": 0.2,
+  "probe_counts": {
+    "brainstorming": 8,
+    "color_advice": 8,
+    "company_qa": 8,
+    "conversation": 8,
+    "creative_writing": 8,
+    "docker": 8,
+    "empathetic_conversation": 8,
+    "energy_advice": 8,
+    "fitness_coaching": 8,
+    "math_reasoning": 8,
+    "physics": 8,
+    "sql_generation": 8
+  },
+  "prompt_limit_per_split": 4,
+  "quantization": "4bit",
+  "retention_threshold": 0.65,
+  "seed": 20260430,
+  "shuffle_queries": false,
+  "tokenizer_model": "PY007/TinyLlama-1.1B-Chat-v0.3",
+  "triple_min_weight": 0.2,
+  "triple_step": 0.2
+}

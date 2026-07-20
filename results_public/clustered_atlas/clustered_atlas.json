@@ -1,0 +1,167 @@
+{
+  "library": {
+    "m": 50,
+    "d": 49,
+    "sigma_adim_0.20": 23,
+    "sigma_adim_0.10": 42,
+    "core_scores_at_certified_rank": 499744650202435
+  },
+  "clusterings": {
+    "size5": {
+      "chart_size": 5,
+      "n_charts": 10,
+      "clustered_subblock_sigma_adim_0.20": [
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        2,
+        3,
+        4,
+        4
+      ],
+      "clustered_median_subblock_eff_rank": 4.0,
+      "clustered_max_subblock_eff_rank": 5,
+      "clustered_n_certified_subblock": 10,
+      "clustered_fulldim_sigma_adim_0.20": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "clustered_median_fulldim_r20": null,
+      "clustered_fulldim_n_certified": 0,
+      "clustered_total_core_scores": 303,
+      "random_median_subblock_eff_rank": 4.0,
+      "random_median_max_subblock_eff_rank": 4.0,
+      "random_median_n_certified_subblock": 10.0,
+      "random_median_total_core_scores": 305.5,
+      "library_core_scores": 499744650202435,
+      "within_cluster_query_fraction": 0.061
+    },
+    "size8": {
+      "chart_size": 8,
+      "n_charts": 7,
+      "clustered_subblock_sigma_adim_0.20": [
+        5,
+        5,
+        6,
+        5,
+        4,
+        5,
+        2
+      ],
+      "clustered_median_subblock_eff_rank": 5.0,
+      "clustered_max_subblock_eff_rank": 6,
+      "clustered_n_certified_subblock": 7,
+      "clustered_fulldim_sigma_adim_0.20": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "clustered_median_fulldim_r20": null,
+      "clustered_fulldim_n_certified": 0,
+      "clustered_total_core_scores": 1459,
+      "random_median_subblock_eff_rank": 5.0,
+      "random_median_max_subblock_eff_rank": 6.0,
+      "random_median_n_certified_subblock": 7.0,
+      "random_median_total_core_scores": 1459.0,
+      "library_core_scores": 499744650202435,
+      "within_cluster_query_fraction": 0.083
+    },
+    "size10": {
+      "chart_size": 10,
+      "n_charts": 5,
+      "clustered_subblock_sigma_adim_0.20": [
+        7,
+        6,
+        6,
+        6,
+        5
+      ],
+      "clustered_median_subblock_eff_rank": 6.0,
+      "clustered_max_subblock_eff_rank": 7,
+      "clustered_n_certified_subblock": 5,
+      "clustered_fulldim_sigma_adim_0.20": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "clustered_median_fulldim_r20": null,
+      "clustered_fulldim_n_certified": 0,
+      "clustered_total_core_scores": 4760,
+      "random_median_subblock_eff_rank": 6.0,
+      "random_median_max_subblock_eff_rank": 7.0,
+      "random_median_n_certified_subblock": 5.0,
+      "random_median_total_core_scores": 4760.0,
+      "library_core_scores": 499744650202435,
+      "within_cluster_query_fraction": 0.111
+    },
+    "size13": {
+      "chart_size": 13,
+      "n_charts": 4,
+      "clustered_subblock_sigma_adim_0.20": [
+        8,
+        7,
+        6,
+        8
+      ],
+      "clustered_median_subblock_eff_rank": 7.5,
+      "clustered_max_subblock_eff_rank": 8,
+      "clustered_n_certified_subblock": 4,
+      "clustered_fulldim_sigma_adim_0.20": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "clustered_median_fulldim_r20": null,
+      "clustered_fulldim_n_certified": 0,
+      "clustered_total_core_scores": 22757,
+      "random_median_subblock_eff_rank": 7.0,
+      "random_median_max_subblock_eff_rank": 9.0,
+      "random_median_n_certified_subblock": 4.0,
+      "random_median_total_core_scores": 23488.5,
+      "library_core_scores": 499744650202435,
+      "within_cluster_query_fraction": 0.152
+    },
+    "size25": {
+      "chart_size": 25,
+      "n_charts": 2,
+      "clustered_subblock_sigma_adim_0.20": [
+        11,
+        12
+      ],
+      "clustered_median_subblock_eff_rank": 11.5,
+      "clustered_max_subblock_eff_rank": 12,
+      "clustered_n_certified_subblock": 2,
+      "clustered_fulldim_sigma_adim_0.20": [
+        15,
+        23
+      ],
+      "clustered_median_fulldim_r20": 19.0,
+      "clustered_fulldim_n_certified": 2,
+      "clustered_total_core_scores": 38754730,
+      "random_median_subblock_eff_rank": 12.5,
+      "random_median_max_subblock_eff_rank": 13.0,
+      "random_median_n_certified_subblock": 2.0,
+      "random_median_total_core_scores": 43955030.0,
+      "library_core_scores": 499744650202435,
+      "within_cluster_query_fraction": 0.374
+    }
+  }
+}

@@ -1,0 +1,1684 @@
+{
+ "rows": [
+  {
+   "task": "task190",
+   "merge": "base",
+   "accuracy": 0.5,
+   "L_input": 3.132305008172989,
+   "L_answer": 12.686458653032606
+  },
+  {
+   "task": "task190",
+   "merge": "alone",
+   "accuracy": 0.85,
+   "L_input": 3.7316727697849275,
+   "L_answer": 1.6900371016934514
+  },
+  {
+   "task": "task1391",
+   "merge": "base",
+   "accuracy": 0.375,
+   "L_input": 4.154649925231934,
+   "L_answer": 10.839820943505856
+  },
+  {
+   "task": "task1391",
+   "merge": "alone",
+   "accuracy": 0.975,
+   "L_input": 4.373357790708542,
+   "L_answer": 0.1928918075238471
+  },
+  {
+   "task": "task280",
+   "merge": "base",
+   "accuracy": 0.025,
+   "L_input": 3.0600039422512055,
+   "L_answer": 9.519280602037906
+  },
+  {
+   "task": "task280",
+   "merge": "alone",
+   "accuracy": 1.0,
+   "L_input": 3.011443889141083,
+   "L_answer": 0.015204725970397704
+  },
+  {
+   "task": "task290",
+   "merge": "base",
+   "accuracy": 0.5,
+   "L_input": 3.345329201221466,
+   "L_answer": 2.506779692758664
+  },
+  {
+   "task": "task290",
+   "merge": "alone",
+   "accuracy": 0.875,
+   "L_input": 3.367529022693634,
+   "L_answer": 0.3119893767405301
+  },
+  {
+   "task": "task391",
+   "merge": "base",
+   "accuracy": 0.675,
+   "L_input": 4.052151763439179,
+   "L_answer": 2.51321143314708
+  },
+  {
+   "task": "task391",
+   "merge": "alone",
+   "accuracy": 0.875,
+   "L_input": 3.6742894470691683,
+   "L_answer": 0.08410136317834258
+  },
+  {
+   "task": "task363",
+   "merge": "base",
+   "accuracy": 0.375,
+   "L_input": 3.8210549354553223,
+   "L_answer": 4.629337520664558
+  },
+  {
+   "task": "task363",
+   "merge": "alone",
+   "accuracy": 0.8,
+   "L_input": 3.9712795555591582,
+   "L_answer": 0.26567160106205845
+  },
+  {
+   "task": "task400",
+   "merge": "base",
+   "accuracy": 0.375,
+   "L_input": 3.1608852565288545,
+   "L_answer": 2.0885938955732852
+  },
+  {
+   "task": "task400",
+   "merge": "alone",
+   "accuracy": 0.975,
+   "L_input": 3.196779316663742,
+   "L_answer": 0.016409751858009258
+  },
+  {
+   "task": "task379",
+   "merge": "base",
+   "accuracy": 0.175,
+   "L_input": 2.860225683450699,
+   "L_answer": 7.60916292257607
+  },
+  {
+   "task": "task379",
+   "merge": "alone",
+   "accuracy": 0.725,
+   "L_input": 2.827816146612167,
+   "L_answer": 0.529082656004175
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task1391",
+   "accuracy": 0.875,
+   "L_input": 3.1080919802188873,
+   "L_answer": 0.39891668003983793
+  },
+  {
+   "task": "task1391",
+   "merge": "task190+task1391",
+   "accuracy": 0.975,
+   "L_input": 4.06840226650238,
+   "L_answer": 0.13995290224047494
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task280",
+   "accuracy": 0.8,
+   "L_input": 3.1572375535964965,
+   "L_answer": 0.3735058511141688
+  },
+  {
+   "task": "task280",
+   "merge": "task190+task280",
+   "accuracy": 1.0,
+   "L_input": 2.878606879711151,
+   "L_answer": 0.03474303937255172
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task290",
+   "accuracy": 0.875,
+   "L_input": 3.1454416453838348,
+   "L_answer": 0.38506572116166354
+  },
+  {
+   "task": "task290",
+   "merge": "task190+task290",
+   "accuracy": 0.85,
+   "L_input": 3.253657567501068,
+   "L_answer": 0.2447872763965279
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task391",
+   "accuracy": 0.875,
+   "L_input": 3.1126904010772707,
+   "L_answer": 0.38318910598754885
+  },
+  {
+   "task": "task391",
+   "merge": "task190+task391",
+   "accuracy": 0.8,
+   "L_input": 3.6824199080467226,
+   "L_answer": 0.298380900034681
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task363",
+   "accuracy": 0.9,
+   "L_input": 3.1333227932453154,
+   "L_answer": 0.3437273420393467
+  },
+  {
+   "task": "task363",
+   "merge": "task190+task363",
+   "accuracy": 0.725,
+   "L_input": 3.8977043986320496,
+   "L_answer": 0.5260491148306755
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task400",
+   "accuracy": 0.85,
+   "L_input": 3.123033547401428,
+   "L_answer": 0.3622883914038539
+  },
+  {
+   "task": "task400",
+   "merge": "task190+task400",
+   "accuracy": 0.8,
+   "L_input": 3.0599055528640746,
+   "L_answer": 0.12187869933113689
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task379",
+   "accuracy": 0.85,
+   "L_input": 3.170460897684097,
+   "L_answer": 0.37391567998565733
+  },
+  {
+   "task": "task379",
+   "merge": "task190+task379",
+   "accuracy": 0.675,
+   "L_input": 2.7688734114170073,
+   "L_answer": 0.6548059816006571
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task280",
+   "accuracy": 0.95,
+   "L_input": 4.12318828701973,
+   "L_answer": 0.3309554901889896
+  },
+  {
+   "task": "task280",
+   "merge": "task1391+task280",
+   "accuracy": 0.975,
+   "L_input": 2.922630476951599,
+   "L_answer": 0.2587033914038329
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task290",
+   "accuracy": 1.0,
+   "L_input": 4.037697422504425,
+   "L_answer": 0.009352972632291312
+  },
+  {
+   "task": "task290",
+   "merge": "task1391+task290",
+   "accuracy": 0.85,
+   "L_input": 3.2111727833747863,
+   "L_answer": 0.22877046081703156
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task391",
+   "accuracy": 0.975,
+   "L_input": 4.101978838443756,
+   "L_answer": 0.1601361925135052
+  },
+  {
+   "task": "task391",
+   "merge": "task1391+task391",
+   "accuracy": 0.8,
+   "L_input": 3.613119602203369,
+   "L_answer": 0.33793168582487854
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task363",
+   "accuracy": 1.0,
+   "L_input": 4.070383578538895,
+   "L_answer": 0.04187258089332317
+  },
+  {
+   "task": "task363",
+   "merge": "task1391+task363",
+   "accuracy": 0.8,
+   "L_input": 3.8616202890872957,
+   "L_answer": 0.3831982495030388
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task400",
+   "accuracy": 0.975,
+   "L_input": 4.026112055778503,
+   "L_answer": 0.22135926948139967
+  },
+  {
+   "task": "task400",
+   "merge": "task1391+task400",
+   "accuracy": 0.825,
+   "L_input": 3.0501001060009,
+   "L_answer": 0.15236495880835718
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task379",
+   "accuracy": 0.975,
+   "L_input": 4.087133085727691,
+   "L_answer": 0.19815730169674453
+  },
+  {
+   "task": "task379",
+   "merge": "task1391+task379",
+   "accuracy": 0.65,
+   "L_input": 2.756403237581253,
+   "L_answer": 0.8558405219766427
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task290",
+   "accuracy": 0.975,
+   "L_input": 2.89598685503006,
+   "L_answer": 0.0765559071489406
+  },
+  {
+   "task": "task290",
+   "merge": "task280+task290",
+   "accuracy": 0.85,
+   "L_input": 3.3342396020889282,
+   "L_answer": 0.20756620228057726
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task391",
+   "accuracy": 1.0,
+   "L_input": 2.88085932135582,
+   "L_answer": 0.012038592164390138
+  },
+  {
+   "task": "task391",
+   "merge": "task280+task391",
+   "accuracy": 0.9,
+   "L_input": 3.759013521671295,
+   "L_answer": 0.6575037695001811
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task363",
+   "accuracy": 0.975,
+   "L_input": 2.875396966934204,
+   "L_answer": 0.10266507899941643
+  },
+  {
+   "task": "task363",
+   "merge": "task280+task363",
+   "accuracy": 0.825,
+   "L_input": 3.9268930673599245,
+   "L_answer": 0.39294944041466806
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task400",
+   "accuracy": 1.0,
+   "L_input": 2.9243668019771576,
+   "L_answer": 0.0459553920532926
+  },
+  {
+   "task": "task400",
+   "merge": "task280+task400",
+   "accuracy": 0.85,
+   "L_input": 3.1637708365917208,
+   "L_answer": 0.14867544386370354
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task379",
+   "accuracy": 1.0,
+   "L_input": 2.938066601753235,
+   "L_answer": 0.07148943227075506
+  },
+  {
+   "task": "task379",
+   "merge": "task280+task379",
+   "accuracy": 0.7,
+   "L_input": 2.8169452786445617,
+   "L_answer": 0.7001600262909051
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task391",
+   "accuracy": 0.825,
+   "L_input": 3.2711836874485014,
+   "L_answer": 0.21534836154896767
+  },
+  {
+   "task": "task391",
+   "merge": "task290+task391",
+   "accuracy": 0.825,
+   "L_input": 3.6995853960514067,
+   "L_answer": 0.1333274727454409
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task363",
+   "accuracy": 0.875,
+   "L_input": 3.237214666604996,
+   "L_answer": 0.15699329478666185
+  },
+  {
+   "task": "task363",
+   "merge": "task290+task363",
+   "accuracy": 0.775,
+   "L_input": 3.855747878551483,
+   "L_answer": 0.4430802221533668
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task400",
+   "accuracy": 0.85,
+   "L_input": 3.293781632184982,
+   "L_answer": 0.1754078800440766
+  },
+  {
+   "task": "task400",
+   "merge": "task290+task400",
+   "accuracy": 0.8,
+   "L_input": 3.1002272605895995,
+   "L_answer": 0.10994226622278802
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task379",
+   "accuracy": 0.85,
+   "L_input": 3.302464950084686,
+   "L_answer": 0.20845039623090997
+  },
+  {
+   "task": "task379",
+   "merge": "task290+task379",
+   "accuracy": 0.725,
+   "L_input": 2.7751931667327883,
+   "L_answer": 0.4546907774918509
+  },
+  {
+   "task": "task391",
+   "merge": "task391+task363",
+   "accuracy": 0.825,
+   "L_input": 3.5817131876945494,
+   "L_answer": 0.17635331111960112
+  },
+  {
+   "task": "task363",
+   "merge": "task391+task363",
+   "accuracy": 0.8,
+   "L_input": 3.8198403120040894,
+   "L_answer": 0.36981638204015327
+  },
+  {
+   "task": "task391",
+   "merge": "task391+task400",
+   "accuracy": 0.825,
+   "L_input": 3.6803986966609954,
+   "L_answer": 0.18679238371551038
+  },
+  {
+   "task": "task400",
+   "merge": "task391+task400",
+   "accuracy": 0.85,
+   "L_input": 3.068220263719559,
+   "L_answer": 0.11409253673500644
+  },
+  {
+   "task": "task391",
+   "merge": "task391+task379",
+   "accuracy": 0.85,
+   "L_input": 3.6517840564250945,
+   "L_answer": 0.3476219290168956
+  },
+  {
+   "task": "task379",
+   "merge": "task391+task379",
+   "accuracy": 0.7,
+   "L_input": 2.7188328862190247,
+   "L_answer": 0.4998516927978926
+  },
+  {
+   "task": "task363",
+   "merge": "task363+task400",
+   "accuracy": 0.8,
+   "L_input": 3.9654794931411743,
+   "L_answer": 0.45792962159612216
+  },
+  {
+   "task": "task400",
+   "merge": "task363+task400",
+   "accuracy": 0.775,
+   "L_input": 3.1137322187423706,
+   "L_answer": 0.16793543777821468
+  },
+  {
+   "task": "task363",
+   "merge": "task363+task379",
+   "accuracy": 0.85,
+   "L_input": 3.8648630678653717,
+   "L_answer": 0.27906103043496844
+  },
+  {
+   "task": "task379",
+   "merge": "task363+task379",
+   "accuracy": 0.675,
+   "L_input": 2.7628822803497313,
+   "L_answer": 0.8186751599248965
+  },
+  {
+   "task": "task400",
+   "merge": "task400+task379",
+   "accuracy": 0.825,
+   "L_input": 3.1130328595638277,
+   "L_answer": 0.16997153645188517
+  },
+  {
+   "task": "task379",
+   "merge": "task400+task379",
+   "accuracy": 0.7,
+   "L_input": 2.7696062862873077,
+   "L_answer": 0.8883911786946556
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task1391+task280",
+   "accuracy": 0.725,
+   "L_input": 3.1006181716918944,
+   "L_answer": 0.83632180535933
+  },
+  {
+   "task": "task1391",
+   "merge": "task190+task1391+task280",
+   "accuracy": 0.95,
+   "L_input": 4.033300793170929,
+   "L_answer": 0.22496182343038526
+  },
+  {
+   "task": "task280",
+   "merge": "task190+task1391+task280",
+   "accuracy": 0.85,
+   "L_input": 2.8822356820106507,
+   "L_answer": 0.6131302063266049
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task1391+task290",
+   "accuracy": 0.8,
+   "L_input": 3.076712745428085,
+   "L_answer": 0.6436235731001944
+  },
+  {
+   "task": "task1391",
+   "merge": "task190+task1391+task290",
+   "accuracy": 1.0,
+   "L_input": 3.998849147558212,
+   "L_answer": 0.07981121133093438
+  },
+  {
+   "task": "task290",
+   "merge": "task190+task1391+task290",
+   "accuracy": 0.875,
+   "L_input": 3.1937511026859284,
+   "L_answer": 0.24093756582587958
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task1391+task391",
+   "accuracy": 0.75,
+   "L_input": 3.073596090078354,
+   "L_answer": 0.8163608995266258
+  },
+  {
+   "task": "task1391",
+   "merge": "task190+task1391+task391",
+   "accuracy": 0.975,
+   "L_input": 4.034284025430679,
+   "L_answer": 0.14996278210905983
+  },
+  {
+   "task": "task391",
+   "merge": "task190+task1391+task391",
+   "accuracy": 0.775,
+   "L_input": 3.6321647107601165,
+   "L_answer": 0.5477687081322073
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task1391+task363",
+   "accuracy": 0.775,
+   "L_input": 3.0651108264923095,
+   "L_answer": 0.6985733430366963
+  },
+  {
+   "task": "task1391",
+   "merge": "task190+task1391+task363",
+   "accuracy": 0.975,
+   "L_input": 4.01098096370697,
+   "L_answer": 0.15167288513748645
+  },
+  {
+   "task": "task363",
+   "merge": "task190+task1391+task363",
+   "accuracy": 0.775,
+   "L_input": 3.8779374778270723,
+   "L_answer": 0.4518387849122519
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task1391+task400",
+   "accuracy": 0.75,
+   "L_input": 3.0608694434165953,
+   "L_answer": 0.6801992520457134
+  },
+  {
+   "task": "task1391",
+   "merge": "task190+task1391+task400",
+   "accuracy": 0.95,
+   "L_input": 4.007254165410996,
+   "L_answer": 0.1505044244320743
+  },
+  {
+   "task": "task400",
+   "merge": "task190+task1391+task400",
+   "accuracy": 0.775,
+   "L_input": 3.0244166254997253,
+   "L_answer": 0.19246026077089481
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task1391+task379",
+   "accuracy": 0.7,
+   "L_input": 3.095455700159073,
+   "L_answer": 0.786863612162415
+  },
+  {
+   "task": "task1391",
+   "merge": "task190+task1391+task379",
+   "accuracy": 0.95,
+   "L_input": 4.061105471849442,
+   "L_answer": 0.1564849668318402
+  },
+  {
+   "task": "task379",
+   "merge": "task190+task1391+task379",
+   "accuracy": 0.6,
+   "L_input": 2.7689624607563017,
+   "L_answer": 1.1927106326911598
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task280+task290",
+   "accuracy": 0.75,
+   "L_input": 3.1052040338516234,
+   "L_answer": 0.6886704695643857
+  },
+  {
+   "task": "task280",
+   "merge": "task190+task280+task290",
+   "accuracy": 0.85,
+   "L_input": 2.874572777748108,
+   "L_answer": 0.32698282621786345
+  },
+  {
+   "task": "task290",
+   "merge": "task190+task280+task290",
+   "accuracy": 0.85,
+   "L_input": 3.2485996901988985,
+   "L_answer": 0.23075082884170114
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task280+task391",
+   "accuracy": 0.75,
+   "L_input": 3.1084498882293703,
+   "L_answer": 0.738558788667433
+  },
+  {
+   "task": "task280",
+   "merge": "task190+task280+task391",
+   "accuracy": 0.8,
+   "L_input": 2.851797568798065,
+   "L_answer": 0.24999987959017744
+  },
+  {
+   "task": "task391",
+   "merge": "task190+task280+task391",
+   "accuracy": 0.8,
+   "L_input": 3.686805897951126,
+   "L_answer": 0.8178275263868272
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task280+task363",
+   "accuracy": 0.775,
+   "L_input": 3.0987350702285767,
+   "L_answer": 0.6846395117696374
+  },
+  {
+   "task": "task280",
+   "merge": "task190+task280+task363",
+   "accuracy": 0.875,
+   "L_input": 2.8539439737796783,
+   "L_answer": 0.4265014854958281
+  },
+  {
+   "task": "task363",
+   "merge": "task190+task280+task363",
+   "accuracy": 0.8,
+   "L_input": 3.9147148013114927,
+   "L_answer": 0.4432804368523648
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task280+task400",
+   "accuracy": 0.725,
+   "L_input": 3.0966743350028993,
+   "L_answer": 0.7120061739347875
+  },
+  {
+   "task": "task280",
+   "merge": "task190+task280+task400",
+   "accuracy": 0.825,
+   "L_input": 2.89235372543335,
+   "L_answer": 0.36929612439998893
+  },
+  {
+   "task": "task400",
+   "merge": "task190+task280+task400",
+   "accuracy": 0.725,
+   "L_input": 3.0755495488643647,
+   "L_answer": 0.2541823211926385
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task280+task379",
+   "accuracy": 0.7,
+   "L_input": 3.1174631893634794,
+   "L_answer": 0.8444271797197871
+  },
+  {
+   "task": "task280",
+   "merge": "task190+task280+task379",
+   "accuracy": 0.825,
+   "L_input": 2.8925238251686096,
+   "L_answer": 0.31922143394331215
+  },
+  {
+   "task": "task379",
+   "merge": "task190+task280+task379",
+   "accuracy": 0.625,
+   "L_input": 2.7930845260620116,
+   "L_answer": 0.7497889298054361
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task290+task391",
+   "accuracy": 0.825,
+   "L_input": 3.0559128642082216,
+   "L_answer": 0.6789826301857829
+  },
+  {
+   "task": "task290",
+   "merge": "task190+task290+task391",
+   "accuracy": 0.85,
+   "L_input": 3.208604598045349,
+   "L_answer": 0.2018244759296067
+  },
+  {
+   "task": "task391",
+   "merge": "task190+task290+task391",
+   "accuracy": 0.775,
+   "L_input": 3.6617152214050295,
+   "L_answer": 0.4374578850343823
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task290+task363",
+   "accuracy": 0.85,
+   "L_input": 3.067666107416153,
+   "L_answer": 0.5585907691624016
+  },
+  {
+   "task": "task290",
+   "merge": "task190+task290+task363",
+   "accuracy": 0.875,
+   "L_input": 3.2294721066951753,
+   "L_answer": 0.18022996010258793
+  },
+  {
+   "task": "task363",
+   "merge": "task190+task290+task363",
+   "accuracy": 0.7,
+   "L_input": 3.856785070896149,
+   "L_answer": 0.5604738767200615
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task290+task400",
+   "accuracy": 0.775,
+   "L_input": 3.0699452817440034,
+   "L_answer": 0.6274367461912334
+  },
+  {
+   "task": "task290",
+   "merge": "task190+task290+task400",
+   "accuracy": 0.825,
+   "L_input": 3.2421486496925356,
+   "L_answer": 0.21329145507188513
+  },
+  {
+   "task": "task400",
+   "merge": "task190+task290+task400",
+   "accuracy": 0.775,
+   "L_input": 3.036109447479248,
+   "L_answer": 0.19043848928631632
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task290+task379",
+   "accuracy": 0.725,
+   "L_input": 3.079595762491226,
+   "L_answer": 0.6492575790034607
+  },
+  {
+   "task": "task290",
+   "merge": "task190+task290+task379",
+   "accuracy": 0.85,
+   "L_input": 3.2542727649211884,
+   "L_answer": 0.23327188172843308
+  },
+  {
+   "task": "task379",
+   "merge": "task190+task290+task379",
+   "accuracy": 0.65,
+   "L_input": 2.766828513145447,
+   "L_answer": 0.9537068291188916
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task391+task363",
+   "accuracy": 0.775,
+   "L_input": 3.0746002078056334,
+   "L_answer": 0.6471377826994285
+  },
+  {
+   "task": "task391",
+   "merge": "task190+task391+task363",
+   "accuracy": 0.75,
+   "L_input": 3.6111711502075194,
+   "L_answer": 0.2990865715779364
+  },
+  {
+   "task": "task363",
+   "merge": "task190+task391+task363",
+   "accuracy": 0.725,
+   "L_input": 3.810562455654144,
+   "L_answer": 0.6015835558362597
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task391+task400",
+   "accuracy": 0.75,
+   "L_input": 3.043495637178421,
+   "L_answer": 0.7310429117176682
+  },
+  {
+   "task": "task391",
+   "merge": "task190+task391+task400",
+   "accuracy": 0.8,
+   "L_input": 3.6412005722522736,
+   "L_answer": 0.5146518463268877
+  },
+  {
+   "task": "task400",
+   "merge": "task190+task391+task400",
+   "accuracy": 0.7,
+   "L_input": 2.994498538970947,
+   "L_answer": 0.2205423815708855
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task391+task379",
+   "accuracy": 0.8,
+   "L_input": 3.057422083616257,
+   "L_answer": 0.6787906487705186
+  },
+  {
+   "task": "task391",
+   "merge": "task190+task391+task379",
+   "accuracy": 0.825,
+   "L_input": 3.6591254472732544,
+   "L_answer": 0.901521473005414
+  },
+  {
+   "task": "task379",
+   "merge": "task190+task391+task379",
+   "accuracy": 0.625,
+   "L_input": 2.73164125084877,
+   "L_answer": 0.958589125285289
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task363+task400",
+   "accuracy": 0.825,
+   "L_input": 3.0901803851127623,
+   "L_answer": 0.5683957497123628
+  },
+  {
+   "task": "task363",
+   "merge": "task190+task363+task400",
+   "accuracy": 0.775,
+   "L_input": 3.908168005943298,
+   "L_answer": 0.5183007397514302
+  },
+  {
+   "task": "task400",
+   "merge": "task190+task363+task400",
+   "accuracy": 0.725,
+   "L_input": 3.0600301742553713,
+   "L_answer": 0.21408012756437528
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task363+task379",
+   "accuracy": 0.8,
+   "L_input": 3.0714844942092894,
+   "L_answer": 0.5873539804015309
+  },
+  {
+   "task": "task363",
+   "merge": "task190+task363+task379",
+   "accuracy": 0.775,
+   "L_input": 3.8703160643577577,
+   "L_answer": 0.37666178702784237
+  },
+  {
+   "task": "task379",
+   "merge": "task190+task363+task379",
+   "accuracy": 0.575,
+   "L_input": 2.778632241487503,
+   "L_answer": 1.2957567040692084
+  },
+  {
+   "task": "task190",
+   "merge": "task190+task400+task379",
+   "accuracy": 0.725,
+   "L_input": 3.0843349516391756,
+   "L_answer": 0.7218240569811314
+  },
+  {
+   "task": "task400",
+   "merge": "task190+task400+task379",
+   "accuracy": 0.75,
+   "L_input": 3.0430801808834076,
+   "L_answer": 0.21692640577093697
+  },
+  {
+   "task": "task379",
+   "merge": "task190+task400+task379",
+   "accuracy": 0.525,
+   "L_input": 2.748694694042206,
+   "L_answer": 1.6108662638580427
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task280+task290",
+   "accuracy": 0.875,
+   "L_input": 3.955898195505142,
+   "L_answer": 0.5059482212911461
+  },
+  {
+   "task": "task280",
+   "merge": "task1391+task280+task290",
+   "accuracy": 0.8,
+   "L_input": 2.8995965719223022,
+   "L_answer": 1.1291022925492142
+  },
+  {
+   "task": "task290",
+   "merge": "task1391+task280+task290",
+   "accuracy": 0.825,
+   "L_input": 3.2508557081222533,
+   "L_answer": 0.24759164298302494
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task280+task391",
+   "accuracy": 0.95,
+   "L_input": 4.0515023410320286,
+   "L_answer": 0.3433197244983603
+  },
+  {
+   "task": "task280",
+   "merge": "task1391+task280+task391",
+   "accuracy": 0.75,
+   "L_input": 2.8753549456596375,
+   "L_answer": 1.192021341943473
+  },
+  {
+   "task": "task391",
+   "merge": "task1391+task280+task391",
+   "accuracy": 0.725,
+   "L_input": 3.6803064227104185,
+   "L_answer": 1.114746898598969
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task280+task363",
+   "accuracy": 0.85,
+   "L_input": 4.005966532230377,
+   "L_answer": 0.45353518251449715
+  },
+  {
+   "task": "task280",
+   "merge": "task1391+task280+task363",
+   "accuracy": 0.8,
+   "L_input": 2.881428372859955,
+   "L_answer": 1.3506770244886865
+  },
+  {
+   "task": "task363",
+   "merge": "task1391+task280+task363",
+   "accuracy": 0.825,
+   "L_input": 3.8951285243034364,
+   "L_answer": 0.378418160561705
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task280+task400",
+   "accuracy": 0.8,
+   "L_input": 3.997537636756897,
+   "L_answer": 0.8245343212729495
+  },
+  {
+   "task": "task280",
+   "merge": "task1391+task280+task400",
+   "accuracy": 0.75,
+   "L_input": 2.902162367105484,
+   "L_answer": 1.12735045014997
+  },
+  {
+   "task": "task400",
+   "merge": "task1391+task280+task400",
+   "accuracy": 0.775,
+   "L_input": 3.097961503267288,
+   "L_answer": 0.2631210865692992
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task280+task379",
+   "accuracy": 0.85,
+   "L_input": 4.001072651147842,
+   "L_answer": 0.6400149538940241
+  },
+  {
+   "task": "task280",
+   "merge": "task1391+task280+task379",
+   "accuracy": 0.65,
+   "L_input": 2.9108760058879852,
+   "L_answer": 1.479070769923419
+  },
+  {
+   "task": "task379",
+   "merge": "task1391+task280+task379",
+   "accuracy": 0.625,
+   "L_input": 2.8000984370708464,
+   "L_answer": 1.1083988912330824
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task290+task391",
+   "accuracy": 0.95,
+   "L_input": 3.9853725492954255,
+   "L_answer": 0.15631466297333532
+  },
+  {
+   "task": "task290",
+   "merge": "task1391+task290+task391",
+   "accuracy": 0.85,
+   "L_input": 3.2181022346019743,
+   "L_answer": 0.22355768625857309
+  },
+  {
+   "task": "task391",
+   "merge": "task1391+task290+task391",
+   "accuracy": 0.75,
+   "L_input": 3.647037613391876,
+   "L_answer": 0.33937388425692916
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task290+task363",
+   "accuracy": 0.925,
+   "L_input": 3.9432978093624116,
+   "L_answer": 0.23239666153831423
+  },
+  {
+   "task": "task290",
+   "merge": "task1391+task290+task363",
+   "accuracy": 0.825,
+   "L_input": 3.208070677518845,
+   "L_answer": 0.21047605724306778
+  },
+  {
+   "task": "task363",
+   "merge": "task1391+task290+task363",
+   "accuracy": 0.775,
+   "L_input": 3.8375274360179903,
+   "L_answer": 0.5019544654467609
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task290+task400",
+   "accuracy": 0.925,
+   "L_input": 3.976145398616791,
+   "L_answer": 0.3008701899567313
+  },
+  {
+   "task": "task290",
+   "merge": "task1391+task290+task400",
+   "accuracy": 0.775,
+   "L_input": 3.2255143225193024,
+   "L_answer": 0.24586042921291665
+  },
+  {
+   "task": "task400",
+   "merge": "task1391+task290+task400",
+   "accuracy": 0.775,
+   "L_input": 3.025490015745163,
+   "L_answer": 0.22132495361020119
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task290+task379",
+   "accuracy": 0.95,
+   "L_input": 3.9895529210567475,
+   "L_answer": 0.3044932463718055
+  },
+  {
+   "task": "task290",
+   "merge": "task1391+task290+task379",
+   "accuracy": 0.85,
+   "L_input": 3.2054500818252563,
+   "L_answer": 0.21843401775113308
+  },
+  {
+   "task": "task379",
+   "merge": "task1391+task290+task379",
+   "accuracy": 0.625,
+   "L_input": 2.771459847688675,
+   "L_answer": 1.1268158259248593
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task391+task363",
+   "accuracy": 0.95,
+   "L_input": 4.007369267940521,
+   "L_answer": 0.24105034686353974
+  },
+  {
+   "task": "task391",
+   "merge": "task1391+task391+task363",
+   "accuracy": 0.75,
+   "L_input": 3.6163615584373474,
+   "L_answer": 0.3877286098664626
+  },
+  {
+   "task": "task363",
+   "merge": "task1391+task391+task363",
+   "accuracy": 0.825,
+   "L_input": 3.8285606443881988,
+   "L_answer": 0.374806327544502
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task391+task400",
+   "accuracy": 0.95,
+   "L_input": 3.99868905544281,
+   "L_answer": 0.35439414677689457
+  },
+  {
+   "task": "task391",
+   "merge": "task1391+task391+task400",
+   "accuracy": 0.775,
+   "L_input": 3.605662602186203,
+   "L_answer": 0.5124671772355214
+  },
+  {
+   "task": "task400",
+   "merge": "task1391+task391+task400",
+   "accuracy": 0.8,
+   "L_input": 3.0093202710151674,
+   "L_answer": 0.22277273332192635
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task391+task379",
+   "accuracy": 0.95,
+   "L_input": 3.9878625333309174,
+   "L_answer": 0.3114231867354874
+  },
+  {
+   "task": "task391",
+   "merge": "task1391+task391+task379",
+   "accuracy": 0.75,
+   "L_input": 3.6183346927165987,
+   "L_answer": 0.6925955812563188
+  },
+  {
+   "task": "task379",
+   "merge": "task1391+task391+task379",
+   "accuracy": 0.675,
+   "L_input": 2.7663784623146057,
+   "L_answer": 1.2528339511192825
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task363+task400",
+   "accuracy": 0.95,
+   "L_input": 4.014673066139221,
+   "L_answer": 0.5764329536403239
+  },
+  {
+   "task": "task363",
+   "merge": "task1391+task363+task400",
+   "accuracy": 0.8,
+   "L_input": 3.915435665845871,
+   "L_answer": 0.4485105042171199
+  },
+  {
+   "task": "task400",
+   "merge": "task1391+task363+task400",
+   "accuracy": 0.7,
+   "L_input": 3.069991093873978,
+   "L_answer": 0.2701054962535636
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task363+task379",
+   "accuracy": 0.925,
+   "L_input": 3.978925794363022,
+   "L_answer": 0.4774721051047891
+  },
+  {
+   "task": "task363",
+   "merge": "task1391+task363+task379",
+   "accuracy": 0.825,
+   "L_input": 3.8563222646713258,
+   "L_answer": 0.39563728267967235
+  },
+  {
+   "task": "task379",
+   "merge": "task1391+task363+task379",
+   "accuracy": 0.575,
+   "L_input": 2.7695381224155424,
+   "L_answer": 1.3032417319554952
+  },
+  {
+   "task": "task1391",
+   "merge": "task1391+task400+task379",
+   "accuracy": 0.95,
+   "L_input": 3.976261568069458,
+   "L_answer": 0.49923385563070044
+  },
+  {
+   "task": "task400",
+   "merge": "task1391+task400+task379",
+   "accuracy": 0.775,
+   "L_input": 3.0419040262699126,
+   "L_answer": 0.2640861615032918
+  },
+  {
+   "task": "task379",
+   "merge": "task1391+task400+task379",
+   "accuracy": 0.55,
+   "L_input": 2.7732453107833863,
+   "L_answer": 1.7474907689545944
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task290+task391",
+   "accuracy": 0.85,
+   "L_input": 2.847576117515564,
+   "L_answer": 0.5337171705814399
+  },
+  {
+   "task": "task290",
+   "merge": "task280+task290+task391",
+   "accuracy": 0.8,
+   "L_input": 3.2917860805988313,
+   "L_answer": 0.23690256740374024
+  },
+  {
+   "task": "task391",
+   "merge": "task280+task290+task391",
+   "accuracy": 0.85,
+   "L_input": 3.7064201176166534,
+   "L_answer": 0.6998711222782731
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task290+task363",
+   "accuracy": 0.725,
+   "L_input": 2.8384581923484804,
+   "L_answer": 0.9657081264907902
+  },
+  {
+   "task": "task290",
+   "merge": "task280+task290+task363",
+   "accuracy": 0.85,
+   "L_input": 3.246312803030014,
+   "L_answer": 0.2185322107223328
+  },
+  {
+   "task": "task363",
+   "merge": "task280+task290+task363",
+   "accuracy": 0.8,
+   "L_input": 3.8439125299453734,
+   "L_answer": 0.4894337895260833
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task290+task400",
+   "accuracy": 0.8,
+   "L_input": 2.895205944776535,
+   "L_answer": 0.6081702422354283
+  },
+  {
+   "task": "task290",
+   "merge": "task280+task290+task400",
+   "accuracy": 0.875,
+   "L_input": 3.3091057896614076,
+   "L_answer": 0.1744561288447585
+  },
+  {
+   "task": "task400",
+   "merge": "task280+task290+task400",
+   "accuracy": 0.7,
+   "L_input": 3.07990739941597,
+   "L_answer": 0.23518280282796694
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task290+task379",
+   "accuracy": 0.775,
+   "L_input": 2.885466980934143,
+   "L_answer": 0.6191051672878529
+  },
+  {
+   "task": "task290",
+   "merge": "task280+task290+task379",
+   "accuracy": 0.85,
+   "L_input": 3.292327892780304,
+   "L_answer": 0.24054212585324422
+  },
+  {
+   "task": "task379",
+   "merge": "task280+task290+task379",
+   "accuracy": 0.7,
+   "L_input": 2.7808822870254515,
+   "L_answer": 0.7369116166930325
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task391+task363",
+   "accuracy": 0.8,
+   "L_input": 2.8420055985450743,
+   "L_answer": 0.7659509862816776
+  },
+  {
+   "task": "task391",
+   "merge": "task280+task391+task363",
+   "accuracy": 0.75,
+   "L_input": 3.6068051993846892,
+   "L_answer": 0.6308686923235655
+  },
+  {
+   "task": "task363",
+   "merge": "task280+task391+task363",
+   "accuracy": 0.825,
+   "L_input": 3.849701929092407,
+   "L_answer": 0.5088943555198057
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task391+task400",
+   "accuracy": 0.875,
+   "L_input": 2.8719728887081146,
+   "L_answer": 0.4021512797437026
+  },
+  {
+   "task": "task391",
+   "merge": "task280+task391+task400",
+   "accuracy": 0.8,
+   "L_input": 3.7336592972278595,
+   "L_answer": 0.752689720550552
+  },
+  {
+   "task": "task400",
+   "merge": "task280+task391+task400",
+   "accuracy": 0.7,
+   "L_input": 3.1006177842617033,
+   "L_answer": 0.3003648645159046
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task391+task379",
+   "accuracy": 0.8,
+   "L_input": 2.869467717409134,
+   "L_answer": 0.48794104622793383
+  },
+  {
+   "task": "task391",
+   "merge": "task280+task391+task379",
+   "accuracy": 0.75,
+   "L_input": 3.703397649526596,
+   "L_answer": 0.9222938482649624
+  },
+  {
+   "task": "task379",
+   "merge": "task280+task391+task379",
+   "accuracy": 0.725,
+   "L_input": 2.779977637529373,
+   "L_answer": 0.8033231569766031
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task363+task400",
+   "accuracy": 0.775,
+   "L_input": 2.866547626256943,
+   "L_answer": 0.8307750588457565
+  },
+  {
+   "task": "task363",
+   "merge": "task280+task363+task400",
+   "accuracy": 0.8,
+   "L_input": 3.9458589792251586,
+   "L_answer": 0.4530537281811121
+  },
+  {
+   "task": "task400",
+   "merge": "task280+task363+task400",
+   "accuracy": 0.7,
+   "L_input": 3.0806377470493316,
+   "L_answer": 0.28122317358120197
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task363+task379",
+   "accuracy": 0.775,
+   "L_input": 2.8632761240005493,
+   "L_answer": 0.8098645292760921
+  },
+  {
+   "task": "task363",
+   "merge": "task280+task363+task379",
+   "accuracy": 0.875,
+   "L_input": 3.871315038204193,
+   "L_answer": 0.45059057280013803
+  },
+  {
+   "task": "task379",
+   "merge": "task280+task363+task379",
+   "accuracy": 0.65,
+   "L_input": 2.792815601825714,
+   "L_answer": 0.9650631303664341
+  },
+  {
+   "task": "task280",
+   "merge": "task280+task400+task379",
+   "accuracy": 0.825,
+   "L_input": 2.8991200506687163,
+   "L_answer": 0.5125488444027724
+  },
+  {
+   "task": "task400",
+   "merge": "task280+task400+task379",
+   "accuracy": 0.675,
+   "L_input": 3.1078978359699247,
+   "L_answer": 0.34887427854264386
+  },
+  {
+   "task": "task379",
+   "merge": "task280+task400+task379",
+   "accuracy": 0.65,
+   "L_input": 2.8104346990585327,
+   "L_answer": 1.1381924344357686
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task391+task363",
+   "accuracy": 0.85,
+   "L_input": 3.2229418635368345,
+   "L_answer": 0.18379373536736238
+  },
+  {
+   "task": "task391",
+   "merge": "task290+task391+task363",
+   "accuracy": 0.725,
+   "L_input": 3.6162381947040556,
+   "L_answer": 0.19716805717907845
+  },
+  {
+   "task": "task363",
+   "merge": "task290+task391+task363",
+   "accuracy": 0.75,
+   "L_input": 3.7998163998126984,
+   "L_answer": 0.6255938966312897
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task391+task400",
+   "accuracy": 0.85,
+   "L_input": 3.2488721191883085,
+   "L_answer": 0.1978215015202295
+  },
+  {
+   "task": "task391",
+   "merge": "task290+task391+task400",
+   "accuracy": 0.825,
+   "L_input": 3.6990211069583894,
+   "L_answer": 0.22301587131805717
+  },
+  {
+   "task": "task400",
+   "merge": "task290+task391+task400",
+   "accuracy": 0.725,
+   "L_input": 3.0412723660469054,
+   "L_answer": 0.19026638528848708
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task391+task379",
+   "accuracy": 0.85,
+   "L_input": 3.250064933300018,
+   "L_answer": 0.22270584387733833
+  },
+  {
+   "task": "task391",
+   "merge": "task290+task391+task379",
+   "accuracy": 0.8,
+   "L_input": 3.6986311972141266,
+   "L_answer": 0.41770911021158097
+  },
+  {
+   "task": "task379",
+   "merge": "task290+task391+task379",
+   "accuracy": 0.75,
+   "L_input": 2.7481328547000885,
+   "L_answer": 0.9657418247399618
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task363+task400",
+   "accuracy": 0.85,
+   "L_input": 3.2428134441375733,
+   "L_answer": 0.16528037858079186
+  },
+  {
+   "task": "task363",
+   "merge": "task290+task363+task400",
+   "accuracy": 0.775,
+   "L_input": 3.9207941234111785,
+   "L_answer": 0.6084314932806592
+  },
+  {
+   "task": "task400",
+   "merge": "task290+task363+task400",
+   "accuracy": 0.675,
+   "L_input": 3.0635607302188874,
+   "L_answer": 0.23888180410285714
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task363+task379",
+   "accuracy": 0.85,
+   "L_input": 3.2264559268951416,
+   "L_answer": 0.16765575937170069
+  },
+  {
+   "task": "task363",
+   "merge": "task290+task363+task379",
+   "accuracy": 0.8,
+   "L_input": 3.8204219043254852,
+   "L_answer": 0.4251837834257458
+  },
+  {
+   "task": "task379",
+   "merge": "task290+task363+task379",
+   "accuracy": 0.625,
+   "L_input": 2.7638248562812806,
+   "L_answer": 1.2901709129322625
+  },
+  {
+   "task": "task290",
+   "merge": "task290+task400+task379",
+   "accuracy": 0.825,
+   "L_input": 3.297421509027481,
+   "L_answer": 0.19442444301967043
+  },
+  {
+   "task": "task400",
+   "merge": "task290+task400+task379",
+   "accuracy": 0.7,
+   "L_input": 3.0792061030864715,
+   "L_answer": 0.24025662174535684
+  },
+  {
+   "task": "task379",
+   "merge": "task290+task400+task379",
+   "accuracy": 0.625,
+   "L_input": 2.794282704591751,
+   "L_answer": 1.3199275877392211
+  },
+  {
+   "task": "task391",
+   "merge": "task391+task363+task400",
+   "accuracy": 0.775,
+   "L_input": 3.6203943610191347,
+   "L_answer": 0.2921242982847616
+  },
+  {
+   "task": "task363",
+   "merge": "task391+task363+task400",
+   "accuracy": 0.8,
+   "L_input": 3.8709453344345093,
+   "L_answer": 0.5650127096720098
+  },
+  {
+   "task": "task400",
+   "merge": "task391+task363+task400",
+   "accuracy": 0.675,
+   "L_input": 3.0424125492572784,
+   "L_answer": 0.2613615843738444
+  },
+  {
+   "task": "task391",
+   "merge": "task391+task363+task379",
+   "accuracy": 0.75,
+   "L_input": 3.5958905696868895,
+   "L_answer": 0.3856807803735137
+  },
+  {
+   "task": "task363",
+   "merge": "task391+task363+task379",
+   "accuracy": 0.825,
+   "L_input": 3.7962232172489165,
+   "L_answer": 0.4524731022447668
+  },
+  {
+   "task": "task379",
+   "merge": "task391+task363+task379",
+   "accuracy": 0.7,
+   "L_input": 2.740227961540222,
+   "L_answer": 1.3322952949120008
+  },
+  {
+   "task": "task391",
+   "merge": "task391+task400+task379",
+   "accuracy": 0.8,
+   "L_input": 3.6660669267177584,
+   "L_answer": 0.531833728402853
+  },
+  {
+   "task": "task400",
+   "merge": "task391+task400+task379",
+   "accuracy": 0.7,
+   "L_input": 3.037281000614166,
+   "L_answer": 0.26379929292943416
+  },
+  {
+   "task": "task379",
+   "merge": "task391+task400+task379",
+   "accuracy": 0.65,
+   "L_input": 2.741964799165726,
+   "L_answer": 1.3752956675638415
+  },
+  {
+   "task": "task363",
+   "merge": "task363+task400+task379",
+   "accuracy": 0.825,
+   "L_input": 3.923340320587158,
+   "L_answer": 0.4066193080820085
+  },
+  {
+   "task": "task400",
+   "merge": "task363+task400+task379",
+   "accuracy": 0.675,
+   "L_input": 3.0674871146678924,
+   "L_answer": 0.2586621760412527
+  },
+  {
+   "task": "task379",
+   "merge": "task363+task400+task379",
+   "accuracy": 0.6,
+   "L_input": 2.762267178297043,
+   "L_answer": 1.7021965063977404
+  }
+ ]
+}

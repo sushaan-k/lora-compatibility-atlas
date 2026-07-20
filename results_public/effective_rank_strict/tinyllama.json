@@ -1,0 +1,146 @@
+{
+  "adapters": [
+    "conversation",
+    "empathy",
+    "brainstorming",
+    "creative",
+    "colorist"
+  ],
+  "n_adapters_m": 5,
+  "chart_dim_d": 4,
+  "n_design_points": 70,
+  "N_d_required": 15,
+  "per_adapter": [
+    {
+      "name": "conversation",
+      "hessian_frobenius": 2.1323917823600484,
+      "hessian_eigvals": [
+        -1.5448544942402953e-16,
+        2.762736137287102e-16,
+        0.46310295311331395,
+        2.0814971458770706
+      ],
+      "linear_b_norm": 0.7111432332135934,
+      "min_eigenvalue_before_psd": -1.4305946826030371,
+      "psd_projected": true,
+      "psd_adjustment_frob": 1.4482781371052835
+    },
+    {
+      "name": "empathy",
+      "hessian_frobenius": 1.3810254403259712,
+      "hessian_eigvals": [
+        -8.534735660368796e-17,
+        4.247173916663176e-17,
+        0.18360240868675518,
+        1.3687663870624398
+      ],
+      "linear_b_norm": 0.7819559804700233,
+      "min_eigenvalue_before_psd": -0.7950485489573796,
+      "psd_projected": true,
+      "psd_adjustment_frob": 0.7962739579991295
+    },
+    {
+      "name": "brainstorming",
+      "hessian_frobenius": 1.7977039826286532,
+      "hessian_eigvals": [
+        2.041651965910151e-18,
+        1.4129901801487093e-16,
+        0.4235358017314508,
+        1.7470996061503241
+      ],
+      "linear_b_norm": 1.0721897027724754,
+      "min_eigenvalue_before_psd": -0.920106382820779,
+      "psd_projected": true,
+      "psd_adjustment_frob": 1.134200566883231
+    },
+    {
+      "name": "creative",
+      "hessian_frobenius": 1.7302463015775167,
+      "hessian_eigvals": [
+        -4.247399442708543e-17,
+        1.9172116151774706e-16,
+        0.2987489304169161,
+        1.7042597632689165
+      ],
+      "linear_b_norm": 0.5692747734337855,
+      "min_eigenvalue_before_psd": -0.7927091797923839,
+      "psd_projected": true,
+      "psd_adjustment_frob": 0.7972601035848348
+    },
+    {
+      "name": "colorist",
+      "hessian_frobenius": 5.167349179930867,
+      "hessian_eigvals": [
+        -9.867241459989188e-16,
+        5.066157650804052e-16,
+        0.7880101837826617,
+        5.106910758725574
+      ],
+      "linear_b_norm": 1.803261066168017,
+      "min_eigenvalue_before_psd": -0.9353751241552981,
+      "psd_projected": true,
+      "psd_adjustment_frob": 1.0411170273789425
+    }
+  ],
+  "spectrum": {
+    "eigvals_H_bar": [
+      2.345855958798719,
+      0.4212288534584482,
+      0.037433490287149956,
+      0.02858848521876725
+    ],
+    "L_F_max_task_frobenius": 5.167349179930867,
+    "chart_diameter_D": 1.4142135623730951,
+    "trace_H_bar": 2.833106787763085
+  },
+  "strict_max_residuals_per_r": [
+    {
+      "r": 0,
+      "max_task_hessian_residual_frobenius": 5.167349179930867,
+      "max_task_hessian_residual_relative": 1.0,
+      "max_task_first_order_residual_times_D": 2.550196256274177
+    },
+    {
+      "r": 1,
+      "max_task_hessian_residual_frobenius": 1.1477262164385185,
+      "max_task_hessian_residual_relative": 0.22211121727482594,
+      "max_task_first_order_residual_times_D": 0.6051127664315612
+    },
+    {
+      "r": 2,
+      "max_task_hessian_residual_frobenius": 0.7410713416959721,
+      "max_task_hessian_residual_relative": 0.14341421798514625,
+      "max_task_first_order_residual_times_D": 0.5857981888473551
+    },
+    {
+      "r": 3,
+      "max_task_hessian_residual_frobenius": 0.735367950231046,
+      "max_task_hessian_residual_relative": 0.142310481568982,
+      "max_task_first_order_residual_times_D": 0.5604112101062312
+    },
+    {
+      "r": 4,
+      "max_task_hessian_residual_frobenius": 4.2389088928814686e-15,
+      "max_task_hessian_residual_relative": 8.203256147938855e-16,
+      "max_task_first_order_residual_times_D": 6.933340566559919e-16
+    }
+  ],
+  "sigma_adim_eps_strict": [
+    {
+      "eps": 0.01,
+      "r_eps_strict_max": 4
+    },
+    {
+      "eps": 0.05,
+      "r_eps_strict_max": 4
+    },
+    {
+      "eps": 0.1,
+      "r_eps_strict_max": 4
+    },
+    {
+      "eps": 0.2,
+      "r_eps_strict_max": 2
+    }
+  ]
+}

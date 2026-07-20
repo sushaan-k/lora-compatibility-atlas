@@ -1,0 +1,14 @@
+{
+ "linear": {
+  "acc_auroc_min": 0.714,
+  "acc_auroc_max": 0.779
+ },
+ "ties": {
+  "acc_auroc_min": 0.688,
+  "acc_auroc_max": 0.731
+ },
+ "dare_ties": {
+  "acc_auroc_min": 0.581,
+  "acc_auroc_max": 0.694
+ }
+}

@@ -1,0 +1,421 @@
+{
+  "rows": [
+    {
+      "task": "task190",
+      "merge": "base",
+      "accuracy": 0.5,
+      "L_input": 3.129248833656311,
+      "L_answer": 12.680408481531776
+    },
+    {
+      "task": "task190",
+      "merge": "alone",
+      "accuracy": 0.85,
+      "L_input": 3.734659719467163,
+      "L_answer": 1.6937091121450067
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task1391",
+      "accuracy": 0.875,
+      "L_input": 3.1097004234790804,
+      "L_answer": 0.40450184741057454
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task280",
+      "accuracy": 0.825,
+      "L_input": 3.1594798505306243,
+      "L_answer": 0.3758706877473742
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task290",
+      "accuracy": 0.85,
+      "L_input": 3.1427638709545134,
+      "L_answer": 0.39298075512051583
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task391",
+      "accuracy": 0.85,
+      "L_input": 3.1114941418170927,
+      "L_answer": 0.40176404449157416
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task290+task391",
+      "accuracy": 0.825,
+      "L_input": 3.0579060077667237,
+      "L_answer": 0.6760846868157386
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task1391+task280",
+      "accuracy": 0.725,
+      "L_input": 3.10032976269722,
+      "L_answer": 0.8347203196608461
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task280+task290",
+      "accuracy": 0.75,
+      "L_input": 3.1062428414821626,
+      "L_answer": 0.6879084171145223
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task1391+task391",
+      "accuracy": 0.75,
+      "L_input": 3.0728804230690003,
+      "L_answer": 0.8265631312038749
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task1391+task290",
+      "accuracy": 0.775,
+      "L_input": 3.078222894668579,
+      "L_answer": 0.6298255058703944
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task280+task391",
+      "accuracy": 0.775,
+      "L_input": 3.1033828377723696,
+      "L_answer": 0.7325251647038385
+    },
+    {
+      "task": "task1391",
+      "merge": "base",
+      "accuracy": 0.375,
+      "L_input": 4.151967918872833,
+      "L_answer": 10.877419639441177
+    },
+    {
+      "task": "task1391",
+      "merge": "alone",
+      "accuracy": 0.975,
+      "L_input": 4.371347182989121,
+      "L_answer": 0.19063309300254333
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task190",
+      "accuracy": 0.975,
+      "L_input": 4.06811860203743,
+      "L_answer": 0.1535420550557319
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task280",
+      "accuracy": 0.95,
+      "L_input": 4.125265526771545,
+      "L_answer": 0.3539088657472348
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task290",
+      "accuracy": 1.0,
+      "L_input": 4.032773357629776,
+      "L_answer": 0.01468176578252951
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task391",
+      "accuracy": 0.975,
+      "L_input": 4.100120919942856,
+      "L_answer": 0.15380044919124886
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task391+task190",
+      "accuracy": 0.975,
+      "L_input": 4.036669671535492,
+      "L_answer": 0.16262829566112486
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task280+task190",
+      "accuracy": 0.95,
+      "L_input": 4.034566277265549,
+      "L_answer": 0.23001760241158992
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task280+task391",
+      "accuracy": 0.95,
+      "L_input": 4.052286207675934,
+      "L_answer": 0.345401584724118
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task290+task190",
+      "accuracy": 1.0,
+      "L_input": 3.998375970125198,
+      "L_answer": 0.06700660699330001
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task290+task280",
+      "accuracy": 0.875,
+      "L_input": 3.949761527776718,
+      "L_answer": 0.5244660362949162
+    },
+    {
+      "task": "task280",
+      "merge": "base",
+      "accuracy": 0.025,
+      "L_input": 3.0558238208293913,
+      "L_answer": 9.466698417812585
+    },
+    {
+      "task": "task280",
+      "merge": "alone",
+      "accuracy": 1.0,
+      "L_input": 3.0132647812366486,
+      "L_answer": 0.014387546511716209
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task190",
+      "accuracy": 1.0,
+      "L_input": 2.877971214056015,
+      "L_answer": 0.03615432955120923
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task1391",
+      "accuracy": 0.975,
+      "L_input": 2.9198971033096313,
+      "L_answer": 0.25197019812621874
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task290",
+      "accuracy": 0.975,
+      "L_input": 2.895160073041916,
+      "L_answer": 0.07313057673309231
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task391",
+      "accuracy": 1.0,
+      "L_input": 2.8811271369457243,
+      "L_answer": 0.01205564960873744
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task1391+task190",
+      "accuracy": 0.85,
+      "L_input": 2.881166750192642,
+      "L_answer": 0.6283877334091812
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task290+task190",
+      "accuracy": 0.85,
+      "L_input": 2.874735730886459,
+      "L_answer": 0.34009957640300853
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task290+task1391",
+      "accuracy": 0.75,
+      "L_input": 2.897629624605179,
+      "L_answer": 1.1574939109530533
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task391+task1391",
+      "accuracy": 0.75,
+      "L_input": 2.8759283065795898,
+      "L_answer": 1.2076844430084748
+    },
+    {
+      "task": "task290",
+      "merge": "base",
+      "accuracy": 0.475,
+      "L_input": 3.3459507048130037,
+      "L_answer": 2.510028455566908
+    },
+    {
+      "task": "task290",
+      "merge": "alone",
+      "accuracy": 0.9,
+      "L_input": 3.368115544319153,
+      "L_answer": 0.3128227979876101
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task190",
+      "accuracy": 0.85,
+      "L_input": 3.2548167228698732,
+      "L_answer": 0.2403637713752687
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task1391",
+      "accuracy": 0.85,
+      "L_input": 3.212171858549118,
+      "L_answer": 0.2296278681838885
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task280",
+      "accuracy": 0.85,
+      "L_input": 3.3336908280849458,
+      "L_answer": 0.20909100460121408
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task391",
+      "accuracy": 0.875,
+      "L_input": 3.2701839447021483,
+      "L_answer": 0.2171144924359396
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task190+task280",
+      "accuracy": 0.85,
+      "L_input": 3.2483560681343078,
+      "L_answer": 0.23030628107953816
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task391+task1391",
+      "accuracy": 0.85,
+      "L_input": 3.2156565308570864,
+      "L_answer": 0.21899730343138799
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task391+task280",
+      "accuracy": 0.8,
+      "L_input": 3.2914514541625977,
+      "L_answer": 0.24430331386101897
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task190+task1391",
+      "accuracy": 0.875,
+      "L_input": 3.193403959274292,
+      "L_answer": 0.23471786654554308
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task1391+task280",
+      "accuracy": 0.825,
+      "L_input": 3.251037436723709,
+      "L_answer": 0.24372689764713867
+    },
+    {
+      "task": "task391",
+      "merge": "base",
+      "accuracy": 0.675,
+      "L_input": 4.055399531126023,
+      "L_answer": 2.507725313384435
+    },
+    {
+      "task": "task391",
+      "merge": "alone",
+      "accuracy": 0.875,
+      "L_input": 3.6715601086616516,
+      "L_answer": 0.08407106953236507
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task190",
+      "accuracy": 0.8,
+      "L_input": 3.681972986459732,
+      "L_answer": 0.2949030988384038
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task1391",
+      "accuracy": 0.8,
+      "L_input": 3.6173020362854005,
+      "L_answer": 0.3473963813856244
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task280",
+      "accuracy": 0.9,
+      "L_input": 3.7615784466266633,
+      "L_answer": 0.6706675153225661
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task290",
+      "accuracy": 0.85,
+      "L_input": 3.6989463806152343,
+      "L_answer": 0.13066124799661338
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task280+task1391",
+      "accuracy": 0.725,
+      "L_input": 3.680420047044754,
+      "L_answer": 1.0769702492281794
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task190+task1391",
+      "accuracy": 0.775,
+      "L_input": 3.6330082178115846,
+      "L_answer": 0.5699538348242641
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task190+task290",
+      "accuracy": 0.775,
+      "L_input": 3.6603108167648317,
+      "L_answer": 0.42580504305660727
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task280+task290",
+      "accuracy": 0.875,
+      "L_input": 3.7080591201782225,
+      "L_answer": 0.7253237921278923
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task280+task190",
+      "accuracy": 0.85,
+      "L_input": 3.68372295498848,
+      "L_answer": 0.8444582527503371
+    }
+  ],
+  "pooled": {
+    "n": 45,
+    "r_Linput_acc": 0.36670724880565025,
+    "r_Lanswer_acc": -0.7249228915389407
+  },
+  "per_task": {
+    "task1391": {
+      "n": 9,
+      "r_Linput_acc": 0.38392946940309547,
+      "r_Lanswer_acc": -0.9497691788111216
+    },
+    "task190": {
+      "n": 10,
+      "r_Linput_acc": 0.3780471509245149,
+      "r_Lanswer_acc": -0.8875053062868324
+    },
+    "task280": {
+      "n": 8,
+      "r_Linput_acc": 0.2238084611903435,
+      "r_Lanswer_acc": -0.9567131448202051
+    },
+    "task290": {
+      "n": 9,
+      "r_Linput_acc": -0.3681741291480173,
+      "r_Lanswer_acc": -0.5470027316042002
+    },
+    "task391": {
+      "n": 9,
+      "r_Linput_acc": 0.683487306235384,
+      "r_Lanswer_acc": -0.15221178436808194
+    }
+  }
+}

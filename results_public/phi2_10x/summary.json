@@ -1,0 +1,4045 @@
+{
+  "best_method": "linear",
+  "best_metrics": {
+    "auprc": 1.0,
+    "auroc": 1.0,
+    "feasible_rate": 0.006060606060606061,
+    "top_quartile_enrichment": 3.9285714285714284
+  },
+  "certificate_diagnostics": {
+    "continuous_certificate_count": 660,
+    "evaluated_coefficient_count": 0,
+    "max_certificate_gap": 5.59282298695507e-07,
+    "median_certificate_gap": 0.0
+  },
+  "component_summaries": [
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "webglm1": 4.4772727489471436,
+          "webglm10": 4.4772727489471436,
+          "webglm2": 4.4772727489471436,
+          "webglm3": 4.4772727489471436,
+          "webglm4": 4.4772727489471436,
+          "webglm5": 4.4772727489471436,
+          "webglm6": 4.4772727489471436,
+          "webglm7": 4.4772727489471436,
+          "webglm8": 4.4772727489471436,
+          "webglm9": 4.4772727489471436
+        },
+        "heldout": {
+          "webglm1": 4.323368787765503,
+          "webglm10": 4.323368787765503,
+          "webglm2": 4.323368787765503,
+          "webglm3": 4.323368787765503,
+          "webglm4": 4.323368787765503,
+          "webglm5": 4.323368787765503,
+          "webglm6": 4.323368787765503,
+          "webglm7": 4.323368787765503,
+          "webglm8": 4.323368787765503,
+          "webglm9": 4.323368787765503
+        }
+      },
+      "base_model": "microsoft/phi-2",
+      "best_method": "linear",
+      "best_metrics": {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "feasible_rate": 0.006060606060606061,
+        "mean_coefficient_regret": 11.533685019522002,
+        "top_quartile_enrichment": 3.9285714285714284
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 1509.0644714643904,
+        "median_fitted_hessian_eigenvalue": -69.11016733933442,
+        "min_fitted_hessian_eigenvalue": -1509.0644714643904,
+        "projected_query_count": 108
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "webglm1": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm10": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm2": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm3": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm4": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm5": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm6": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm7": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm8": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm9": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "phi2_10x_licenseclean_contcert_20260504",
+      "feasible_count": 1,
+      "full_support_feasible_count": 1,
+      "full_support_pair_feasible_count": 1,
+      "full_support_triple_feasible_count": 0,
+      "metrics_by_method": {
+        "linear": {
+          "auprc": 1.0,
+          "auroc": 1.0,
+          "feasible_rate": 0.006060606060606061,
+          "mean_coefficient_regret": 11.533685019522002,
+          "top_quartile_enrichment": 3.9285714285714284
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "webglm1": 9,
+            "webglm10": 9,
+            "webglm2": 9,
+            "webglm3": 9,
+            "webglm4": 9,
+            "webglm5": 9,
+            "webglm6": 9,
+            "webglm7": 9,
+            "webglm8": 9,
+            "webglm9": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "webglm1",
+            "webglm2"
+          ],
+          [
+            "webglm1",
+            "webglm3"
+          ],
+          [
+            "webglm1",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm3"
+          ],
+          [
+            "webglm2",
+            "webglm4"
+          ],
+          [
+            "webglm2",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm9",
+            "webglm10"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "webglm1": 45,
+            "webglm10": 45,
+            "webglm2": 45,
+            "webglm3": 45,
+            "webglm4": 45,
+            "webglm5": 45,
+            "webglm6": 45,
+            "webglm7": 45,
+            "webglm8": 45,
+            "webglm9": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "webglm1": 36,
+            "webglm10": 36,
+            "webglm2": 36,
+            "webglm3": 36,
+            "webglm4": 36,
+            "webglm5": 36,
+            "webglm6": 36,
+            "webglm7": 36,
+            "webglm8": 36,
+            "webglm9": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "webglm1",
+            "webglm2",
+            "webglm3"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm7",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm8",
+            "webglm9",
+            "webglm10"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 1 feasible subsets at a 0.006 feasible base rate, including 1 full-support feasible pairs and 0 full-support feasible triples. The best merge method was linear with AUROC 1.000, AUPRC 1.000, and top-quartile enrichment 3.929.",
+      "single_losses": {
+        "calibration": {
+          "webglm1": 5.649350643157959,
+          "webglm10": 4.6438716650009155,
+          "webglm2": 5.65280020236969,
+          "webglm3": 5.307122588157654,
+          "webglm4": 5.174817442893982,
+          "webglm5": 5.364042162895203,
+          "webglm6": 4.948254823684692,
+          "webglm7": 5.022017002105713,
+          "webglm8": 4.937601566314697,
+          "webglm9": 5.246245980262756
+        },
+        "heldout": {
+          "webglm1": 5.573042631149292,
+          "webglm10": 4.432557821273804,
+          "webglm2": 5.810731410980225,
+          "webglm3": 5.470638751983643,
+          "webglm4": 5.558722615242004,
+          "webglm5": 5.760416626930237,
+          "webglm6": 5.288278341293335,
+          "webglm7": 5.624565005302429,
+          "webglm8": 5.2964571714401245,
+          "webglm9": 6.287042140960693
+        }
+      },
+      "slice_id": "phi2_10x_licenseclean_contcert_20260504",
+      "source_run": "phi2_10x_licenseclean_contcert_20260504_linear_20260504_deep6_licenseclean",
+      "started_at": "2026-05-04T07:19:46Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 0,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    },
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "webglm1": 4.4772727489471436,
+          "webglm10": 4.4772727489471436,
+          "webglm2": 4.4772727489471436,
+          "webglm3": 4.4772727489471436,
+          "webglm4": 4.4772727489471436,
+          "webglm5": 4.4772727489471436,
+          "webglm6": 4.4772727489471436,
+          "webglm7": 4.4772727489471436,
+          "webglm8": 4.4772727489471436,
+          "webglm9": 4.4772727489471436
+        },
+        "heldout": {
+          "webglm1": 4.323368787765503,
+          "webglm10": 4.323368787765503,
+          "webglm2": 4.323368787765503,
+          "webglm3": 4.323368787765503,
+          "webglm4": 4.323368787765503,
+          "webglm5": 4.323368787765503,
+          "webglm6": 4.323368787765503,
+          "webglm7": 4.323368787765503,
+          "webglm8": 4.323368787765503,
+          "webglm9": 4.323368787765503
+        }
+      },
+      "base_model": "microsoft/phi-2",
+      "best_method": "ties",
+      "best_metrics": {
+        "auprc": 0.5065756116485132,
+        "auroc": 0.7751532636134151,
+        "feasible_rate": 0.28484848484848485,
+        "mean_coefficient_regret": 1.864079562100497,
+        "top_quartile_enrichment": 1.8389057750759878
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 929.947615041285,
+        "median_fitted_hessian_eigenvalue": -197.01728732658296,
+        "min_fitted_hessian_eigenvalue": -922.7904632611388,
+        "projected_query_count": 130
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "webglm1": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm10": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm2": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm3": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm4": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm5": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm6": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm7": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm8": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm9": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "phi2_10x_licenseclean_contcert_20260504",
+      "feasible_count": 47,
+      "full_support_feasible_count": 47,
+      "full_support_pair_feasible_count": 6,
+      "full_support_triple_feasible_count": 41,
+      "metrics_by_method": {
+        "ties": {
+          "auprc": 0.5065756116485132,
+          "auroc": 0.7751532636134151,
+          "feasible_rate": 0.28484848484848485,
+          "mean_coefficient_regret": 1.864079562100497,
+          "top_quartile_enrichment": 1.8389057750759878
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "webglm1": 9,
+            "webglm10": 9,
+            "webglm2": 9,
+            "webglm3": 9,
+            "webglm4": 9,
+            "webglm5": 9,
+            "webglm6": 9,
+            "webglm7": 9,
+            "webglm8": 9,
+            "webglm9": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "webglm1",
+            "webglm2"
+          ],
+          [
+            "webglm1",
+            "webglm3"
+          ],
+          [
+            "webglm1",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm3"
+          ],
+          [
+            "webglm2",
+            "webglm4"
+          ],
+          [
+            "webglm2",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm9",
+            "webglm10"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "webglm1": 45,
+            "webglm10": 45,
+            "webglm2": 45,
+            "webglm3": 45,
+            "webglm4": 45,
+            "webglm5": 45,
+            "webglm6": 45,
+            "webglm7": 45,
+            "webglm8": 45,
+            "webglm9": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "webglm1": 36,
+            "webglm10": 36,
+            "webglm2": 36,
+            "webglm3": 36,
+            "webglm4": 36,
+            "webglm5": 36,
+            "webglm6": 36,
+            "webglm7": 36,
+            "webglm8": 36,
+            "webglm9": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "webglm1",
+            "webglm2",
+            "webglm3"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm7",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm8",
+            "webglm9",
+            "webglm10"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 47 feasible subsets at a 0.285 feasible base rate, including 6 full-support feasible pairs and 41 full-support feasible triples. The best merge method was ties with AUROC 0.775, AUPRC 0.507, and top-quartile enrichment 1.839.",
+      "single_losses": {
+        "calibration": {
+          "webglm1": 5.649350643157959,
+          "webglm10": 4.6438716650009155,
+          "webglm2": 5.65280020236969,
+          "webglm3": 5.307122588157654,
+          "webglm4": 5.174817442893982,
+          "webglm5": 5.364042162895203,
+          "webglm6": 4.948254823684692,
+          "webglm7": 5.022017002105713,
+          "webglm8": 4.937601566314697,
+          "webglm9": 5.246245980262756
+        },
+        "heldout": {
+          "webglm1": 5.573042631149292,
+          "webglm10": 4.432557821273804,
+          "webglm2": 5.810731410980225,
+          "webglm3": 5.470638751983643,
+          "webglm4": 5.558722615242004,
+          "webglm5": 5.760416626930237,
+          "webglm6": 5.288278341293335,
+          "webglm7": 5.624565005302429,
+          "webglm8": 5.2964571714401245,
+          "webglm9": 6.287042140960693
+        }
+      },
+      "slice_id": "phi2_10x_licenseclean_contcert_20260504",
+      "source_run": "phi2_10x_licenseclean_contcert_20260504_ties_20260504_deep6_licenseclean",
+      "started_at": "2026-05-04T07:26:58Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 0,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    },
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "webglm1": 4.4772727489471436,
+          "webglm10": 4.4772727489471436,
+          "webglm2": 4.4772727489471436,
+          "webglm3": 4.4772727489471436,
+          "webglm4": 4.4772727489471436,
+          "webglm5": 4.4772727489471436,
+          "webglm6": 4.4772727489471436,
+          "webglm7": 4.4772727489471436,
+          "webglm8": 4.4772727489471436,
+          "webglm9": 4.4772727489471436
+        },
+        "heldout": {
+          "webglm1": 4.323368787765503,
+          "webglm10": 4.323368787765503,
+          "webglm2": 4.323368787765503,
+          "webglm3": 4.323368787765503,
+          "webglm4": 4.323368787765503,
+          "webglm5": 4.323368787765503,
+          "webglm6": 4.323368787765503,
+          "webglm7": 4.323368787765503,
+          "webglm8": 4.323368787765503,
+          "webglm9": 4.323368787765503
+        }
+      },
+      "base_model": "microsoft/phi-2",
+      "best_method": "dare_ties",
+      "best_metrics": {
+        "auprc": 0.25319648129205924,
+        "auroc": 0.8050108932461874,
+        "feasible_rate": 0.07272727272727272,
+        "mean_coefficient_regret": 3.144522002249053,
+        "top_quartile_enrichment": 2.9464285714285716
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 2730.241692028037,
+        "median_fitted_hessian_eigenvalue": -257.53814653464974,
+        "min_fitted_hessian_eigenvalue": -2730.2416920280375,
+        "projected_query_count": 134
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "webglm1": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm10": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm2": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm3": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm4": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm5": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm6": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm7": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm8": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm9": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "phi2_10x_licenseclean_contcert_20260504",
+      "feasible_count": 12,
+      "full_support_feasible_count": 12,
+      "full_support_pair_feasible_count": 1,
+      "full_support_triple_feasible_count": 11,
+      "metrics_by_method": {
+        "dare_ties": {
+          "auprc": 0.25319648129205924,
+          "auroc": 0.8050108932461874,
+          "feasible_rate": 0.07272727272727272,
+          "mean_coefficient_regret": 3.144522002249053,
+          "top_quartile_enrichment": 2.9464285714285716
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "webglm1": 9,
+            "webglm10": 9,
+            "webglm2": 9,
+            "webglm3": 9,
+            "webglm4": 9,
+            "webglm5": 9,
+            "webglm6": 9,
+            "webglm7": 9,
+            "webglm8": 9,
+            "webglm9": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "webglm1",
+            "webglm2"
+          ],
+          [
+            "webglm1",
+            "webglm3"
+          ],
+          [
+            "webglm1",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm3"
+          ],
+          [
+            "webglm2",
+            "webglm4"
+          ],
+          [
+            "webglm2",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm9",
+            "webglm10"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "webglm1": 45,
+            "webglm10": 45,
+            "webglm2": 45,
+            "webglm3": 45,
+            "webglm4": 45,
+            "webglm5": 45,
+            "webglm6": 45,
+            "webglm7": 45,
+            "webglm8": 45,
+            "webglm9": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "webglm1": 36,
+            "webglm10": 36,
+            "webglm2": 36,
+            "webglm3": 36,
+            "webglm4": 36,
+            "webglm5": 36,
+            "webglm6": 36,
+            "webglm7": 36,
+            "webglm8": 36,
+            "webglm9": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "webglm1",
+            "webglm2",
+            "webglm3"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm7",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm8",
+            "webglm9",
+            "webglm10"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 12 feasible subsets at a 0.073 feasible base rate, including 1 full-support feasible pairs and 11 full-support feasible triples. The best merge method was dare_ties with AUROC 0.805, AUPRC 0.253, and top-quartile enrichment 2.946.",
+      "single_losses": {
+        "calibration": {
+          "webglm1": 5.649350643157959,
+          "webglm10": 4.6438716650009155,
+          "webglm2": 5.65280020236969,
+          "webglm3": 5.307122588157654,
+          "webglm4": 5.174817442893982,
+          "webglm5": 5.364042162895203,
+          "webglm6": 4.948254823684692,
+          "webglm7": 5.022017002105713,
+          "webglm8": 4.937601566314697,
+          "webglm9": 5.246245980262756
+        },
+        "heldout": {
+          "webglm1": 5.573042631149292,
+          "webglm10": 4.432557821273804,
+          "webglm2": 5.810731410980225,
+          "webglm3": 5.470638751983643,
+          "webglm4": 5.558722615242004,
+          "webglm5": 5.760416626930237,
+          "webglm6": 5.288278341293335,
+          "webglm7": 5.624565005302429,
+          "webglm8": 5.2964571714401245,
+          "webglm9": 6.287042140960693
+        }
+      },
+      "slice_id": "phi2_10x_licenseclean_contcert_20260504",
+      "source_run": "phi2_10x_licenseclean_contcert_20260504_dare_ties_20260504_deep6_licenseclean",
+      "started_at": "2026-05-04T07:21:12Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 0,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    },
+    {
+      "adapter_count": 10,
+      "base_losses": {
+        "calibration": {
+          "webglm1": 4.4772727489471436,
+          "webglm10": 4.4772727489471436,
+          "webglm2": 4.4772727489471436,
+          "webglm3": 4.4772727489471436,
+          "webglm4": 4.4772727489471436,
+          "webglm5": 4.4772727489471436,
+          "webglm6": 4.4772727489471436,
+          "webglm7": 4.4772727489471436,
+          "webglm8": 4.4772727489471436,
+          "webglm9": 4.4772727489471436
+        },
+        "heldout": {
+          "webglm1": 4.323368787765503,
+          "webglm10": 4.323368787765503,
+          "webglm2": 4.323368787765503,
+          "webglm3": 4.323368787765503,
+          "webglm4": 4.323368787765503,
+          "webglm5": 4.323368787765503,
+          "webglm6": 4.323368787765503,
+          "webglm7": 4.323368787765503,
+          "webglm8": 4.323368787765503,
+          "webglm9": 4.323368787765503
+        }
+      },
+      "base_model": "microsoft/phi-2",
+      "best_method": "magnitude_prune",
+      "best_metrics": {
+        "auprc": 0.9067956349206348,
+        "auroc": 0.9960191082802548,
+        "feasible_rate": 0.048484848484848485,
+        "mean_coefficient_regret": 6.711018735712225,
+        "top_quartile_enrichment": 3.9285714285714284
+      },
+      "certificate_implementation": "continuous primal-dual minimax solver over fitted affine-quadratic jets; CSV primal_upper, dual_lower, certificate_gap, and dual_weights are populated when the solver succeeds",
+      "convexity_diagnostics": {
+        "max_psd_adjustment_frobenius": 793.7686379096854,
+        "median_fitted_hessian_eigenvalue": -141.14048467250296,
+        "min_fitted_hessian_eigenvalue": -793.7686379096853,
+        "projected_query_count": 120
+      },
+      "error_count": 0,
+      "evaluation_split_counts": {
+        "webglm1": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm10": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm2": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm3": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm4": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm5": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm6": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm7": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm8": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        },
+        "webglm9": {
+          "calibration_count": 4,
+          "heldout_count": 4
+        }
+      },
+      "experiment_id": "phi2_10x_licenseclean_contcert_20260504",
+      "feasible_count": 8,
+      "full_support_feasible_count": 8,
+      "full_support_pair_feasible_count": 1,
+      "full_support_triple_feasible_count": 7,
+      "metrics_by_method": {
+        "magnitude_prune": {
+          "auprc": 0.9067956349206348,
+          "auroc": 0.9960191082802548,
+          "feasible_rate": 0.048484848484848485,
+          "mean_coefficient_regret": 6.711018735712225,
+          "top_quartile_enrichment": 3.9285714285714284
+        }
+      },
+      "pair_count": 45,
+      "platform": "Linux-5.15.0-171-generic-x86_64-with-glibc2.35",
+      "query_selection": {
+        "pair_count": 45,
+        "pair_participation": {
+          "counts": {
+            "webglm1": 9,
+            "webglm10": 9,
+            "webglm2": 9,
+            "webglm3": 9,
+            "webglm4": 9,
+            "webglm5": 9,
+            "webglm6": 9,
+            "webglm7": 9,
+            "webglm8": 9,
+            "webglm9": 9
+          },
+          "max": 9,
+          "median": 9,
+          "min": 9
+        },
+        "pairs": [
+          [
+            "webglm1",
+            "webglm2"
+          ],
+          [
+            "webglm1",
+            "webglm3"
+          ],
+          [
+            "webglm1",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm3"
+          ],
+          [
+            "webglm2",
+            "webglm4"
+          ],
+          [
+            "webglm2",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm9",
+            "webglm10"
+          ]
+        ],
+        "query_design": "full_support_continuous_certificate",
+        "seed": 20260504,
+        "total_participation": {
+          "counts": {
+            "webglm1": 45,
+            "webglm10": 45,
+            "webglm2": 45,
+            "webglm3": 45,
+            "webglm4": 45,
+            "webglm5": 45,
+            "webglm6": 45,
+            "webglm7": 45,
+            "webglm8": 45,
+            "webglm9": 45
+          },
+          "max": 45,
+          "median": 45,
+          "min": 45
+        },
+        "triple_count": 120,
+        "triple_participation": {
+          "counts": {
+            "webglm1": 36,
+            "webglm10": 36,
+            "webglm2": 36,
+            "webglm3": 36,
+            "webglm4": 36,
+            "webglm5": 36,
+            "webglm6": 36,
+            "webglm7": 36,
+            "webglm8": 36,
+            "webglm9": 36
+          },
+          "max": 36,
+          "median": 36,
+          "min": 36
+        },
+        "triples": [
+          [
+            "webglm1",
+            "webglm2",
+            "webglm3"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm2",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm1",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm1",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm4"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm3",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm2",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm2",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm5"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm4",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm3",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm3",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm6"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm5",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm4",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm4",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm7"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm6",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm5",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm5",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm8"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm7",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm6",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm6",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm8",
+            "webglm9"
+          ],
+          [
+            "webglm7",
+            "webglm8",
+            "webglm10"
+          ],
+          [
+            "webglm7",
+            "webglm9",
+            "webglm10"
+          ],
+          [
+            "webglm8",
+            "webglm9",
+            "webglm10"
+          ]
+        ],
+        "uses_explicit_pair_subset": false,
+        "uses_explicit_triple_subset": false
+      },
+      "result_count": 165,
+      "result_sentence": "The public PEFT atlas-lite run evaluated 165 completed queries over 10 adapters with 0 errors; it isolated 8 feasible subsets at a 0.048 feasible base rate, including 1 full-support feasible pairs and 7 full-support feasible triples. The best merge method was magnitude_prune with AUROC 0.996, AUPRC 0.907, and top-quartile enrichment 3.929.",
+      "single_losses": {
+        "calibration": {
+          "webglm1": 5.649350643157959,
+          "webglm10": 4.6438716650009155,
+          "webglm2": 5.65280020236969,
+          "webglm3": 5.307122588157654,
+          "webglm4": 5.174817442893982,
+          "webglm5": 5.364042162895203,
+          "webglm6": 4.948254823684692,
+          "webglm7": 5.022017002105713,
+          "webglm8": 4.937601566314697,
+          "webglm9": 5.246245980262756
+        },
+        "heldout": {
+          "webglm1": 5.573042631149292,
+          "webglm10": 4.432557821273804,
+          "webglm2": 5.810731410980225,
+          "webglm3": 5.470638751983643,
+          "webglm4": 5.558722615242004,
+          "webglm5": 5.760416626930237,
+          "webglm6": 5.288278341293335,
+          "webglm7": 5.624565005302429,
+          "webglm8": 5.2964571714401245,
+          "webglm9": 6.287042140960693
+        }
+      },
+      "slice_id": "phi2_10x_licenseclean_contcert_20260504",
+      "source_run": "phi2_10x_licenseclean_contcert_20260504_magnitude_prune_20260504_deep6_licenseclean",
+      "started_at": "2026-05-04T07:27:27Z",
+      "status": "completed",
+      "triple_count": 120,
+      "triple_obstructions": 0,
+      "versions": {
+        "accelerate": "1.13.0",
+        "bitsandbytes": "0.49.2",
+        "numpy": "2.2.6",
+        "peft": "0.19.1",
+        "torch": "2.11.0",
+        "transformers": "5.7.0"
+      }
+    }
+  ],
+  "convexity_diagnostics": {
+    "max_psd_adjustment_frobenius": 2730.241692028037,
+    "median_fitted_hessian_eigenvalue": -162.8455519683103,
+    "min_fitted_hessian_eigenvalue": -2730.2416920280375,
+    "projected_query_count": 492
+  },
+  "error_count": 0,
+  "methods": [
+    "dare_ties",
+    "linear",
+    "magnitude_prune",
+    "ties"
+  ],
+  "metrics_by_method": {
+    "dare_ties": {
+      "auprc": 0.25319648129205924,
+      "auroc": 0.8050108932461874,
+      "feasible_rate": 0.07272727272727272,
+      "top_quartile_enrichment": 2.9464285714285716
+    },
+    "linear": {
+      "auprc": 1.0,
+      "auroc": 1.0,
+      "feasible_rate": 0.006060606060606061,
+      "top_quartile_enrichment": 3.9285714285714284
+    },
+    "magnitude_prune": {
+      "auprc": 0.9067956349206348,
+      "auroc": 0.9960191082802548,
+      "feasible_rate": 0.048484848484848485,
+      "top_quartile_enrichment": 3.9285714285714284
+    },
+    "ties": {
+      "auprc": 0.5065756116485132,
+      "auroc": 0.7751532636134151,
+      "feasible_rate": 0.28484848484848485,
+      "top_quartile_enrichment": 1.8389057750759878
+    }
+  },
+  "pair_prefilter": {
+    "dare_ties": {
+      "pair_clique_false_negative_1_bad_pair": 0,
+      "pair_clique_false_negative_2_bad_pairs": 8,
+      "pair_clique_false_negative_3_bad_pairs": 3,
+      "pair_clique_false_positive_triples": 0,
+      "triples_with_missing_pair_faces": 0
+    },
+    "linear": {
+      "pair_clique_false_negative_1_bad_pair": 0,
+      "pair_clique_false_negative_2_bad_pairs": 0,
+      "pair_clique_false_negative_3_bad_pairs": 0,
+      "pair_clique_false_positive_triples": 0,
+      "triples_with_missing_pair_faces": 0
+    },
+    "magnitude_prune": {
+      "pair_clique_false_negative_1_bad_pair": 0,
+      "pair_clique_false_negative_2_bad_pairs": 7,
+      "pair_clique_false_negative_3_bad_pairs": 0,
+      "pair_clique_false_positive_triples": 0,
+      "triples_with_missing_pair_faces": 0
+    },
+    "ties": {
+      "pair_clique_false_negative_1_bad_pair": 7,
+      "pair_clique_false_negative_2_bad_pairs": 8,
+      "pair_clique_false_negative_3_bad_pairs": 25,
+      "pair_clique_false_positive_triples": 0,
+      "triples_with_missing_pair_faces": 0
+    }
+  },
+  "result_count": 660,
+  "source_run_count": 4,
+  "status": "completed"
+}

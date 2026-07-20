@@ -1,0 +1,395 @@
+{
+  "n_events": 45,
+  "n_retained": 21,
+  "tau_acc": 0.9,
+  "auroc_predicted_jets_vs_acc_labels": 0.7777777777777778,
+  "auroc_measured_answer_loss_vs_acc_labels": 0.7301587301587301,
+  "r_predicted_vs_measured_answer_loss": 0.8065671714153725,
+  "psd_projected_tasks": [
+    "task190",
+    "task1391",
+    "task280",
+    "task290",
+    "task391"
+  ],
+  "shared_projector_residuals": [
+    {
+      "r": 1,
+      "strict_max_residual": 0.5688873854620673
+    },
+    {
+      "r": 2,
+      "strict_max_residual": 0.3738505519502392
+    },
+    {
+      "r": 3,
+      "strict_max_residual": 0.21476736745149416
+    },
+    {
+      "r": 4,
+      "strict_max_residual": 1.4456931264687808e-15
+    }
+  ],
+  "events": [
+    {
+      "task": "task190",
+      "merge": "task190+task1391",
+      "pred_answer_loss": 0.6619252584621433,
+      "measured_answer_loss": 0.40450184741057454,
+      "accuracy": 0.875,
+      "retained_acc": true
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task280",
+      "pred_answer_loss": 0.622005189991957,
+      "measured_answer_loss": 0.3758706877473742,
+      "accuracy": 0.825,
+      "retained_acc": true
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task290",
+      "pred_answer_loss": -0.019159749637243983,
+      "measured_answer_loss": 0.39298075512051583,
+      "accuracy": 0.85,
+      "retained_acc": true
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task391",
+      "pred_answer_loss": -0.6752726814102843,
+      "measured_answer_loss": 0.40176404449157416,
+      "accuracy": 0.85,
+      "retained_acc": true
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task290+task391",
+      "pred_answer_loss": 0.8936533867551999,
+      "measured_answer_loss": 0.6760846868157386,
+      "accuracy": 0.825,
+      "retained_acc": true
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task1391+task280",
+      "pred_answer_loss": 2.3835397088354133,
+      "measured_answer_loss": 0.8347203196608461,
+      "accuracy": 0.725,
+      "retained_acc": false
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task280+task290",
+      "pred_answer_loss": 1.9448804797828902,
+      "measured_answer_loss": 0.6879084171145223,
+      "accuracy": 0.75,
+      "retained_acc": false
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task1391+task391",
+      "pred_answer_loss": 1.3343935196226115,
+      "measured_answer_loss": 0.8265631312038749,
+      "accuracy": 0.75,
+      "retained_acc": false
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task1391+task290",
+      "pred_answer_loss": 1.6115934126567724,
+      "measured_answer_loss": 0.6298255058703944,
+      "accuracy": 0.775,
+      "retained_acc": false
+    },
+    {
+      "task": "task190",
+      "merge": "task190+task280+task391",
+      "pred_answer_loss": 1.72327247835505,
+      "measured_answer_loss": 0.7325251647038385,
+      "accuracy": 0.775,
+      "retained_acc": false
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task190",
+      "pred_answer_loss": 0.07181584312212408,
+      "measured_answer_loss": 0.1535420550557319,
+      "accuracy": 0.975,
+      "retained_acc": true
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task280",
+      "pred_answer_loss": 0.2942562050706139,
+      "measured_answer_loss": 0.3539088657472348,
+      "accuracy": 0.95,
+      "retained_acc": true
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task290",
+      "pred_answer_loss": -0.06833224564768092,
+      "measured_answer_loss": 0.01468176578252951,
+      "accuracy": 1.0,
+      "retained_acc": true
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task391",
+      "pred_answer_loss": -0.28565890625919543,
+      "measured_answer_loss": 0.15380044919124886,
+      "accuracy": 0.975,
+      "retained_acc": true
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task391+task190",
+      "pred_answer_loss": -0.042978485859251236,
+      "measured_answer_loss": 0.16262829566112486,
+      "accuracy": 0.975,
+      "retained_acc": true
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task280+task190",
+      "pred_answer_loss": 0.24626338092640632,
+      "measured_answer_loss": 0.23001760241158992,
+      "accuracy": 0.95,
+      "retained_acc": true
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task280+task391",
+      "pred_answer_loss": 0.665997255497768,
+      "measured_answer_loss": 0.345401584724118,
+      "accuracy": 0.95,
+      "retained_acc": true
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task290+task190",
+      "pred_answer_loss": 0.05685450668813319,
+      "measured_answer_loss": 0.06700660699330001,
+      "accuracy": 1.0,
+      "retained_acc": true
+    },
+    {
+      "task": "task1391",
+      "merge": "task1391+task290+task280",
+      "pred_answer_loss": 0.9829034103864472,
+      "measured_answer_loss": 0.5244660362949162,
+      "accuracy": 0.875,
+      "retained_acc": false
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task190",
+      "pred_answer_loss": -0.012598590023489287,
+      "measured_answer_loss": 0.03615432955120923,
+      "accuracy": 1.0,
+      "retained_acc": true
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task1391",
+      "pred_answer_loss": 0.6237089632718873,
+      "measured_answer_loss": 0.25197019812621874,
+      "accuracy": 0.975,
+      "retained_acc": true
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task290",
+      "pred_answer_loss": -0.09194706788819529,
+      "measured_answer_loss": 0.07313057673309231,
+      "accuracy": 0.975,
+      "retained_acc": true
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task391",
+      "pred_answer_loss": -0.23236155931346936,
+      "measured_answer_loss": 0.01205564960873744,
+      "accuracy": 1.0,
+      "retained_acc": true
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task1391+task190",
+      "pred_answer_loss": 0.7554346536312053,
+      "measured_answer_loss": 0.6283877334091812,
+      "accuracy": 0.85,
+      "retained_acc": false
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task290+task190",
+      "pred_answer_loss": 0.278758401294255,
+      "measured_answer_loss": 0.34009957640300853,
+      "accuracy": 0.85,
+      "retained_acc": false
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task290+task1391",
+      "pred_answer_loss": 1.6448425917703555,
+      "measured_answer_loss": 1.1574939109530533,
+      "accuracy": 0.75,
+      "retained_acc": false
+    },
+    {
+      "task": "task280",
+      "merge": "task280+task391+task1391",
+      "pred_answer_loss": 1.5308757415721568,
+      "measured_answer_loss": 1.2076844430084748,
+      "accuracy": 0.75,
+      "retained_acc": false
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task190",
+      "pred_answer_loss": 0.37542214646832883,
+      "measured_answer_loss": 0.2403637713752687,
+      "accuracy": 0.85,
+      "retained_acc": false
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task1391",
+      "pred_answer_loss": 0.25478331335971016,
+      "measured_answer_loss": 0.2296278681838885,
+      "accuracy": 0.85,
+      "retained_acc": false
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task280",
+      "pred_answer_loss": 0.2782989809172663,
+      "measured_answer_loss": 0.20909100460121408,
+      "accuracy": 0.85,
+      "retained_acc": false
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task391",
+      "pred_answer_loss": 0.33397596973415816,
+      "measured_answer_loss": 0.2171144924359396,
+      "accuracy": 0.875,
+      "retained_acc": true
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task190+task280",
+      "pred_answer_loss": 0.16516211612953502,
+      "measured_answer_loss": 0.23030628107953816,
+      "accuracy": 0.85,
+      "retained_acc": false
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task391+task1391",
+      "pred_answer_loss": 0.08976637097700063,
+      "measured_answer_loss": 0.21899730343138799,
+      "accuracy": 0.85,
+      "retained_acc": false
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task391+task280",
+      "pred_answer_loss": 0.3101721981683786,
+      "measured_answer_loss": 0.24430331386101897,
+      "accuracy": 0.8,
+      "retained_acc": false
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task190+task1391",
+      "pred_answer_loss": 0.07995064189619283,
+      "measured_answer_loss": 0.23471786654554308,
+      "accuracy": 0.875,
+      "retained_acc": true
+    },
+    {
+      "task": "task290",
+      "merge": "task290+task1391+task280",
+      "pred_answer_loss": 0.3031780435059563,
+      "measured_answer_loss": 0.24372689764713867,
+      "accuracy": 0.825,
+      "retained_acc": false
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task190",
+      "pred_answer_loss": 0.3417338492845692,
+      "measured_answer_loss": 0.2949030988384038,
+      "accuracy": 0.8,
+      "retained_acc": false
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task1391",
+      "pred_answer_loss": 0.4022045036150007,
+      "measured_answer_loss": 0.3473963813856244,
+      "accuracy": 0.8,
+      "retained_acc": false
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task280",
+      "pred_answer_loss": 0.9036302156734212,
+      "measured_answer_loss": 0.6706675153225661,
+      "accuracy": 0.9,
+      "retained_acc": true
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task290",
+      "pred_answer_loss": 0.17558943462777005,
+      "measured_answer_loss": 0.13066124799661338,
+      "accuracy": 0.85,
+      "retained_acc": false
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task280+task1391",
+      "pred_answer_loss": 1.0007608000386854,
+      "measured_answer_loss": 1.0769702492281794,
+      "accuracy": 0.725,
+      "retained_acc": false
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task190+task1391",
+      "pred_answer_loss": 0.5659475618587008,
+      "measured_answer_loss": 0.5699538348242641,
+      "accuracy": 0.775,
+      "retained_acc": false
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task190+task290",
+      "pred_answer_loss": 0.46772010682198056,
+      "measured_answer_loss": 0.42580504305660727,
+      "accuracy": 0.775,
+      "retained_acc": false
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task280+task290",
+      "pred_answer_loss": 0.8941444939039809,
+      "measured_answer_loss": 0.7253237921278923,
+      "accuracy": 0.875,
+      "retained_acc": true
+    },
+    {
+      "task": "task391",
+      "merge": "task391+task280+task190",
+      "pred_answer_loss": 0.8982769513028365,
+      "measured_answer_loss": 0.8444582527503371,
+      "accuracy": 0.85,
+      "retained_acc": false
+    }
+  ]
+}

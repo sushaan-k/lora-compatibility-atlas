@@ -1,0 +1,60 @@
+{
+ "_note": "C1 second base: Qwen2.5-1.5B-Instruct adapters trained by train_second_base.py on the same 8 NI tasks.",
+ "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "dtype": "bfloat16",
+ "max_length": 384,
+ "max_new_tokens": 6,
+ "n_items": 40,
+ "n_train": 400,
+ "seed": 5,
+ "adapters": [
+  {
+   "name": "task190",
+   "repo": "/root/atlas/qwen_adapters/task190",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task190.json",
+   "answer_regex": "\\b([ECN])\\b"
+  },
+  {
+   "name": "task1391",
+   "repo": "/root/atlas/qwen_adapters/task1391",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task1391.json",
+   "answer_regex": "\\b([AB])\\b"
+  },
+  {
+   "name": "task280",
+   "repo": "/root/atlas/qwen_adapters/task280",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task280.json",
+   "answer_regex": "\\b(RACE|PROFESSION|GENDER|RELIGION)\\b"
+  },
+  {
+   "name": "task290",
+   "repo": "/root/atlas/qwen_adapters/task290",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task290.json",
+   "answer_regex": "\\b(NOT ANSWERABLE|ANSWERABLE)\\b"
+  },
+  {
+   "name": "task391",
+   "repo": "/root/atlas/qwen_adapters/task391",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task391.json",
+   "answer_regex": "\\b(NOT PLAUSIBLE|PLAUSIBLE)\\b"
+  },
+  {
+   "name": "task363",
+   "repo": "/root/atlas/qwen_adapters/task363",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task363.json",
+   "answer_regex": "\\b(POS|NEG)\\b"
+  },
+  {
+   "name": "task400",
+   "repo": "/root/atlas/qwen_adapters/task400",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task400.json",
+   "answer_regex": "\\b(NOT PARAPHRASE|PARAPHRASE)\\b"
+  },
+  {
+   "name": "task379",
+   "repo": "/root/atlas/qwen_adapters/task379",
+   "task_json": "/root/atlas/experiments_gpu/tasks/task379.json",
+   "answer_regex": "\\b(WORLD|SPORTS|BUSINESS|SCI/TECH)\\b"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+  "experiment_id": "shared_chart_decision_qwen8",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "tokenizer_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "dtype": "bfloat16",
+  "quantization": "none",
+  "device_map": "auto",
+  "max_length": 384,
+  "retention_threshold": 0.7,
+  "min_single_adapter_gain": 0.005,
+  "density": 0.5,
+  "project_psd": true,
+  "seed": 20260503,
+  "_note": "8 adapters on ONE shared 7-simplex for Experiment B (shared-chart decision preservation). Fit with expB_shared_chart_decision.py fit --adapters '<the 8 names>'.",
+  "adapters": [
+    {
+      "name": "lhong4759_f68c5c87_934d_4399_b",
+      "probe_key": "conversation",
+      "repo": "lhong4759/f68c5c87-934d-4399-bb0e-b9456db2e9f2",
+      "task": "general_chat"
+    },
+    {
+      "name": "adammandic87_3d7a58a6_4380_4e3",
+      "probe_key": "conversation",
+      "repo": "adammandic87/3d7a58a6-4380-4e39-91fb-5cd0fd7dd96c",
+      "task": "general_chat"
+    },
+    {
+      "name": "versil91_01a5620a_fb5f_4bab_94",
+      "probe_key": "conversation",
+      "repo": "VERSIL91/01a5620a-fb5f-4bab-9448-fb6487494acf",
+      "task": "general_chat"
+    },
+    {
+      "name": "taronklm_trained_model",
+      "probe_key": "conversation",
+      "repo": "taronklm/trained_model",
+      "task": "general_chat"
+    },
+    {
+      "name": "versil91_e9f26c47_9b78_4e3f_81",
+      "probe_key": "conversation",
+      "repo": "VERSIL91/e9f26c47-9b78-4e3f-8144-f2727928962b",
+      "task": "general_chat"
+    },
+    {
+      "name": "versil91_8444c3be_8779_4769_a0",
+      "probe_key": "conversation",
+      "repo": "VERSIL91/8444c3be-8779-4769-a0d7-15038302da73",
+      "task": "general_chat"
+    },
+    {
+      "name": "tuanna08go_6af2bb68_a65f_4331",
+      "probe_key": "conversation",
+      "repo": "tuanna08go/6af2bb68-a65f-4331-b0c3-1f8cb35aa11a",
+      "task": "general_chat"
+    },
+    {
+      "name": "duyphu_7aba420b_74ac_4209_b514",
+      "probe_key": "conversation",
+      "repo": "duyphu/7aba420b-74ac-4209-b514-ce8bf69ca7a5",
+      "task": "general_chat"
+    }
+  ],
+  "probes": {
+    "conversation": [
+      "I had a stressful day and need a simple plan for tonight.",
+      "Can you help me write a friendly message to reschedule a meeting?",
+      "Explain in plain language why sleep matters for learning.",
+      "Give me three questions to ask before starting a new project.",
+      "How should I politely disagree with a teammate?",
+      "Make a short checklist for preparing for a job interview.",
+      "What is a good way to organize my notes for a class?",
+      "Help me respond kindly to a friend who is upset."
+    ]
+  }
+}

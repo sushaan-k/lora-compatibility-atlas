@@ -1,0 +1,2791 @@
+{
+ "held_out_split": [
+  40,
+  80
+ ],
+ "n_items": 40,
+ "records": [
+  {
+   "subset": [
+    "task190",
+    "task1391",
+    "task280"
+   ],
+   "weights": {
+    "task190": 0.418843,
+    "task1391": 0.24093,
+    "task280": 0.340227
+   },
+   "pred_worst": 2.116253,
+   "deployed_worst": 2.0332,
+   "deployed_mean_L": 0.8919,
+   "deployed_mean_acc": 0.7375,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.925,
+     "L_answer": 0.2853
+    },
+    "task1391": {
+     "accuracy": 0.85,
+     "L_answer": 0.7948
+    },
+    "task280": {
+     "accuracy": 0.875,
+     "L_answer": 0.3927
+    },
+    "task290": {
+     "accuracy": 0.6,
+     "L_answer": 0.7803
+    },
+    "task391": {
+     "accuracy": 0.55,
+     "L_answer": 2.0332
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.6119
+    },
+    "task400": {
+     "accuracy": 0.6,
+     "L_answer": 0.4827
+    },
+    "task379": {
+     "accuracy": 0.65,
+     "L_answer": 1.7542
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task280",
+    "task391"
+   ],
+   "weights": {
+    "task190": 0.444839,
+    "task280": 0.179448,
+    "task391": 0.375713
+   },
+   "pred_worst": 2.389205,
+   "deployed_worst": 2.3065,
+   "deployed_mean_L": 0.9421,
+   "deployed_mean_acc": 0.7219,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.95,
+     "L_answer": 0.2208
+    },
+    "task1391": {
+     "accuracy": 0.525,
+     "L_answer": 2.3065
+    },
+    "task280": {
+     "accuracy": 0.625,
+     "L_answer": 0.8055
+    },
+    "task290": {
+     "accuracy": 0.7,
+     "L_answer": 0.524
+    },
+    "task391": {
+     "accuracy": 0.825,
+     "L_answer": 0.6058
+    },
+    "task363": {
+     "accuracy": 0.8,
+     "L_answer": 0.7481
+    },
+    "task400": {
+     "accuracy": 0.625,
+     "L_answer": 0.3578
+    },
+    "task379": {
+     "accuracy": 0.725,
+     "L_answer": 1.9686
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task280",
+    "task379"
+   ],
+   "weights": {
+    "task190": 0.625911,
+    "task280": 0.138766,
+    "task379": 0.235323
+   },
+   "pred_worst": 2.57133,
+   "deployed_worst": 2.7466,
+   "deployed_mean_L": 1.2067,
+   "deployed_mean_acc": 0.6156,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.9,
+     "L_answer": 0.2602
+    },
+    "task1391": {
+     "accuracy": 0.425,
+     "L_answer": 2.7466
+    },
+    "task280": {
+     "accuracy": 0.375,
+     "L_answer": 1.8289
+    },
+    "task290": {
+     "accuracy": 0.55,
+     "L_answer": 0.7769
+    },
+    "task391": {
+     "accuracy": 0.65,
+     "L_answer": 1.9025
+    },
+    "task363": {
+     "accuracy": 0.775,
+     "L_answer": 0.5247
+    },
+    "task400": {
+     "accuracy": 0.6,
+     "L_answer": 0.3555
+    },
+    "task379": {
+     "accuracy": 0.65,
+     "L_answer": 1.2583
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task280",
+    "task363"
+   ],
+   "weights": {
+    "task190": 0.537565,
+    "task280": 0.235489,
+    "task363": 0.226946
+   },
+   "pred_worst": 2.673762,
+   "deployed_worst": 2.5576,
+   "deployed_mean_L": 1.1694,
+   "deployed_mean_acc": 0.6969,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.95,
+     "L_answer": 0.2007
+    },
+    "task1391": {
+     "accuracy": 0.5,
+     "L_answer": 2.5576
+    },
+    "task280": {
+     "accuracy": 0.65,
+     "L_answer": 0.9906
+    },
+    "task290": {
+     "accuracy": 0.65,
+     "L_answer": 0.6651
+    },
+    "task391": {
+     "accuracy": 0.675,
+     "L_answer": 1.8626
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.6009
+    },
+    "task400": {
+     "accuracy": 0.65,
+     "L_answer": 0.2868
+    },
+    "task379": {
+     "accuracy": 0.675,
+     "L_answer": 2.1909
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task280",
+    "task290"
+   ],
+   "weights": {
+    "task190": 0.581552,
+    "task280": 0.27621,
+    "task290": 0.142238
+   },
+   "pred_worst": 2.711609,
+   "deployed_worst": 2.4966,
+   "deployed_mean_L": 1.0691,
+   "deployed_mean_acc": 0.7031,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.95,
+     "L_answer": 0.2051
+    },
+    "task1391": {
+     "accuracy": 0.5,
+     "L_answer": 2.4966
+    },
+    "task280": {
+     "accuracy": 0.725,
+     "L_answer": 0.6385
+    },
+    "task290": {
+     "accuracy": 0.8,
+     "L_answer": 0.3412
+    },
+    "task391": {
+     "accuracy": 0.65,
+     "L_answer": 1.8675
+    },
+    "task363": {
+     "accuracy": 0.725,
+     "L_answer": 0.5788
+    },
+    "task400": {
+     "accuracy": 0.65,
+     "L_answer": 0.312
+    },
+    "task379": {
+     "accuracy": 0.625,
+     "L_answer": 2.1128
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task280",
+    "task400"
+   ],
+   "weights": {
+    "task190": 0.552581,
+    "task280": 0.264888,
+    "task400": 0.182531
+   },
+   "pred_worst": 2.712704,
+   "deployed_worst": 2.8463,
+   "deployed_mean_L": 1.1643,
+   "deployed_mean_acc": 0.6937,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.925,
+     "L_answer": 0.2484
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 2.8463
+    },
+    "task280": {
+     "accuracy": 0.7,
+     "L_answer": 0.7171
+    },
+    "task290": {
+     "accuracy": 0.65,
+     "L_answer": 0.5625
+    },
+    "task391": {
+     "accuracy": 0.65,
+     "L_answer": 2.0066
+    },
+    "task363": {
+     "accuracy": 0.8,
+     "L_answer": 0.5334
+    },
+    "task400": {
+     "accuracy": 0.825,
+     "L_answer": 0.1527
+    },
+    "task379": {
+     "accuracy": 0.525,
+     "L_answer": 2.2472
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task391",
+    "task379"
+   ],
+   "weights": {
+    "task190": 0.317729,
+    "task391": 0.306102,
+    "task379": 0.376169
+   },
+   "pred_worst": 3.27604,
+   "deployed_worst": 2.8437,
+   "deployed_mean_L": 1.1417,
+   "deployed_mean_acc": 0.6719,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.725,
+     "L_answer": 0.6372
+    },
+    "task1391": {
+     "accuracy": 0.5,
+     "L_answer": 2.8437
+    },
+    "task280": {
+     "accuracy": 0.525,
+     "L_answer": 2.3174
+    },
+    "task290": {
+     "accuracy": 0.675,
+     "L_answer": 0.6077
+    },
+    "task391": {
+     "accuracy": 0.8,
+     "L_answer": 1.0554
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.5181
+    },
+    "task400": {
+     "accuracy": 0.575,
+     "L_answer": 0.4333
+    },
+    "task379": {
+     "accuracy": 0.75,
+     "L_answer": 0.7211
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task400",
+    "task379"
+   ],
+   "weights": {
+    "task190": 0.312719,
+    "task400": 0.239656,
+    "task379": 0.447624
+   },
+   "pred_worst": 3.436226,
+   "deployed_worst": 3.3791,
+   "deployed_mean_L": 1.337,
+   "deployed_mean_acc": 0.6813,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.75,
+     "L_answer": 0.7016
+    },
+    "task1391": {
+     "accuracy": 0.525,
+     "L_answer": 3.3791
+    },
+    "task280": {
+     "accuracy": 0.425,
+     "L_answer": 2.5925
+    },
+    "task290": {
+     "accuracy": 0.65,
+     "L_answer": 0.5021
+    },
+    "task391": {
+     "accuracy": 0.7,
+     "L_answer": 2.2127
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.4836
+    },
+    "task400": {
+     "accuracy": 0.825,
+     "L_answer": 0.131
+    },
+    "task379": {
+     "accuracy": 0.725,
+     "L_answer": 0.6931
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task290",
+    "task379"
+   ],
+   "weights": {
+    "task190": 0.388909,
+    "task290": 0.170289,
+    "task379": 0.440802
+   },
+   "pred_worst": 3.517574,
+   "deployed_worst": 2.8032,
+   "deployed_mean_L": 1.1845,
+   "deployed_mean_acc": 0.6719,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.925,
+     "L_answer": 0.3428
+    },
+    "task1391": {
+     "accuracy": 0.55,
+     "L_answer": 2.8032
+    },
+    "task280": {
+     "accuracy": 0.375,
+     "L_answer": 2.5235
+    },
+    "task290": {
+     "accuracy": 0.775,
+     "L_answer": 0.3352
+    },
+    "task391": {
+     "accuracy": 0.65,
+     "L_answer": 1.9935
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.4084
+    },
+    "task400": {
+     "accuracy": 0.5,
+     "L_answer": 0.4609
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.6088
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task1391",
+    "task379"
+   ],
+   "weights": {
+    "task190": 0.444962,
+    "task379": 0.555038
+   },
+   "pred_worst": 3.665881,
+   "deployed_worst": 2.8965,
+   "deployed_mean_L": 1.2851,
+   "deployed_mean_acc": 0.6406,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.925,
+     "L_answer": 0.3396
+    },
+    "task1391": {
+     "accuracy": 0.5,
+     "L_answer": 2.8965
+    },
+    "task280": {
+     "accuracy": 0.4,
+     "L_answer": 2.6548
+    },
+    "task290": {
+     "accuracy": 0.525,
+     "L_answer": 0.7819
+    },
+    "task391": {
+     "accuracy": 0.675,
+     "L_answer": 2.23
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.3444
+    },
+    "task400": {
+     "accuracy": 0.5,
+     "L_answer": 0.5624
+    },
+    "task379": {
+     "accuracy": 0.75,
+     "L_answer": 0.4715
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task363",
+    "task379"
+   ],
+   "weights": {
+    "task190": 0.444962,
+    "task379": 0.555038
+   },
+   "pred_worst": 3.665881,
+   "deployed_worst": 2.9194,
+   "deployed_mean_L": 1.2896,
+   "deployed_mean_acc": 0.6344,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.9,
+     "L_answer": 0.3378
+    },
+    "task1391": {
+     "accuracy": 0.5,
+     "L_answer": 2.9194
+    },
+    "task280": {
+     "accuracy": 0.35,
+     "L_answer": 2.649
+    },
+    "task290": {
+     "accuracy": 0.525,
+     "L_answer": 0.7775
+    },
+    "task391": {
+     "accuracy": 0.675,
+     "L_answer": 2.237
+    },
+    "task363": {
+     "accuracy": 0.875,
+     "L_answer": 0.35
+    },
+    "task400": {
+     "accuracy": 0.5,
+     "L_answer": 0.5552
+    },
+    "task379": {
+     "accuracy": 0.75,
+     "L_answer": 0.4906
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task1391",
+    "task391"
+   ],
+   "weights": {
+    "task190": 0.406465,
+    "task391": 0.593535
+   },
+   "pred_worst": 4.045892,
+   "deployed_worst": 2.7539,
+   "deployed_mean_L": 1.1443,
+   "deployed_mean_acc": 0.6844,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.925,
+     "L_answer": 0.2178
+    },
+    "task1391": {
+     "accuracy": 0.55,
+     "L_answer": 2.1666
+    },
+    "task280": {
+     "accuracy": 0.375,
+     "L_answer": 2.7539
+    },
+    "task290": {
+     "accuracy": 0.6,
+     "L_answer": 0.4867
+    },
+    "task391": {
+     "accuracy": 0.9,
+     "L_answer": 0.1463
+    },
+    "task363": {
+     "accuracy": 0.8,
+     "L_answer": 0.7576
+    },
+    "task400": {
+     "accuracy": 0.725,
+     "L_answer": 0.2476
+    },
+    "task379": {
+     "accuracy": 0.6,
+     "L_answer": 2.3776
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task290",
+    "task391"
+   ],
+   "weights": {
+    "task190": 0.406465,
+    "task391": 0.593535
+   },
+   "pred_worst": 4.045892,
+   "deployed_worst": 2.7652,
+   "deployed_mean_L": 1.1224,
+   "deployed_mean_acc": 0.6813,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.925,
+     "L_answer": 0.2068
+    },
+    "task1391": {
+     "accuracy": 0.575,
+     "L_answer": 2.0369
+    },
+    "task280": {
+     "accuracy": 0.375,
+     "L_answer": 2.7652
+    },
+    "task290": {
+     "accuracy": 0.65,
+     "L_answer": 0.4869
+    },
+    "task391": {
+     "accuracy": 0.875,
+     "L_answer": 0.1425
+    },
+    "task363": {
+     "accuracy": 0.775,
+     "L_answer": 0.7507
+    },
+    "task400": {
+     "accuracy": 0.675,
+     "L_answer": 0.2452
+    },
+    "task379": {
+     "accuracy": 0.6,
+     "L_answer": 2.3447
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task391",
+    "task363"
+   ],
+   "weights": {
+    "task190": 0.406465,
+    "task391": 0.593535
+   },
+   "pred_worst": 4.045892,
+   "deployed_worst": 2.7591,
+   "deployed_mean_L": 1.139,
+   "deployed_mean_acc": 0.6906,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.925,
+     "L_answer": 0.2137
+    },
+    "task1391": {
+     "accuracy": 0.575,
+     "L_answer": 2.1363
+    },
+    "task280": {
+     "accuracy": 0.375,
+     "L_answer": 2.7591
+    },
+    "task290": {
+     "accuracy": 0.65,
+     "L_answer": 0.5028
+    },
+    "task391": {
+     "accuracy": 0.9,
+     "L_answer": 0.1469
+    },
+    "task363": {
+     "accuracy": 0.775,
+     "L_answer": 0.7676
+    },
+    "task400": {
+     "accuracy": 0.725,
+     "L_answer": 0.2404
+    },
+    "task379": {
+     "accuracy": 0.6,
+     "L_answer": 2.3455
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task391",
+    "task400"
+   ],
+   "weights": {
+    "task190": 0.406465,
+    "task391": 0.593535
+   },
+   "pred_worst": 4.045892,
+   "deployed_worst": 2.768,
+   "deployed_mean_L": 1.131,
+   "deployed_mean_acc": 0.6813,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.925,
+     "L_answer": 0.2199
+    },
+    "task1391": {
+     "accuracy": 0.55,
+     "L_answer": 2.0855
+    },
+    "task280": {
+     "accuracy": 0.375,
+     "L_answer": 2.768
+    },
+    "task290": {
+     "accuracy": 0.6,
+     "L_answer": 0.496
+    },
+    "task391": {
+     "accuracy": 0.9,
+     "L_answer": 0.1375
+    },
+    "task363": {
+     "accuracy": 0.775,
+     "L_answer": 0.7488
+    },
+    "task400": {
+     "accuracy": 0.725,
+     "L_answer": 0.2383
+    },
+    "task379": {
+     "accuracy": 0.6,
+     "L_answer": 2.3537
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task290",
+    "task400"
+   ],
+   "weights": {
+    "task190": 0.432127,
+    "task290": 0.316911,
+    "task400": 0.250962
+   },
+   "pred_worst": 4.403992,
+   "deployed_worst": 3.3262,
+   "deployed_mean_L": 1.4326,
+   "deployed_mean_acc": 0.6656,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.95,
+     "L_answer": 0.2748
+    },
+    "task1391": {
+     "accuracy": 0.5,
+     "L_answer": 2.7189
+    },
+    "task280": {
+     "accuracy": 0.25,
+     "L_answer": 3.3262
+    },
+    "task290": {
+     "accuracy": 0.775,
+     "L_answer": 0.2175
+    },
+    "task391": {
+     "accuracy": 0.7,
+     "L_answer": 1.5189
+    },
+    "task363": {
+     "accuracy": 0.75,
+     "L_answer": 0.6152
+    },
+    "task400": {
+     "accuracy": 0.85,
+     "L_answer": 0.0918
+    },
+    "task379": {
+     "accuracy": 0.55,
+     "L_answer": 2.6977
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task1391",
+    "task290"
+   ],
+   "weights": {
+    "task190": 0.524963,
+    "task290": 0.475037
+   },
+   "pred_worst": 4.541707,
+   "deployed_worst": 3.3029,
+   "deployed_mean_L": 1.3767,
+   "deployed_mean_acc": 0.6469,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.95,
+     "L_answer": 0.2228
+    },
+    "task1391": {
+     "accuracy": 0.5,
+     "L_answer": 2.4881
+    },
+    "task280": {
+     "accuracy": 0.275,
+     "L_answer": 3.3029
+    },
+    "task290": {
+     "accuracy": 0.85,
+     "L_answer": 0.208
+    },
+    "task391": {
+     "accuracy": 0.625,
+     "L_answer": 1.4134
+    },
+    "task363": {
+     "accuracy": 0.675,
+     "L_answer": 0.6224
+    },
+    "task400": {
+     "accuracy": 0.7,
+     "L_answer": 0.1557
+    },
+    "task379": {
+     "accuracy": 0.6,
+     "L_answer": 2.6001
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task290",
+    "task363"
+   ],
+   "weights": {
+    "task190": 0.524963,
+    "task290": 0.475037
+   },
+   "pred_worst": 4.541707,
+   "deployed_worst": 3.3212,
+   "deployed_mean_L": 1.393,
+   "deployed_mean_acc": 0.6562,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.95,
+     "L_answer": 0.2274
+    },
+    "task1391": {
+     "accuracy": 0.525,
+     "L_answer": 2.6037
+    },
+    "task280": {
+     "accuracy": 0.275,
+     "L_answer": 3.3212
+    },
+    "task290": {
+     "accuracy": 0.85,
+     "L_answer": 0.2074
+    },
+    "task391": {
+     "accuracy": 0.625,
+     "L_answer": 1.4128
+    },
+    "task363": {
+     "accuracy": 0.675,
+     "L_answer": 0.6223
+    },
+    "task400": {
+     "accuracy": 0.725,
+     "L_answer": 0.151
+    },
+    "task379": {
+     "accuracy": 0.625,
+     "L_answer": 2.5983
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task1391",
+    "task400"
+   ],
+   "weights": {
+    "task190": 0.430192,
+    "task400": 0.569808
+   },
+   "pred_worst": 4.754651,
+   "deployed_worst": 3.4814,
+   "deployed_mean_L": 1.6636,
+   "deployed_mean_acc": 0.6438,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.85,
+     "L_answer": 0.3935
+    },
+    "task1391": {
+     "accuracy": 0.55,
+     "L_answer": 3.2314
+    },
+    "task280": {
+     "accuracy": 0.275,
+     "L_answer": 3.4814
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.4999
+    },
+    "task391": {
+     "accuracy": 0.65,
+     "L_answer": 1.9233
+    },
+    "task363": {
+     "accuracy": 0.775,
+     "L_answer": 0.7437
+    },
+    "task400": {
+     "accuracy": 0.95,
+     "L_answer": 0.0301
+    },
+    "task379": {
+     "accuracy": 0.475,
+     "L_answer": 3.0051
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task363",
+    "task400"
+   ],
+   "weights": {
+    "task190": 0.430192,
+    "task400": 0.569808
+   },
+   "pred_worst": 4.754651,
+   "deployed_worst": 3.5147,
+   "deployed_mean_L": 1.6922,
+   "deployed_mean_acc": 0.6594,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.875,
+     "L_answer": 0.4019
+    },
+    "task1391": {
+     "accuracy": 0.575,
+     "L_answer": 3.3809
+    },
+    "task280": {
+     "accuracy": 0.275,
+     "L_answer": 3.5147
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.508
+    },
+    "task391": {
+     "accuracy": 0.725,
+     "L_answer": 1.9302
+    },
+    "task363": {
+     "accuracy": 0.775,
+     "L_answer": 0.7345
+    },
+    "task400": {
+     "accuracy": 0.95,
+     "L_answer": 0.0308
+    },
+    "task379": {
+     "accuracy": 0.475,
+     "L_answer": 3.0369
+    }
+   }
+  },
+  {
+   "subset": [
+    "task190",
+    "task1391",
+    "task363"
+   ],
+   "weights": {
+    "task190": 0.647534,
+    "task1391": 0.352466
+   },
+   "pred_worst": 5.391753,
+   "deployed_worst": 3.9091,
+   "deployed_mean_L": 1.4774,
+   "deployed_mean_acc": 0.5437,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.95,
+     "L_answer": 0.4999
+    },
+    "task1391": {
+     "accuracy": 0.9,
+     "L_answer": 0.2105
+    },
+    "task280": {
+     "accuracy": 0.225,
+     "L_answer": 3.9091
+    },
+    "task290": {
+     "accuracy": 0.25,
+     "L_answer": 1.3165
+    },
+    "task391": {
+     "accuracy": 0.6,
+     "L_answer": 1.6543
+    },
+    "task363": {
+     "accuracy": 0.4,
+     "L_answer": 0.8779
+    },
+    "task400": {
+     "accuracy": 0.6,
+     "L_answer": 0.3618
+    },
+    "task379": {
+     "accuracy": 0.425,
+     "L_answer": 2.9894
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task363",
+    "task379"
+   ],
+   "weights": {
+    "task363": 0.791182,
+    "task379": 0.208818
+   },
+   "pred_worst": 6.877381,
+   "deployed_worst": 6.4496,
+   "deployed_mean_L": 2.4105,
+   "deployed_mean_acc": 0.4844,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.075,
+     "L_answer": 6.4496
+    },
+    "task1391": {
+     "accuracy": 0.4,
+     "L_answer": 4.4224
+    },
+    "task280": {
+     "accuracy": 0.275,
+     "L_answer": 4.5444
+    },
+    "task290": {
+     "accuracy": 0.5,
+     "L_answer": 0.8589
+    },
+    "task391": {
+     "accuracy": 0.575,
+     "L_answer": 1.122
+    },
+    "task363": {
+     "accuracy": 0.875,
+     "L_answer": 0.3704
+    },
+    "task400": {
+     "accuracy": 0.475,
+     "L_answer": 0.4358
+    },
+    "task379": {
+     "accuracy": 0.7,
+     "L_answer": 1.0805
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task363",
+    "task379"
+   ],
+   "weights": {
+    "task363": 0.791182,
+    "task379": 0.208818
+   },
+   "pred_worst": 6.877381,
+   "deployed_worst": 6.4595,
+   "deployed_mean_L": 2.4152,
+   "deployed_mean_acc": 0.4781,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.075,
+     "L_answer": 6.4595
+    },
+    "task1391": {
+     "accuracy": 0.375,
+     "L_answer": 4.3577
+    },
+    "task280": {
+     "accuracy": 0.275,
+     "L_answer": 4.6189
+    },
+    "task290": {
+     "accuracy": 0.5,
+     "L_answer": 0.8431
+    },
+    "task391": {
+     "accuracy": 0.575,
+     "L_answer": 1.1152
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.3897
+    },
+    "task400": {
+     "accuracy": 0.475,
+     "L_answer": 0.4327
+    },
+    "task379": {
+     "accuracy": 0.7,
+     "L_answer": 1.1047
+    }
+   }
+  },
+  {
+   "subset": [
+    "task290",
+    "task363",
+    "task379"
+   ],
+   "weights": {
+    "task363": 0.791182,
+    "task379": 0.208818
+   },
+   "pred_worst": 6.877381,
+   "deployed_worst": 6.4784,
+   "deployed_mean_L": 2.416,
+   "deployed_mean_acc": 0.4813,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.075,
+     "L_answer": 6.4784
+    },
+    "task1391": {
+     "accuracy": 0.4,
+     "L_answer": 4.3998
+    },
+    "task280": {
+     "accuracy": 0.275,
+     "L_answer": 4.5824
+    },
+    "task290": {
+     "accuracy": 0.5,
+     "L_answer": 0.8499
+    },
+    "task391": {
+     "accuracy": 0.575,
+     "L_answer": 1.1072
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.3769
+    },
+    "task400": {
+     "accuracy": 0.475,
+     "L_answer": 0.4357
+    },
+    "task379": {
+     "accuracy": 0.7,
+     "L_answer": 1.0981
+    }
+   }
+  },
+  {
+   "subset": [
+    "task391",
+    "task363",
+    "task379"
+   ],
+   "weights": {
+    "task363": 0.791182,
+    "task379": 0.208818
+   },
+   "pred_worst": 6.877381,
+   "deployed_worst": 6.4868,
+   "deployed_mean_L": 2.413,
+   "deployed_mean_acc": 0.4844,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.075,
+     "L_answer": 6.4868
+    },
+    "task1391": {
+     "accuracy": 0.4,
+     "L_answer": 4.3863
+    },
+    "task280": {
+     "accuracy": 0.275,
+     "L_answer": 4.5667
+    },
+    "task290": {
+     "accuracy": 0.5,
+     "L_answer": 0.8446
+    },
+    "task391": {
+     "accuracy": 0.625,
+     "L_answer": 1.1257
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.3687
+    },
+    "task400": {
+     "accuracy": 0.45,
+     "L_answer": 0.4261
+    },
+    "task379": {
+     "accuracy": 0.7,
+     "L_answer": 1.0992
+    }
+   }
+  },
+  {
+   "subset": [
+    "task363",
+    "task400",
+    "task379"
+   ],
+   "weights": {
+    "task363": 0.791182,
+    "task379": 0.208818
+   },
+   "pred_worst": 6.877381,
+   "deployed_worst": 6.4625,
+   "deployed_mean_L": 2.4225,
+   "deployed_mean_acc": 0.4813,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.075,
+     "L_answer": 6.4625
+    },
+    "task1391": {
+     "accuracy": 0.425,
+     "L_answer": 4.5232
+    },
+    "task280": {
+     "accuracy": 0.275,
+     "L_answer": 4.5692
+    },
+    "task290": {
+     "accuracy": 0.5,
+     "L_answer": 0.8371
+    },
+    "task391": {
+     "accuracy": 0.575,
+     "L_answer": 1.1172
+    },
+    "task363": {
+     "accuracy": 0.875,
+     "L_answer": 0.3618
+    },
+    "task400": {
+     "accuracy": 0.425,
+     "L_answer": 0.429
+    },
+    "task379": {
+     "accuracy": 0.7,
+     "L_answer": 1.0803
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task280",
+    "task363"
+   ],
+   "weights": {
+    "task280": 0.070702,
+    "task363": 0.929298
+   },
+   "pred_worst": 7.031893,
+   "deployed_worst": 5.4817,
+   "deployed_mean_L": 2.412,
+   "deployed_mean_acc": 0.4562,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.075,
+     "L_answer": 5.4817
+    },
+    "task1391": {
+     "accuracy": 0.425,
+     "L_answer": 4.2114
+    },
+    "task280": {
+     "accuracy": 0.25,
+     "L_answer": 4.6617
+    },
+    "task290": {
+     "accuracy": 0.525,
+     "L_answer": 0.9662
+    },
+    "task391": {
+     "accuracy": 0.625,
+     "L_answer": 1.2869
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.3446
+    },
+    "task400": {
+     "accuracy": 0.425,
+     "L_answer": 0.353
+    },
+    "task379": {
+     "accuracy": 0.5,
+     "L_answer": 1.9907
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task290",
+    "task363"
+   ],
+   "weights": {
+    "task280": 0.070702,
+    "task363": 0.929298
+   },
+   "pred_worst": 7.031893,
+   "deployed_worst": 5.459,
+   "deployed_mean_L": 2.4113,
+   "deployed_mean_acc": 0.4594,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.1,
+     "L_answer": 5.459
+    },
+    "task1391": {
+     "accuracy": 0.425,
+     "L_answer": 4.2005
+    },
+    "task280": {
+     "accuracy": 0.25,
+     "L_answer": 4.6702
+    },
+    "task290": {
+     "accuracy": 0.5,
+     "L_answer": 0.941
+    },
+    "task391": {
+     "accuracy": 0.625,
+     "L_answer": 1.2815
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.3601
+    },
+    "task400": {
+     "accuracy": 0.425,
+     "L_answer": 0.367
+    },
+    "task379": {
+     "accuracy": 0.525,
+     "L_answer": 2.0109
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task391",
+    "task363"
+   ],
+   "weights": {
+    "task280": 0.070702,
+    "task363": 0.929298
+   },
+   "pred_worst": 7.031893,
+   "deployed_worst": 5.3571,
+   "deployed_mean_L": 2.4059,
+   "deployed_mean_acc": 0.4625,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.1,
+     "L_answer": 5.3571
+    },
+    "task1391": {
+     "accuracy": 0.45,
+     "L_answer": 4.2965
+    },
+    "task280": {
+     "accuracy": 0.225,
+     "L_answer": 4.6577
+    },
+    "task290": {
+     "accuracy": 0.525,
+     "L_answer": 0.9453
+    },
+    "task391": {
+     "accuracy": 0.625,
+     "L_answer": 1.2842
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.3542
+    },
+    "task400": {
+     "accuracy": 0.425,
+     "L_answer": 0.3566
+    },
+    "task379": {
+     "accuracy": 0.525,
+     "L_answer": 1.996
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task363",
+    "task400"
+   ],
+   "weights": {
+    "task280": 0.070702,
+    "task363": 0.929298
+   },
+   "pred_worst": 7.031893,
+   "deployed_worst": 5.4035,
+   "deployed_mean_L": 2.4083,
+   "deployed_mean_acc": 0.4625,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.075,
+     "L_answer": 5.4035
+    },
+    "task1391": {
+     "accuracy": 0.525,
+     "L_answer": 4.3058
+    },
+    "task280": {
+     "accuracy": 0.25,
+     "L_answer": 4.6357
+    },
+    "task290": {
+     "accuracy": 0.475,
+     "L_answer": 0.9378
+    },
+    "task391": {
+     "accuracy": 0.625,
+     "L_answer": 1.2875
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.3578
+    },
+    "task400": {
+     "accuracy": 0.425,
+     "L_answer": 0.3627
+    },
+    "task379": {
+     "accuracy": 0.5,
+     "L_answer": 1.9758
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task391",
+    "task363"
+   ],
+   "weights": {
+    "task391": 0.300706,
+    "task363": 0.699294
+   },
+   "pred_worst": 7.284514,
+   "deployed_worst": 5.9128,
+   "deployed_mean_L": 2.3653,
+   "deployed_mean_acc": 0.5312,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.3,
+     "L_answer": 5.9128
+    },
+    "task1391": {
+     "accuracy": 0.5,
+     "L_answer": 4.1161
+    },
+    "task280": {
+     "accuracy": 0.225,
+     "L_answer": 4.8783
+    },
+    "task290": {
+     "accuracy": 0.525,
+     "L_answer": 0.7302
+    },
+    "task391": {
+     "accuracy": 0.775,
+     "L_answer": 0.388
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.4109
+    },
+    "task400": {
+     "accuracy": 0.475,
+     "L_answer": 0.3047
+    },
+    "task379": {
+     "accuracy": 0.625,
+     "L_answer": 2.181
+    }
+   }
+  },
+  {
+   "subset": [
+    "task290",
+    "task391",
+    "task363"
+   ],
+   "weights": {
+    "task391": 0.300706,
+    "task363": 0.699294
+   },
+   "pred_worst": 7.284514,
+   "deployed_worst": 5.8698,
+   "deployed_mean_L": 2.3661,
+   "deployed_mean_acc": 0.5281,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.3,
+     "L_answer": 5.8698
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 4.2275
+    },
+    "task280": {
+     "accuracy": 0.25,
+     "L_answer": 4.8582
+    },
+    "task290": {
+     "accuracy": 0.5,
+     "L_answer": 0.735
+    },
+    "task391": {
+     "accuracy": 0.75,
+     "L_answer": 0.3767
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.426
+    },
+    "task400": {
+     "accuracy": 0.5,
+     "L_answer": 0.3004
+    },
+    "task379": {
+     "accuracy": 0.625,
+     "L_answer": 2.1349
+    }
+   }
+  },
+  {
+   "subset": [
+    "task391",
+    "task363",
+    "task400"
+   ],
+   "weights": {
+    "task391": 0.300706,
+    "task363": 0.699294
+   },
+   "pred_worst": 7.284514,
+   "deployed_worst": 5.8086,
+   "deployed_mean_L": 2.3468,
+   "deployed_mean_acc": 0.5281,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.275,
+     "L_answer": 5.8086
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 4.1626
+    },
+    "task280": {
+     "accuracy": 0.25,
+     "L_answer": 4.8386
+    },
+    "task290": {
+     "accuracy": 0.5,
+     "L_answer": 0.7407
+    },
+    "task391": {
+     "accuracy": 0.775,
+     "L_answer": 0.3712
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.4312
+    },
+    "task400": {
+     "accuracy": 0.475,
+     "L_answer": 0.3004
+    },
+    "task379": {
+     "accuracy": 0.65,
+     "L_answer": 2.1207
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task363",
+    "task400"
+   ],
+   "weights": {
+    "task1391": 0.071175,
+    "task363": 0.719624,
+    "task400": 0.209201
+   },
+   "pred_worst": 7.426002,
+   "deployed_worst": 5.8141,
+   "deployed_mean_L": 2.2064,
+   "deployed_mean_acc": 0.5156,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.125,
+     "L_answer": 5.8141
+    },
+    "task1391": {
+     "accuracy": 0.55,
+     "L_answer": 3.0055
+    },
+    "task280": {
+     "accuracy": 0.25,
+     "L_answer": 4.5992
+    },
+    "task290": {
+     "accuracy": 0.55,
+     "L_answer": 0.643
+    },
+    "task391": {
+     "accuracy": 0.65,
+     "L_answer": 1.0098
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.4449
+    },
+    "task400": {
+     "accuracy": 0.6,
+     "L_answer": 0.1754
+    },
+    "task379": {
+     "accuracy": 0.575,
+     "L_answer": 1.9591
+    }
+   }
+  },
+  {
+   "subset": [
+    "task290",
+    "task363",
+    "task400"
+   ],
+   "weights": {
+    "task363": 0.781308,
+    "task400": 0.218692
+   },
+   "pred_worst": 7.436903,
+   "deployed_worst": 5.7628,
+   "deployed_mean_L": 2.4234,
+   "deployed_mean_acc": 0.4813,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.075,
+     "L_answer": 5.7628
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 4.3075
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 4.9295
+    },
+    "task290": {
+     "accuracy": 0.525,
+     "L_answer": 0.6568
+    },
+    "task391": {
+     "accuracy": 0.625,
+     "L_answer": 1.0133
+    },
+    "task363": {
+     "accuracy": 0.8,
+     "L_answer": 0.4248
+    },
+    "task400": {
+     "accuracy": 0.65,
+     "L_answer": 0.1691
+    },
+    "task379": {
+     "accuracy": 0.5,
+     "L_answer": 2.1233
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task280",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 9.9775,
+   "deployed_mean_L": 3.421,
+   "deployed_mean_acc": 0.5125,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.225,
+     "L_answer": 9.9775
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 7.4336
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.8991
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.8361
+    },
+    "task391": {
+     "accuracy": 0.525,
+     "L_answer": 3.0598
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.5182
+    },
+    "task400": {
+     "accuracy": 0.425,
+     "L_answer": 1.1502
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.4932
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task290",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 9.9749,
+   "deployed_mean_L": 3.4256,
+   "deployed_mean_acc": 0.5125,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.2,
+     "L_answer": 9.9749
+    },
+    "task1391": {
+     "accuracy": 0.45,
+     "L_answer": 7.3801
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.9275
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.8446
+    },
+    "task391": {
+     "accuracy": 0.525,
+     "L_answer": 3.1171
+    },
+    "task363": {
+     "accuracy": 0.875,
+     "L_answer": 0.5241
+    },
+    "task400": {
+     "accuracy": 0.45,
+     "L_answer": 1.1381
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.4985
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task391",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 9.9997,
+   "deployed_mean_L": 3.4209,
+   "deployed_mean_acc": 0.5156,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.225,
+     "L_answer": 9.9997
+    },
+    "task1391": {
+     "accuracy": 0.45,
+     "L_answer": 7.3939
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.9233
+    },
+    "task290": {
+     "accuracy": 0.65,
+     "L_answer": 0.8261
+    },
+    "task391": {
+     "accuracy": 0.5,
+     "L_answer": 3.0783
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.4929
+    },
+    "task400": {
+     "accuracy": 0.475,
+     "L_answer": 1.1513
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.5021
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task400",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 9.9698,
+   "deployed_mean_L": 3.4177,
+   "deployed_mean_acc": 0.5188,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.225,
+     "L_answer": 9.9698
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 7.3591
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.9442
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.8691
+    },
+    "task391": {
+     "accuracy": 0.525,
+     "L_answer": 3.0416
+    },
+    "task363": {
+     "accuracy": 0.875,
+     "L_answer": 0.5111
+    },
+    "task400": {
+     "accuracy": 0.45,
+     "L_answer": 1.145
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.5014
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task290",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 9.9695,
+   "deployed_mean_L": 3.4045,
+   "deployed_mean_acc": 0.5094,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.15,
+     "L_answer": 9.9695
+    },
+    "task1391": {
+     "accuracy": 0.45,
+     "L_answer": 7.3086
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.933
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.8208
+    },
+    "task391": {
+     "accuracy": 0.525,
+     "L_answer": 3.0507
+    },
+    "task363": {
+     "accuracy": 0.875,
+     "L_answer": 0.4916
+    },
+    "task400": {
+     "accuracy": 0.475,
+     "L_answer": 1.154
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.5074
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task391",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 9.9887,
+   "deployed_mean_L": 3.4324,
+   "deployed_mean_acc": 0.5219,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.225,
+     "L_answer": 9.9887
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 7.4136
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.9573
+    },
+    "task290": {
+     "accuracy": 0.65,
+     "L_answer": 0.8909
+    },
+    "task391": {
+     "accuracy": 0.525,
+     "L_answer": 3.0113
+    },
+    "task363": {
+     "accuracy": 0.875,
+     "L_answer": 0.5316
+    },
+    "task400": {
+     "accuracy": 0.45,
+     "L_answer": 1.1611
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.5044
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task400",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 9.9613,
+   "deployed_mean_L": 3.4228,
+   "deployed_mean_acc": 0.5062,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.175,
+     "L_answer": 9.9613
+    },
+    "task1391": {
+     "accuracy": 0.45,
+     "L_answer": 7.3815
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.9545
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.8568
+    },
+    "task391": {
+     "accuracy": 0.525,
+     "L_answer": 3.0685
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.5218
+    },
+    "task400": {
+     "accuracy": 0.45,
+     "L_answer": 1.1495
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.4886
+    }
+   }
+  },
+  {
+   "subset": [
+    "task290",
+    "task391",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 9.9439,
+   "deployed_mean_L": 3.4254,
+   "deployed_mean_acc": 0.5156,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.225,
+     "L_answer": 9.9439
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 7.4556
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.9069
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.8504
+    },
+    "task391": {
+     "accuracy": 0.525,
+     "L_answer": 3.0842
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.5229
+    },
+    "task400": {
+     "accuracy": 0.45,
+     "L_answer": 1.1331
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.5063
+    }
+   }
+  },
+  {
+   "subset": [
+    "task290",
+    "task400",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 10.0116,
+   "deployed_mean_L": 3.4207,
+   "deployed_mean_acc": 0.5125,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.15,
+     "L_answer": 10.0116
+    },
+    "task1391": {
+     "accuracy": 0.5,
+     "L_answer": 7.3918
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.9174
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.8372
+    },
+    "task391": {
+     "accuracy": 0.525,
+     "L_answer": 3.0495
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.5144
+    },
+    "task400": {
+     "accuracy": 0.475,
+     "L_answer": 1.1411
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.5028
+    }
+   }
+  },
+  {
+   "subset": [
+    "task391",
+    "task400",
+    "task379"
+   ],
+   "weights": {
+    "task379": 1.0
+   },
+   "pred_worst": 7.526996,
+   "deployed_worst": 10.0717,
+   "deployed_mean_L": 3.439,
+   "deployed_mean_acc": 0.5188,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.2,
+     "L_answer": 10.0717
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 7.4123
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 3.9336
+    },
+    "task290": {
+     "accuracy": 0.65,
+     "L_answer": 0.8369
+    },
+    "task391": {
+     "accuracy": 0.525,
+     "L_answer": 3.1011
+    },
+    "task363": {
+     "accuracy": 0.875,
+     "L_answer": 0.5255
+    },
+    "task400": {
+     "accuracy": 0.45,
+     "L_answer": 1.1258
+    },
+    "task379": {
+     "accuracy": 0.775,
+     "L_answer": 0.5051
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task290",
+    "task363"
+   ],
+   "weights": {
+    "task1391": 0.232731,
+    "task290": 0.169607,
+    "task363": 0.597662
+   },
+   "pred_worst": 8.067361,
+   "deployed_worst": 7.0813,
+   "deployed_mean_L": 2.2081,
+   "deployed_mean_acc": 0.5563,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.3,
+     "L_answer": 7.0813
+    },
+    "task1391": {
+     "accuracy": 0.75,
+     "L_answer": 1.1777
+    },
+    "task280": {
+     "accuracy": 0.2,
+     "L_answer": 5.3777
+    },
+    "task290": {
+     "accuracy": 0.6,
+     "L_answer": 0.4497
+    },
+    "task391": {
+     "accuracy": 0.6,
+     "L_answer": 0.8428
+    },
+    "task363": {
+     "accuracy": 0.875,
+     "L_answer": 0.4525
+    },
+    "task400": {
+     "accuracy": 0.525,
+     "L_answer": 0.3328
+    },
+    "task379": {
+     "accuracy": 0.6,
+     "L_answer": 1.9502
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task280",
+    "task400"
+   ],
+   "weights": {
+    "task1391": 0.71533,
+    "task400": 0.28467
+   },
+   "pred_worst": 8.45439,
+   "deployed_worst": 6.4005,
+   "deployed_mean_L": 2.3585,
+   "deployed_mean_acc": 0.575,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.3,
+     "L_answer": 6.4005
+    },
+    "task1391": {
+     "accuracy": 1.0,
+     "L_answer": 0.0377
+    },
+    "task280": {
+     "accuracy": 0.125,
+     "L_answer": 5.5922
+    },
+    "task290": {
+     "accuracy": 0.45,
+     "L_answer": 1.2973
+    },
+    "task391": {
+     "accuracy": 0.6,
+     "L_answer": 1.6787
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.7309
+    },
+    "task400": {
+     "accuracy": 0.9,
+     "L_answer": 0.0911
+    },
+    "task379": {
+     "accuracy": 0.375,
+     "L_answer": 3.0398
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task290",
+    "task400"
+   ],
+   "weights": {
+    "task1391": 0.71533,
+    "task400": 0.28467
+   },
+   "pred_worst": 8.45439,
+   "deployed_worst": 6.4977,
+   "deployed_mean_L": 2.3775,
+   "deployed_mean_acc": 0.5813,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.3,
+     "L_answer": 6.4977
+    },
+    "task1391": {
+     "accuracy": 1.0,
+     "L_answer": 0.0265
+    },
+    "task280": {
+     "accuracy": 0.15,
+     "L_answer": 5.625
+    },
+    "task290": {
+     "accuracy": 0.5,
+     "L_answer": 1.2475
+    },
+    "task391": {
+     "accuracy": 0.6,
+     "L_answer": 1.6775
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.7327
+    },
+    "task400": {
+     "accuracy": 0.875,
+     "L_answer": 0.0943
+    },
+    "task379": {
+     "accuracy": 0.375,
+     "L_answer": 3.1187
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task391",
+    "task400"
+   ],
+   "weights": {
+    "task1391": 0.71533,
+    "task400": 0.28467
+   },
+   "pred_worst": 8.45439,
+   "deployed_worst": 6.3759,
+   "deployed_mean_L": 2.3553,
+   "deployed_mean_acc": 0.5656,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.3,
+     "L_answer": 6.3759
+    },
+    "task1391": {
+     "accuracy": 0.975,
+     "L_answer": 0.0362
+    },
+    "task280": {
+     "accuracy": 0.125,
+     "L_answer": 5.6196
+    },
+    "task290": {
+     "accuracy": 0.425,
+     "L_answer": 1.252
+    },
+    "task391": {
+     "accuracy": 0.625,
+     "L_answer": 1.6625
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.741
+    },
+    "task400": {
+     "accuracy": 0.875,
+     "L_answer": 0.0909
+    },
+    "task379": {
+     "accuracy": 0.35,
+     "L_answer": 3.064
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task280",
+    "task391"
+   ],
+   "weights": {
+    "task1391": 0.747829,
+    "task391": 0.252171
+   },
+   "pred_worst": 8.793956,
+   "deployed_worst": 8.2759,
+   "deployed_mean_L": 2.5025,
+   "deployed_mean_acc": 0.5844,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.275,
+     "L_answer": 8.2759
+    },
+    "task1391": {
+     "accuracy": 1.0,
+     "L_answer": 0.0213
+    },
+    "task280": {
+     "accuracy": 0.125,
+     "L_answer": 5.7096
+    },
+    "task290": {
+     "accuracy": 0.45,
+     "L_answer": 1.4668
+    },
+    "task391": {
+     "accuracy": 0.675,
+     "L_answer": 0.8491
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.7453
+    },
+    "task400": {
+     "accuracy": 0.775,
+     "L_answer": 0.3128
+    },
+    "task379": {
+     "accuracy": 0.525,
+     "L_answer": 2.6393
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task290",
+    "task391"
+   ],
+   "weights": {
+    "task1391": 0.747829,
+    "task391": 0.252171
+   },
+   "pred_worst": 8.793956,
+   "deployed_worst": 8.1586,
+   "deployed_mean_L": 2.4883,
+   "deployed_mean_acc": 0.5719,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.3,
+     "L_answer": 8.1586
+    },
+    "task1391": {
+     "accuracy": 1.0,
+     "L_answer": 0.0146
+    },
+    "task280": {
+     "accuracy": 0.1,
+     "L_answer": 5.7673
+    },
+    "task290": {
+     "accuracy": 0.425,
+     "L_answer": 1.4708
+    },
+    "task391": {
+     "accuracy": 0.675,
+     "L_answer": 0.8525
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.7457
+    },
+    "task400": {
+     "accuracy": 0.75,
+     "L_answer": 0.3288
+    },
+    "task379": {
+     "accuracy": 0.475,
+     "L_answer": 2.5683
+    }
+   }
+  },
+  {
+   "subset": [
+    "task1391",
+    "task280",
+    "task290"
+   ],
+   "weights": {
+    "task1391": 0.969421,
+    "task280": 0.030579
+   },
+   "pred_worst": 9.004869,
+   "deployed_worst": 7.0244,
+   "deployed_mean_L": 3.0161,
+   "deployed_mean_acc": 0.3781,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.275,
+     "L_answer": 7.0244
+    },
+    "task1391": {
+     "accuracy": 0.975,
+     "L_answer": 0.1833
+    },
+    "task280": {
+     "accuracy": 0.025,
+     "L_answer": 6.059
+    },
+    "task290": {
+     "accuracy": 0.225,
+     "L_answer": 3.0826
+    },
+    "task391": {
+     "accuracy": 0.425,
+     "L_answer": 1.9792
+    },
+    "task363": {
+     "accuracy": 0.35,
+     "L_answer": 1.6737
+    },
+    "task400": {
+     "accuracy": 0.45,
+     "L_answer": 0.6154
+    },
+    "task379": {
+     "accuracy": 0.3,
+     "L_answer": 3.5115
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task391",
+    "task400"
+   ],
+   "weights": {
+    "task391": 0.777017,
+    "task400": 0.222983
+   },
+   "pred_worst": 10.040286,
+   "deployed_worst": 10.4584,
+   "deployed_mean_L": 2.7981,
+   "deployed_mean_acc": 0.6188,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.275,
+     "L_answer": 10.4584
+    },
+    "task1391": {
+     "accuracy": 0.425,
+     "L_answer": 4.1601
+    },
+    "task280": {
+     "accuracy": 0.475,
+     "L_answer": 3.4312
+    },
+    "task290": {
+     "accuracy": 0.6,
+     "L_answer": 0.4738
+    },
+    "task391": {
+     "accuracy": 0.95,
+     "L_answer": 0.0691
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.8003
+    },
+    "task400": {
+     "accuracy": 0.825,
+     "L_answer": 0.1291
+    },
+    "task379": {
+     "accuracy": 0.575,
+     "L_answer": 2.8628
+    }
+   }
+  },
+  {
+   "subset": [
+    "task290",
+    "task391",
+    "task400"
+   ],
+   "weights": {
+    "task391": 0.777017,
+    "task400": 0.222983
+   },
+   "pred_worst": 10.040286,
+   "deployed_worst": 10.5537,
+   "deployed_mean_L": 2.7945,
+   "deployed_mean_acc": 0.6188,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.275,
+     "L_answer": 10.5537
+    },
+    "task1391": {
+     "accuracy": 0.425,
+     "L_answer": 4.1053
+    },
+    "task280": {
+     "accuracy": 0.45,
+     "L_answer": 3.4135
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.4741
+    },
+    "task391": {
+     "accuracy": 0.95,
+     "L_answer": 0.0684
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.8047
+    },
+    "task400": {
+     "accuracy": 0.85,
+     "L_answer": 0.1254
+    },
+    "task379": {
+     "accuracy": 0.55,
+     "L_answer": 2.811
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task290",
+    "task391"
+   ],
+   "weights": {
+    "task391": 1.0
+   },
+   "pred_worst": 10.167474,
+   "deployed_worst": 9.7553,
+   "deployed_mean_L": 2.4673,
+   "deployed_mean_acc": 0.6125,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.275,
+     "L_answer": 9.7553
+    },
+    "task1391": {
+     "accuracy": 0.475,
+     "L_answer": 2.8705
+    },
+    "task280": {
+     "accuracy": 0.4,
+     "L_answer": 3.2085
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.4763
+    },
+    "task391": {
+     "accuracy": 0.925,
+     "L_answer": 0.0541
+    },
+    "task363": {
+     "accuracy": 0.825,
+     "L_answer": 0.7361
+    },
+    "task400": {
+     "accuracy": 0.775,
+     "L_answer": 0.2468
+    },
+    "task379": {
+     "accuracy": 0.6,
+     "L_answer": 2.3908
+    }
+   }
+  },
+  {
+   "subset": [
+    "task280",
+    "task290",
+    "task400"
+   ],
+   "weights": {
+    "task280": 0.503811,
+    "task400": 0.496189
+   },
+   "pred_worst": 10.631816,
+   "deployed_worst": 8.3307,
+   "deployed_mean_L": 2.4114,
+   "deployed_mean_acc": 0.6531,
+   "per_task": {
+    "task190": {
+     "accuracy": 0.175,
+     "L_answer": 8.3307
+    },
+    "task1391": {
+     "accuracy": 0.375,
+     "L_answer": 5.453
+    },
+    "task280": {
+     "accuracy": 0.95,
+     "L_answer": 0.0864
+    },
+    "task290": {
+     "accuracy": 0.625,
+     "L_answer": 0.5918
+    },
+    "task391": {
+     "accuracy": 0.6,
+     "L_answer": 2.5291
+    },
+    "task363": {
+     "accuracy": 0.85,
+     "L_answer": 0.8348
+    },
+    "task400": {
+     "accuracy": 0.95,
+     "L_answer": 0.0522
+    },
+    "task379": {
+     "accuracy": 0.7,
+     "L_answer": 1.413
+    }
+   }
+  }
+ ],
+ "summary": {
+  "n_evaluated": 56,
+  "deployed_worst_median": 5.842,
+  "deployed_worst_q1": 3.303,
+  "deployed_worst_q3": 8.276,
+  "deployed_worst_p90": 9.989,
+  "deployed_worst_best": 2.033,
+  "deployed_worst_max": 10.554,
+  "equal8_worst": 3.646,
+  "minimax_full_worst": 1.592,
+  "atlas_subsets": {
+   "rank2_core": {
+    "deployed_worst": 3.3791,
+    "rank": 18,
+    "mean_acc": 0.6813
+   },
+   "top3_trunc": {
+    "deployed_worst": 2.7466,
+    "rank": 5,
+    "mean_acc": 0.6156
+   }
+  },
+  "deployed_mean_acc_median": 0.569,
+  "rank_correlation_spearman": 0.881,
+  "rank_correlation_pearson": 0.854,
+  "atlas_guided_pick": {
+   "subset": [
+    "task190",
+    "task1391",
+    "task280"
+   ],
+   "pred_worst": 2.12,
+   "deployed_worst": 2.03,
+   "deployed_rank": 1,
+   "mean_acc": 0.738
+  }
+ }
+}

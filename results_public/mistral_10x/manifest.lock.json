@@ -1,0 +1,116 @@
+{
+  "adapters": [
+    {
+      "name": "task280",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task280",
+      "task": "public_task_280"
+    },
+    {
+      "name": "task190",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task190",
+      "task": "public_task_190"
+    },
+    {
+      "name": "task391",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task391",
+      "task": "public_task_391"
+    },
+    {
+      "name": "task290",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task290",
+      "task": "public_task_290"
+    },
+    {
+      "name": "task1391",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1391",
+      "task": "public_task_1391"
+    },
+    {
+      "name": "task1342",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1342",
+      "task": "public_task_1342"
+    },
+    {
+      "name": "task442",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task442",
+      "task": "public_task_442"
+    },
+    {
+      "name": "task620",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task620",
+      "task": "public_task_620"
+    },
+    {
+      "name": "task1598",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1598",
+      "task": "public_task_1598"
+    },
+    {
+      "name": "task039",
+      "probe_key": "general_instruction",
+      "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task039",
+      "task": "public_task_39"
+    }
+  ],
+  "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+  "density": 0.5,
+  "device_map": "auto",
+  "dtype": "bfloat16",
+  "experiment_id": "mistral7b_10x",
+  "license_policy": {
+    "adapter_license": "mit",
+    "allowed_machine_readable_licenses": [
+      "apache-2.0",
+      "mit"
+    ],
+    "base_model_license": "apache-2.0",
+    "weights_redistributed": false
+  },
+  "max_length": 384,
+  "merge_methods": [
+    "linear",
+    "ties",
+    "dare_ties",
+    "magnitude_prune"
+  ],
+  "min_single_adapter_gain": 0.005,
+  "pair_min_weight": 0.2,
+  "pair_step": 0.2,
+  "probes": {
+    "general_instruction": {
+      "calibration": [
+        "Explain what a project retrospective is and why teams run one.",
+        "Draft a concise checklist for preparing a software release.",
+        "Summarize the difference between accuracy and precision.",
+        "Give three tips for writing a clear design document."
+      ],
+      "heldout": [
+        "Explain what a product roadmap is and how it is used.",
+        "Draft a concise checklist for onboarding a new teammate.",
+        "Summarize the difference between recall and specificity.",
+        "Give three tips for running an effective technical review."
+      ]
+    }
+  },
+  "project_psd": true,
+  "project_quadratic_hessian_psd": true,
+  "prompt_limit_per_split": 4,
+  "quantization": "4bit",
+  "query_design": "full_support_continuous_certificate",
+  "retention_threshold": 0.7,
+  "seed": 20260504,
+  "shuffle_queries": false,
+  "solve_continuous_certificate": true,
+  "tokenizer_model": "mistralai/Mistral-7B-Instruct-v0.2",
+  "triple_min_weight": 0.2,
+  "triple_step": 0.2
+}

@@ -1,0 +1,226 @@
+{
+  "source": "results_public/qwen25_m50_balanced/results.csv",
+  "seed": 0,
+  "n_folds": 4,
+  "modes": {
+    "cold_start": {
+      "feature_dim": 10,
+      "per_operator": [
+        {
+          "method": "dare_ties",
+          "n": 1000,
+          "n_positive": 429,
+          "atlas": {
+            "auroc": 0.760964079703134,
+            "auprc": 0.7584457732401618
+          },
+          "gbm_strong": {
+            "auroc": 0.4920394841585735,
+            "auprc": 0.42514310941583666
+          },
+          "mlp_strong": {
+            "auroc": 0.5295967896668422,
+            "auprc": 0.44606906477361025
+          }
+        },
+        {
+          "method": "linear",
+          "n": 1000,
+          "n_positive": 325,
+          "atlas": {
+            "auroc": 0.8940900284900285,
+            "auprc": 0.785774835461583
+          },
+          "gbm_strong": {
+            "auroc": 0.5126495726495727,
+            "auprc": 0.3283544573073985
+          },
+          "mlp_strong": {
+            "auroc": 0.4852991452991453,
+            "auprc": 0.32618852071005916
+          }
+        },
+        {
+          "method": "magnitude_prune",
+          "n": 1000,
+          "n_positive": 303,
+          "atlas": {
+            "auroc": 0.8472520135801241,
+            "auprc": 0.7136375293284485
+          },
+          "gbm_strong": {
+            "auroc": 0.45454351747943805,
+            "auprc": 0.2766666820743699
+          },
+          "mlp_strong": {
+            "auroc": 0.49573845476369727,
+            "auprc": 0.30774432149097264
+          }
+        },
+        {
+          "method": "ties",
+          "n": 1000,
+          "n_positive": 308,
+          "atlas": {
+            "auroc": 0.7931696193979432,
+            "auprc": 0.6806544054759911
+          },
+          "gbm_strong": {
+            "auroc": 0.5301450716913145,
+            "auprc": 0.32501303854875285
+          },
+          "mlp_strong": {
+            "auroc": 0.5421092635688012,
+            "auprc": 0.3343252372627372
+          }
+        }
+      ]
+    },
+    "pair_aware": {
+      "feature_dim": 11,
+      "per_operator": [
+        {
+          "method": "dare_ties",
+          "n": 1000,
+          "n_positive": 429,
+          "atlas": {
+            "auroc": 0.760964079703134,
+            "auprc": 0.7584457732401618
+          },
+          "gbm_strong": {
+            "auroc": 0.5355039006527622,
+            "auprc": 0.4571263020866228
+          },
+          "mlp_strong": {
+            "auroc": 0.517676427483783,
+            "auprc": 0.4406660105331331
+          }
+        },
+        {
+          "method": "linear",
+          "n": 1000,
+          "n_positive": 325,
+          "atlas": {
+            "auroc": 0.8940900284900285,
+            "auprc": 0.785774835461583
+          },
+          "gbm_strong": {
+            "auroc": 0.5704387464387464,
+            "auprc": 0.4079023648887932
+          },
+          "mlp_strong": {
+            "auroc": 0.5141105413105412,
+            "auprc": 0.36962209558052156
+          }
+        },
+        {
+          "method": "magnitude_prune",
+          "n": 1000,
+          "n_positive": 303,
+          "atlas": {
+            "auroc": 0.8472520135801241,
+            "auprc": 0.7136375293284485
+          },
+          "gbm_strong": {
+            "auroc": 0.5169088644875964,
+            "auprc": 0.3369507722605646
+          },
+          "mlp_strong": {
+            "auroc": 0.4775700669062602,
+            "auprc": 0.3195867422367339
+          }
+        },
+        {
+          "method": "ties",
+          "n": 1000,
+          "n_positive": 308,
+          "atlas": {
+            "auroc": 0.7931696193979432,
+            "auprc": 0.6806544054759911
+          },
+          "gbm_strong": {
+            "auroc": 0.5696527100067562,
+            "auprc": 0.35675913723691643
+          },
+          "mlp_strong": {
+            "auroc": 0.5575712221304707,
+            "auprc": 0.33844654877123403
+          }
+        }
+      ]
+    },
+    "full_history": {
+      "feature_dim": 61,
+      "per_operator": [
+        {
+          "method": "dare_ties",
+          "n": 1000,
+          "n_positive": 429,
+          "atlas": {
+            "auroc": 0.760964079703134,
+            "auprc": 0.7584457732401618
+          },
+          "gbm_strong": {
+            "auroc": 0.8684514551414726,
+            "auprc": 0.8359646420321227
+          },
+          "mlp_strong": {
+            "auroc": 0.8286162174078112,
+            "auprc": 0.7745974284429231
+          }
+        },
+        {
+          "method": "linear",
+          "n": 1000,
+          "n_positive": 325,
+          "atlas": {
+            "auroc": 0.8940900284900285,
+            "auprc": 0.785774835461583
+          },
+          "gbm_strong": {
+            "auroc": 0.9188923076923077,
+            "auprc": 0.8531417574226786
+          },
+          "mlp_strong": {
+            "auroc": 0.875368660968661,
+            "auprc": 0.7948831165643074
+          }
+        },
+        {
+          "method": "magnitude_prune",
+          "n": 1000,
+          "n_positive": 303,
+          "atlas": {
+            "auroc": 0.8472520135801241,
+            "auprc": 0.7136375293284485
+          },
+          "gbm_strong": {
+            "auroc": 0.8997826611929486,
+            "auprc": 0.8075984911616358
+          },
+          "mlp_strong": {
+            "auroc": 0.8690948004413067,
+            "auprc": 0.7498163156286579
+          }
+        },
+        {
+          "method": "ties",
+          "n": 1000,
+          "n_positive": 308,
+          "atlas": {
+            "auroc": 0.7931696193979432,
+            "auprc": 0.6806544054759911
+          },
+          "gbm_strong": {
+            "auroc": 0.8478248629982735,
+            "auprc": 0.7171778092332949
+          },
+          "mlp_strong": {
+            "auroc": 0.8240231589220028,
+            "auprc": 0.6762818499633144
+          }
+        }
+      ]
+    }
+  }
+}
