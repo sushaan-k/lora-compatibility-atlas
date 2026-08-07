@@ -1,0 +1,18 @@
+{
+ "n_queries": 5720,
+ "n_cells": 20,
+ "features": [
+  "arity",
+  "tau",
+  "method_linear"
+ ],
+ "folds": "leave-one-cell-out",
+ "per_operator": {
+  "linear": {
+   "n": 5720,
+   "atlas": 0.934233483401617,
+   "gbm": 0.6980472948763884,
+   "atlas_minus_gbm": 0.23618618852522866
+  }
+ }
+}
