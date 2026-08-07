@@ -11,7 +11,7 @@
   "density": 0.5,
   "project_psd": true,
   "seed": 20260503,
-  "_note": "8 adapters on ONE shared 7-simplex for Experiment B (shared-chart decision preservation). Fit with expB_shared_chart_decision.py fit --adapters '<the 8 names>'.",
+  "_note": "8 adapters on ONE shared 7-simplex for Experiment B (shared-chart decision preservation). Fit with decide.py fit --adapters '<the 8 names>'.",
   "adapters": [
     {
       "name": "lhong4759_f68c5c87_934d_4399_b",

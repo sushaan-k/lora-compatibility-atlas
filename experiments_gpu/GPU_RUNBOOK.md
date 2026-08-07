@@ -16,21 +16,21 @@
   m=8), 23 (m=50). Certified compression is per-core, not library-wide. Jets +
   certification JSON: `results_public/shared_chart_decision_m50/`. Integrated in
   BOTH manuscripts (contribution (iii) + certification paragraph).
-- **SOLVER FIX**: `expB_shared_chart_decision.py` minimax_score previously accepted
+- **SOLVER FIX**: `decide.py` minimax_score previously accepted
   infeasible SLSQP restarts; on qwen8 this corrupted some released rho_full values
   (worst: -842196 vs true -50.1; one subset off by 19.27 with a subset-monotonicity
   violation). A per-restart feasibility guard is now in the script; all six
   qwen8/tinyllama decision JSONs were regenerated with it (paper claims survive:
   exactness now genuine at 9.6e-11; tinyllama values unchanged at 5.7e-13).
-- **Interval certificate** (CPU, new): `scripts/interval_certification.py` computes
+- **Interval certificate** (CPU, new): `scripts/certify.py` computes
   the exact per-task sup |q_t - q_t^r| by face enumeration and certifies decisions
   with margin > eps_S. Qwen m=8 r=3: settles 23% of all 211 subset queries at
   deficit 0; TinyLlama: certifies nothing (bound exceeds score spread). Zero
   certified violations in a 201-point tau sweep. In v2 as prop:interval_reduced.
-- **CPU query timing** (new): `scripts/query_timing.py` — 13-46 ms per minimax
+- **CPU query timing** (new): `scripts/timing.py` — 13-46 ms per minimax
   query at m=8, ~0.6 s per five-way query at m=50 (d=49), microsecond core-table
   lookups (Apple M4 Pro).
-- **Answer operating point** (CPU, new): `scripts/answer_operating_point.py` — at
+- **Answer operating point** (CPU, new): `scripts/operating.py` — at
   tau_acc=0.9 (21/45 retained), answer loss recovers 48% recall at 71% precision in
   the top 30%; prompt loss 24%/36%, below the 47% base rate.
 - **Experiment C** (answer-token jets, Mistral 5-adapter shared 4-simplex): DONE.
@@ -88,13 +88,13 @@ deployed `tau` grid.
 **Run.**
 ```
 # fit jets on the shared chart (GPU, ~0.5 MI300X-hour for k=8). step 0.25 -> 330 design points (N_d=36 min).
-python experiments_gpu/expB_shared_chart_decision.py fit \
+python experiments_gpu/decide.py fit \
     --config experiments_gpu/expB_qwen8_sharedchart.json --step 0.25 \
     --adapters "lhong4759_f68c5c87_934d_4399_b,adammandic87_3d7a58a6_4380_4e3,versil91_01a5620a_fb5f_4bab_94,taronklm_trained_model,versil91_e9f26c47_9b78_4e3f_81,versil91_8444c3be_8779_4769_a0,tuanna08go_6af2bb68_a65f_4331,duyphu_7aba420b_74ac_4209_b514" \
     --out results_public/shared_chart_decision
 
 # decision preservation (CPU, seconds); sweep r over {1,2,3}
-python experiments_gpu/expB_shared_chart_decision.py decide \
+python experiments_gpu/decide.py decide \
     --jets results_public/shared_chart_decision/jets.npz --r 2 \
     --out results_public/shared_chart_decision
 ```
@@ -102,7 +102,7 @@ The 8 adapters and their `probes` block are pre-filled in the config (generated
 from the real Qwen slice). Generic "conversation" probes are fine here: the test is
 the Hessian geometry of the shared coefficient chart, not task accuracy. `--step`
 controls the design density (needs >= N_d = 36 points at d=7); `--r` is the shared
-rank. Confirm the CPU geometry first with `python experiments_gpu/expB_shared_chart_decision.py selftest`.
+rank. Confirm the CPU geometry first with `python experiments_gpu/decide.py selftest`.
 
 **Acceptance / what goes in the paper.** Section "Measured effective rank
 compression" currently says "certifying the shared projector ... is the direct
@@ -122,7 +122,7 @@ paper's own probe shows input-prompt loss does not predict accuracy (Pearson
 answer-token loss and an actual task metric, on tasks with recoverable answers.
 
 **Design.** Generalize the single-task capability probe
-(`scripts/mistral_probe_contrast.py`, which produced the `-0.96`) to a panel of
+(`scripts/probes.py`, which produced the `-0.96`) to a panel of
 answer-bearing tasks. For each merge and each constituent task, measure three
 quantities on the same held-out items: `L_input` (CE on the prompt, what the
 panels use), `L_answer` (CE on the answer tokens, prompt masked), and `accuracy`
@@ -133,7 +133,7 @@ retention loss with accuracy.
 
 **Run.**
 ```
-python experiments_gpu/expA_answer_token_panel.py \
+python experiments_gpu/panel.py \
     --config experiments_gpu/expA_panel.json \
     --out results_public/answer_token_panel
 ```

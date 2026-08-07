@@ -1,0 +1,52 @@
+{
+ "description": "CPU wall-clock timing of the production minimax atlas query (decide.minimax_score, restarts=6, seed=0, maxiter=300, ftol=1e-10, min_weight=0.0) on the released Mistral m=50 answer-token index, chart dimension d=49.",
+ "platform": {
+  "cpu": "arm",
+  "os": "macOS-26.0.1-arm64-arm-64bit",
+  "python": "3.9.6",
+  "numpy": "2.0.2"
+ },
+ "settings": {
+  "substrate": "results_public/scale_m50/answer_jets_raw.npz",
+  "n_adapters": 50,
+  "n_scored_tasks": 44,
+  "chart_dim": 49,
+  "restarts": 6,
+  "seed": 0,
+  "min_weight": 0.0,
+  "query_sizes": [
+   2,
+   3,
+   5
+  ],
+  "n_queries_per_size": 20,
+  "query_selection": "uniform without replacement, seed 0",
+  "warmup": "one untimed call per size",
+  "timer": "time.perf_counter"
+ },
+ "minimax_query_ms_per_subset_size": {
+  "2": {
+   "median_ms": 247.04368800000154,
+   "p90_ms": 378.5281749999994,
+   "max_ms": 429.9318750000012,
+   "n_queries": 20
+  },
+  "3": {
+   "median_ms": 301.26760449999955,
+   "p90_ms": 495.1793837000004,
+   "max_ms": 525.124292000001,
+   "n_queries": 20
+  },
+  "5": {
+   "median_ms": 464.22027099999855,
+   "p90_ms": 543.2306502999968,
+   "max_ms": 703.531667,
+   "n_queries": 20
+  }
+ },
+ "caveats": [
+  "Measured on the Mistral m=50 answer-token index, the only released fifty-adapter chart whose fitted models are on disk; the Qwen m=50 panel's jets are not released, so its query latency is not reported here.",
+  "min_weight=0.0. At the default floor 0.2 a five-way query exhausts the coefficient mass on the selected adapters and reduces to a single equal-floor point, so the zero-floor timing is the upper bound.",
+  "Single machine, single process, default BLAS threading; each timed query includes all 6 SLSQP restarts, matching the production decide path."
+ ]
+}

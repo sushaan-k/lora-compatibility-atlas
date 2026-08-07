@@ -1,5 +1,5 @@
 {
- "_note": "C1 second base: Qwen2.5-1.5B-Instruct adapters trained by train_second_base.py on the same 8 NI tasks.",
+ "_note": "C1 second base: Qwen2.5-1.5B-Instruct adapters trained by train.py on the same 8 NI tasks.",
  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
  "dtype": "bfloat16",
  "max_length": 384,

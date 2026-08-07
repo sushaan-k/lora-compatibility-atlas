@@ -1,7 +1,7 @@
 {
   "description": "Per-library interval certificate for shared-chart rank-r reduced jets (see script docstring)",
   "certificate": "eps_t = |dA_t| + max_i|db_t,i| + 0.5 max_ij|dH_t,ij|; eps = max_t eps_t bounds |rho_S(full)-rho_S(reduced)| for every subset S on the shared chart",
-  "solver": "expB_shared_chart_decision.minimax_score program (SLSQP epigraph, full 8-simplex, restarts=6, seed=0, min_weight=0) with a per-restart feasibility guard; raw expB values recorded alongside, divergences listed as solver artifacts",
+  "solver": "decide.minimax_score program (SLSQP epigraph, full 8-simplex, restarts=6, seed=0, min_weight=0) with a per-restart feasibility guard; raw expB values recorded alongside, divergences listed as solver artifacts",
   "substrates": {
     "qwen8": {
       "substrate": "qwen8",

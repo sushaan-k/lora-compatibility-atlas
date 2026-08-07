@@ -1,6 +1,6 @@
 {
  "tau": 0.7,
- "description": "Pair-only vs triple-only screening AUROC/AUPRC for the answer-token capability panels. Pairs are on the poised fit design; triples are off-design extrapolation. AUROC and AUPRC are the capability_dependence_ci / expD and peft_atlas_lite definitions; both are null (undefined) for single-class buckets.",
+ "description": "Pair-only vs triple-only screening AUROC/AUPRC for the answer-token capability panels. Pairs are on the poised fit design; triples are off-design extrapolation. AUROC and AUPRC are the dependence / expD and peft_atlas_lite definitions; both are null (undefined) for single-class buckets.",
  "auprc_definition": "step-wise average precision (auc_pr, peft_atlas_lite/run_peft_atlas_lite.py)",
  "panels": {
   "mistral_m16_linear": {

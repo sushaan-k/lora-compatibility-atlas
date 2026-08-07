@@ -1,5 +1,5 @@
 {
-  "description": "CPU wall-clock timing of the production minimax atlas query (expB_shared_chart_decision.minimax_score: SLSQP epigraph over the full shared 8-adapter simplex, restarts=6, maxiter=300, ftol=1e-10, min_weight=0.0) and the r=2 core-table lookup path, on the released m=8 shared-chart jets.",
+  "description": "CPU wall-clock timing of the production minimax atlas query (decide.minimax_score: SLSQP epigraph over the full shared 8-adapter simplex, restarts=6, maxiter=300, ftol=1e-10, min_weight=0.0) and the r=2 core-table lookup path, on the released m=8 shared-chart jets.",
   "platform": {
     "cpu": "Apple M4 Pro",
     "os": "macOS-26.0.1-arm64-arm-64bit",
@@ -16,7 +16,7 @@
     ],
     "max_subsets_per_size": 100,
     "subset_order": "lexicographic (itertools.combinations); truncation to the first 100 would apply only if a size exceeded 100 subsets -- at m=8 the counts are 28/56/56/1, so none were truncated",
-    "solver": "expB_shared_chart_decision.minimax_score (imported, not reimplemented)",
+    "solver": "decide.minimax_score (imported, not reimplemented)",
     "restarts": 6,
     "seed": 0,
     "min_weight": 0.0,

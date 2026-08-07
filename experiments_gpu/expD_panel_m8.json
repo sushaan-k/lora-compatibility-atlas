@@ -1,5 +1,5 @@
 {
-  "_note": "Experiment D: m=8 answer-token screening panel. The five Experiment A tasks plus three new families (SST-2 sentiment, PAWS paraphrase, AG News topic), all Lots-of-LoRAs adapters on Mistral-7B-Instruct-v0.2 with Natural Instructions task JSONs (fixed-seed-5 shuffle, first 40 items held out, label-mixed; task363/task400/task379 built 2026-07-10 from allenai/natural-instructions master). Fit: expC_answer_jets.py fit --step 0.5 gives the 36-point singles-and-pairs poised design on the shared 7-simplex. Validate/analyze: expD_answer_panel.py.",
+  "_note": "Experiment D: m=8 answer-token screening panel. The five Experiment A tasks plus three new families (SST-2 sentiment, PAWS paraphrase, AG News topic), all Lots-of-LoRAs adapters on Mistral-7B-Instruct-v0.2 with Natural Instructions task JSONs (fixed-seed-5 shuffle, first 40 items held out, label-mixed; task363/task400/task379 built 2026-07-10 from allenai/natural-instructions master). Fit: surfaces.py fit --step 0.5 gives the 36-point singles-and-pairs poised design on the shared 7-simplex. Validate/analyze: validate.py.",
   "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
   "dtype": "bfloat16",
   "max_length": 384,

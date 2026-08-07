@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
-"""Run a public PEFT adapter compatibility-atlas smoke experiment.
-
-The script is deliberately conservative: it treats PEFT merging as the forward
-operator and the atlas as the decision layer around that operator.  The public
-runner evaluates PEFT merges on a finite coefficient design, fits convex
-affine-quadratic task jets, and then solves the continuous primal-dual minimax
-certificate for those fitted jets.  It can dry-run on CPU-only machines, while
-the real run is intended for a CUDA worker.
-"""
+"""Run a public PEFT adapter compatibility-atlas smoke experiment."""
 
 from __future__ import annotations
 

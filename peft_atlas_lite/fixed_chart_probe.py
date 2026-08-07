@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Probe fixed-chart pair/triple compatibility on a selected LoRA triple.
-
-The main PEFT runner evaluates each subset in its support-specific simplex.
-This script holds one shared 3-adapter simplex fixed, evaluates all three pair
-task sets and the triple task set in that same chart, and reports whether the
-fixed-chart Helly direction appears in real LoRA data.
-"""
+"""Probe fixed-chart pair/triple compatibility on a selected LoRA triple."""
 
 from __future__ import annotations
 
