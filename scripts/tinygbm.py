@@ -67,8 +67,8 @@ def main():
         print(f"  {op:16s} atlas {a:.3f}  gbm {g:.3f}  diff {a-g:+.3f}")
 
     od = REPO / "results_public/tinyllama_stability"
-    (od / "cold_start_gbm.json").write_text(json.dumps(out, indent=1))
-    print("wrote", od / "cold_start_gbm.json")
+    (od / "coldstart.json").write_text(json.dumps(out, indent=1))
+    print("wrote", od / "coldstart.json")
 
 
 if __name__ == "__main__":

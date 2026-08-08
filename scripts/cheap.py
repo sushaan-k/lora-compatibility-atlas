@@ -75,8 +75,8 @@ def main():
         print(meth, {k: round(v, 3) for k, v in out["per_operator"][meth].items()
                      if isinstance(v, float)})
 
-    (bal / "cheap_baselines.json").write_text(json.dumps(out, indent=1))
-    print("wrote", bal / "cheap_baselines.json")
+    (bal / "baselines.json").write_text(json.dumps(out, indent=1))
+    print("wrote", bal / "baselines.json")
 
 
 if __name__ == "__main__":

@@ -4,11 +4,7 @@ from pathlib import Path
 
 
 def regular_simplex_vertices(d):
-    """d+1 vertices of a regular d-simplex centred at the origin, unit
-    circumradius. Construction: e_1, ..., e_d in R^d plus a last vertex at
-    (-c, ..., -c) where c = (sqrt(d+1) - 1) / d makes every vertex equidistant
-    from the centroid. After centering and normalising by that common norm the
-    d+1 points sit on the unit sphere with equal pairwise distances."""
+    """d+1 vertices of a regular d-simplex centred at the origin, unit circumradius."""
     n = d + 1
     c = (np.sqrt(d + 1) - 1) / d
     pts = np.zeros((n, d))

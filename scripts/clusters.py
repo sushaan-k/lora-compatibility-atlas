@@ -28,11 +28,7 @@ def subspace_affinity(U, W):
 
 
 def balanced_similarity_partition(aff, size, rng):
-    """Greedy balanced partition into charts of `size` adapters: repeatedly seed
-    a new chart with the least-assigned adapter and grow it by highest mean
-    affinity to the chart until full. A similarity-aware analogue of a balanced
-    partition, so it is comparable to random balanced partitions of the same
-    sizes."""
+    """Greedy balanced partition into charts of `size` adapters: repeatedly seed a new chart with the least-assigned adapter and grow it by highest mean affi"""
     m = aff.shape[0]
     remaining = set(range(m))
     charts = []
@@ -74,11 +70,7 @@ def cluster_sigma_adim(Hs, members, epsilons=(0.20, 0.10)):
 
 
 def subblock_sigma_adim(Hs, members, epsilons=(0.20, 0.10)):
-    """Shared rank of the jets RESTRICTED to the cluster's own sub-simplex: the
-    Hessian sub-block on the cluster coordinates. This is the chart the cluster
-    actually deploys, and reproduces the paper's per-core measurement from the
-    library jets. Adapter index d (the origin under weights[:-1]) has no
-    coordinate, so it is dropped from the block index set."""
+    """Shared rank of the jets RESTRICTED to the cluster's own sub-simplex: the Hessian sub-block on the cluster coordinates."""
     d = Hs[0].shape[0]
     cix = [i for i in members if i < d]
     if len(cix) < 2:

@@ -41,11 +41,7 @@ def auroc(labels, scores):
 
 
 def weighted_auroc(labels, scores, weights):
-    """Weighted Mann-Whitney AUROC. Each subset carries a non-negative weight
-    (its adapter-resample multiplicity). The estimator is the weighted fraction
-    of positive/negative pairs the score ranks correctly, 0.5 for ties -- the
-    natural block-bootstrap analogue of `auroc`. Returns None if either class
-    has zero total weight."""
+    """Weighted Mann-Whitney AUROC."""
     pos = [(s, w) for s, l, w in zip(scores, labels, weights) if l and w > 0]
     neg = [(s, w) for s, l, w in zip(scores, labels, weights) if (not l) and w > 0]
     wp = sum(w for _, w in pos)

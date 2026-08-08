@@ -75,13 +75,7 @@ def materialize(peft, names, weights, mkw):
 
 
 def ce_rows(peft, tok, prompts, golds, device, max_length, batch):
-    """Mean cross-entropy over each item's gold tokens.
-
-    batch=1 reproduces the original per-item call exactly.  Larger batches
-    pad on the right, so with causal attention a sequence never sees another's
-    tokens, and the per-sequence reduction below is the same quantity the
-    single-item path computes.  The reduction runs in float32.
-    """
+    """Mean cross-entropy over each item's gold tokens."""
     import torch
     pad = tok.pad_token_id if tok.pad_token_id is not None else tok.eos_token_id
     out = []

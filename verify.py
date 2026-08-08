@@ -35,7 +35,7 @@ def checks():
                 num("capability_ci/m16_fidelity_ci.json", "triple_r_recomputed"), 0.96, 0.005))
     out.append(("m=50 sigma-adim", num("scale_m50/sigma_adim.json", "first_r_below_0.20"), 5, 0))
     out.append(("m=30 sigma-adim", num("scale_m30/sigma_adim.json", "first_r_below_0.20"), 6, 0))
-    s = json.loads((R / "intervention_15q/intervention_15q_summary.json").read_text())
+    s = json.loads((R / "intervention_15q/summary.json").read_text())
     out.append(("15-query improvements", s["n_worst_improved"], 13, 0))
     out.append(("15-query median gain", s["median_worst_delta_nats"], 2.25, 0.01))
     e = json.loads((R / "deployed_envelopes/deployed_envelopes.json").read_text())["summary"]
@@ -44,11 +44,10 @@ def checks():
     e2 = json.loads((R / "deployed_envelopes_m50/deployed_envelopes.json").read_text())["summary"]
     out.append(("m=50 envelope certified",
                 e2["0.7"]["n_certified"] + e2["0.85"]["n_certified"], 32, 0))
-    t = num("query_timing_d49.json".replace("query_timing_d49.json",
-                                            "query_timing/query_timing_d49.json"),
+    t = num("query_timing/timing49.json",
             "minimax_query_ms_per_subset_size", "5", "median_ms")
     out.append(("d=49 five-way median ms", t, 464, 250))
-    g = num("tinyllama_stability/cold_start_gbm.json", "per_operator", "linear", "atlas")
+    g = num("tinyllama_stability/coldstart.json", "per_operator", "linear", "atlas")
     out.append(("TinyLlama atlas AUROC", g, 0.93, 0.01))
     return out
 

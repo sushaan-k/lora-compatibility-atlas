@@ -35,14 +35,7 @@ def weights_to_coords(w):
 
 
 def minimax_score(members, alphas, bs, Hs, min_weight=0.0, restarts=6, seed=0):
-    """Fixed-chart obstruction score rho_S(C) = min_{c in C} max_{t in S} q_t(c),
-    where C is the FULL shared k-adapter simplex (every coordinate free) and only
-    the max is restricted to `members`. This is the definition the Helly and
-    effective-dimension theorems use; scoring S on a sub-face instead would be the
-    support-specific regime and would not be monotone in S.
-
-    Convex program (PSD Hessians; pointwise max of convex quadratics; simplex),
-    solved on the epigraph with SLSQP from several starts."""
+    """Fixed-chart obstruction score rho_S(C) = min_{c in C} max_{t in S} q_t(c), where C is the FULL shared k-adapter simplex (every coordinate free) and on"""
     from scipy.optimize import minimize
 
     n = len(alphas)
@@ -133,11 +126,7 @@ def shared_projector_residual(Hs, r):
 
 
 def decide(jets, r, taus, query_sizes=(4, 5), min_weight=0.0, max_full_core=None):
-    """Certify a single shared rank-r projector, then measure how well the
-    (r+1)-core table of the ORIGINAL jets reproduces the full obstruction score
-    (Theorem effdim_approx: the projector fixes r; the (r+1)-core table, not the
-    projected jets, is what screening uses). Reports the shared-projector residual,
-    the full-vs-(r+1)-core score error, and per-tau decision agreement."""
+    """Certify a single shared rank-r projector, then measure how well the (r+1)-core table of the ORIGINAL jets reproduces the full obstruction score (Theor"""
     alphas, bs, Hs, names = jets["alpha"], list(jets["b"]), list(jets["H"]), jets["names"]
     n = len(alphas)
     d = Hs[0].shape[0]

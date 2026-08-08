@@ -30,14 +30,7 @@ def all_query_subsets(n):
 
 def guarded_minimax_score(members, alphas, bs, Hs, min_weight=0.0, restarts=6,
                           seed=0, feas_tol=1e-6):
-    """expB.minimax_score's exact SLSQP epigraph program (same constraints,
-    bounds, starts, rng seed, options), plus a feasibility guard per restart.
-
-    Returns (guarded, raw, n_infeasible_restarts): `raw` reproduces
-    expB.minimax_score bit-for-bit (min over restarts of res.fun, unchecked);
-    `guarded` replaces each infeasible restart's contribution with qmax at its
-    clipped-and-renormalized weights, which is feasible and hence a valid upper
-    bound on the true minimum of this convex program."""
+    """expB.minimax_score's exact SLSQP epigraph program (same constraints, bounds, starts, rng seed, options), plus a feasibility guard per restart."""
     from scipy.optimize import minimize
 
     n = len(alphas)
@@ -148,19 +141,7 @@ def build_reduced_jets(alphas, bs, Hs, r):
 
 
 def exact_sup_abs_quadratic_on_corner_simplex(dA, db, dH, tol=1e-9):
-    """Exact sup over C = {c >= 0, sum_i c_i <= 1} of |dA + db.c + 0.5 c' dH c|.
-
-    A C^2 function attains its max over a polytope in the relative interior of
-    some face, where the gradient restricted to that face vanishes.  Enumerate
-    every face of the corner simplex (convex hulls of nonempty subsets of the
-    d+1 vertices {0, e_1, ..., e_d}); on each face's affine hull collect the
-    stationary values of the restricted quadratic, plus all vertex values.  A
-    quadratic is constant on its stationary set, so for singular restricted
-    Hessians any solution of the consistent normal system carries the correct
-    value (kept unfiltered: spurious candidates can only inflate the result,
-    which keeps the bound valid); for nonsingular systems the unique stationary
-    point is kept only if it lies in the face.  Returns (sup_abs, max_g, min_g).
-    """
+    """Exact sup over C = {c >= 0, sum_i c_i <= 1} of |dA + db.c + 0.5 c' dH c|."""
     d = len(db)
     verts = [np.zeros(d)] + [np.eye(d)[i] for i in range(d)]
 

@@ -186,9 +186,9 @@ def cmd_analyze(args):
                "median_acc_delta": float(np.median(d_acc)),
                "queries": queries}
     out = Path(args.out); out.mkdir(parents=True, exist_ok=True)
-    (out / "intervention_15q_summary.json").write_text(json.dumps(summary, indent=1))
+    (out / "summary.json").write_text(json.dumps(summary, indent=1))
     print(json.dumps({k: v for k, v in summary.items() if k != "queries"}, indent=1))
-    print("wrote", out / "intervention_15q_summary.json")
+    print("wrote", out / "summary.json")
     return 0
 
 
