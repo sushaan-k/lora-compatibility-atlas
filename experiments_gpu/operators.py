@@ -22,6 +22,10 @@ from validate import all_merges  # noqa: E402
 def merge_kwargs(operator, density):
     if operator == "linear":
         return dict(combination_type="linear")
+    if operator == "cat":
+        # exact weighted sum of updates: concatenating the factor pairs gives
+        # sum_i c_i B_i A_i, the gauge-invariant merge map of Theorem 2.9
+        return dict(combination_type="cat")
     if operator == "ties":
         return dict(combination_type="ties", density=density)
     if operator == "dare_ties":
@@ -69,6 +73,43 @@ def materialize(peft, names, weights, mkw):
     peft.set_adapter("mergeG"); return "mergeG"
 
 
+
+def ce_rows(peft, tok, prompts, golds, device, max_length, batch):
+    """Mean cross-entropy over each item's gold tokens.
+
+    batch=1 reproduces the original per-item call exactly.  Larger batches
+    pad on the right, so with causal attention a sequence never sees another's
+    tokens, and the per-sequence reduction below is the same quantity the
+    single-item path computes.  The reduction runs in float32.
+    """
+    import torch
+    pad = tok.pad_token_id if tok.pad_token_id is not None else tok.eos_token_id
+    out = []
+    for s0 in range(0, len(prompts), batch):
+        ps, gs = prompts[s0:s0 + batch], golds[s0:s0 + batch]
+        ep = [tok(x, truncation=True, max_length=max_length).input_ids for x in ps]
+        ef = [tok(x + " " + g, truncation=True, max_length=max_length).input_ids
+              for x, g in zip(ps, gs)]
+        L = max(len(x) for x in ef)
+        n = len(ef)
+        ids = torch.full((n, L), pad, dtype=torch.long)
+        att = torch.zeros((n, L), dtype=torch.long)
+        lab = torch.full((n, L), -100, dtype=torch.long)
+        for k in range(n):
+            f, q = ef[k], min(len(ep[k]), len(ef[k]))
+            ids[k, :len(f)] = torch.tensor(f); att[k, :len(f)] = 1
+            if len(f) > q:
+                lab[k, q:len(f)] = torch.tensor(f[q:])
+        ids, att, lab = ids.to(device), att.to(device), lab.to(device)
+        with torch.no_grad():
+            logits = peft(input_ids=ids, attention_mask=att).logits.float()
+        sl, sy = logits[:, :-1, :], lab[:, 1:]
+        ce = torch.nn.functional.cross_entropy(
+            sl.transpose(1, 2), sy, reduction="none", ignore_index=-100)
+        m = (sy != -100).float()
+        out += ((ce * m).sum(1) / m.sum(1).clamp(min=1)).tolist()
+    return out
+
 def cmd_fit(args):
     import torch
     cfg = json.loads(Path(args.config).read_text())
@@ -89,33 +130,43 @@ def cmd_fit(args):
         row = {}
         for nm in names:
             defn, inst = tasks[nm]["definition"], tasks[nm]["instances"][:n_items]
-            tot = 0.0
-            for it in inst:
-                p = prompt_of(tok, defn, it["input"]); gold = it["output"][0]
-                pids = tok(p, return_tensors="pt", truncation=True, max_length=max_length).input_ids.to(device)
-                full = tok(p + " " + gold, return_tensors="pt", truncation=True, max_length=max_length).input_ids.to(device)
-                lab = full.clone(); lab[:, :pids.shape[1]] = -100
-                with torch.no_grad():
-                    tot += peft(input_ids=full, labels=lab).loss.item()
-            row[nm] = tot / len(inst)
+            ps = [prompt_of(tok, defn, it["input"]) for it in inst]
+            gs = [it["output"][0] for it in inst]
+            vals_nm = ce_rows(peft, tok, ps, gs, device, max_length, int(args.batch))
+            row[nm] = sum(vals_nm) / len(vals_nm)
         if tag:
             peft.delete_adapter(tag)
         return row
 
-    ck = out / "fit_points.jsonl"; done = {}
-    if ck.exists():
-        for line in ck.read_text().splitlines():
+    # Every design point is independent, so workers may split the grid by
+    # index. Each writes its own checkpoint; the numbers are identical to a
+    # single-process run because the per-point computation is untouched.
+    shard, nshards = int(getattr(args, "shard", 0)), int(getattr(args, "nshards", 1))
+    done = {}
+    for c in sorted(out.glob("fit_points*.jsonl")):
+        for line in c.read_text().splitlines():
             if line.strip():
                 r = json.loads(line); done[r["i"]] = r["ce"]
-    f = open(ck, "a"); t0 = time.time()
-    vals = []
+    ck = out / (f"fit_points_{shard}.jsonl" if nshards > 1 else "fit_points.jsonl")
+    f = open(ck, "a"); t0 = time.time(); n_mine = 0
     for i, w in enumerate(grid):
-        if i in done:
-            vals.append(done[i]); continue
-        ce = ce_all(w); vals.append(ce)
+        if i % nshards != shard or i in done:
+            continue
+        ce = ce_all(w)
         f.write(json.dumps({"i": i, "ce": ce}) + "\n"); f.flush()
-        if (i + 1) % 5 == 0:
-            print(f"  fit {i+1}/{len(grid)} t={int(time.time()-t0)}s", flush=True)
+        n_mine += 1
+        if n_mine % 5 == 0:
+            print(f"  fit shard{shard} {n_mine} done t={int(time.time()-t0)}s", flush=True)
+    f.close()
+    for c in sorted(out.glob("fit_points*.jsonl")):
+        for line in c.read_text().splitlines():
+            if line.strip():
+                r = json.loads(line); done[r["i"]] = r["ce"]
+    if len(done) < len(grid):
+        print(f"shard {shard} finished; {len(done)}/{len(grid)} points present, npz not written",
+              flush=True)
+        return 0
+    vals = [done[i] for i in range(len(grid))]
     np.savez(out / "answer_jets_raw.npz", grid=np.array(grid),
              values=np.array([[c[nm] for nm in names] for c in vals]).T, names=np.array(names))
     print("wrote", out / "answer_jets_raw.npz", flush=True)
@@ -194,6 +245,9 @@ def main():
         p.add_argument("--config", required=True); p.add_argument("--out", required=True)
         p.add_argument("--operator", default="ties")
         p.add_argument("--density", type=float, default=0.5)
+        p.add_argument("--shard", type=int, default=0)
+        p.add_argument("--nshards", type=int, default=1)
+        p.add_argument("--batch", type=int, default=1)
         p.set_defaults(func=fn)
     args = ap.parse_args()
     return args.func(args)

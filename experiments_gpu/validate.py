@@ -105,15 +105,26 @@ def cmd_validate(args):
         for member in label.split("+"):
             work.append((member, label, w))
 
+    # Workers split whole merges, never rows, so the materialized-adapter
+    # cache below still hits. Per-row computation is untouched.
+    shard, nshards = int(getattr(args, "shard", 0)), int(getattr(args, "nshards", 1))
+    labels_all_rows = len(work)
+    labels = list(dict.fromkeys(lbl for _, lbl, _ in work))
+    mine = {lbl for k, lbl in enumerate(labels) if k % nshards == shard}
+    if nshards > 1:
+        work = [it for it in work if it[1] in mine]
+
     rows, done = [], set()
-    rows_path = out / "rows.jsonl"
-    if rows_path.exists():
-        for line in rows_path.read_text().splitlines():
+    rows_path = out / (f"rows_{shard}.jsonl" if nshards > 1 else "rows.jsonl")
+    for c in sorted(out.glob("rows*.jsonl")):
+        for line in c.read_text().splitlines():
             if line.strip():
                 row = json.loads(line)
-                rows.append(row)
+                if c == rows_path:
+                    rows.append(row)
                 done.add((row["task"], row["merge"]))
-        print(f"resuming: {len(rows)}/{len(work)} rows done", flush=True)
+    if done:
+        print(f"resuming: {len(rows)}/{len(work)} rows done in this shard", flush=True)
     ckpt = open(rows_path, "a")
     t0 = time.time()
     current = None  # (frozen weights) of the adapter currently materialized
@@ -132,7 +143,7 @@ def cmd_validate(args):
                     peft.set_adapter(next(iter(w)))
                 else:
                     peft.add_weighted_adapter(list(w), list(w.values()), "mergeD",
-                                              combination_type="linear")
+                                              combination_type=args.combination)
                     peft.set_adapter("mergeD")
                 current = key
             acc, li, la = measure(tasks[host], regexes[host])
@@ -142,6 +153,15 @@ def cmd_validate(args):
         ckpt.flush()
         print(f"  [{i+1}/{len(work)}] {host:10s} {label:32s} acc={acc:.2f} La={la:.3f} t={int(time.time()-t0)}s",
               flush=True)
+    if nshards > 1:
+        allrows = []
+        for c in sorted(out.glob("rows*.jsonl")):
+            allrows += [json.loads(l) for l in c.read_text().splitlines() if l.strip()]
+        print(f"shard {shard} done; {len(allrows)} rows present across shards", flush=True)
+        if len(allrows) >= len(labels_all_rows):
+            (out / "validation_rows.json").write_text(json.dumps({"rows": allrows}, indent=1))
+            print("wrote", out / "validation_rows.json", flush=True)
+        return 0
     (out / "validation_rows.json").write_text(json.dumps({"rows": rows}, indent=1))
     print("wrote", out / "validation_rows.json", flush=True)
     return 0
@@ -352,7 +372,12 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     sub = ap.add_subparsers(dest="cmd", required=True)
     v = sub.add_parser("validate"); v.add_argument("--config", required=True)
-    v.add_argument("--out", required=True); v.set_defaults(func=cmd_validate)
+    v.add_argument("--out", required=True)
+    v.add_argument("--combination", default="linear",
+                   help="PEFT combination_type; 'cat' gives the exact weighted sum of updates")
+    v.add_argument("--shard", type=int, default=0)
+    v.add_argument("--nshards", type=int, default=1)
+    v.set_defaults(func=cmd_validate)
     an = sub.add_parser("analyze"); an.add_argument("--raw", required=True)
     an.add_argument("--rows", required=True); an.add_argument("--out", required=True)
     an.set_defaults(func=cmd_analyze)
