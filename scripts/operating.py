@@ -6,7 +6,7 @@ import math
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path("/Users/sushaankandukoori/Downloads/when_do_loras_merge_neurips2026_v20_paradigm_ready_package/tmlr_submission")
+ROOT = Path(__file__).resolve().parent.parent
 PANEL_PATH = ROOT / "results_public" / "answer_token_panel" / "answer_token_panel.json"
 OUT_DIR = ROOT / "results_public" / "answer_operating_point"
 OUT_PATH = OUT_DIR / "operating.json"

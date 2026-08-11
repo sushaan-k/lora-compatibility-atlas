@@ -10,22 +10,22 @@
   {
    "name": "task1564",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1564",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1564.json"
+   "task_json": "experiments_gpu/tasks/task1564.json"
   },
   {
    "name": "task1152",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1152",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1152.json"
+   "task_json": "experiments_gpu/tasks/task1152.json"
   },
   {
    "name": "task835",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task835",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task835.json"
+   "task_json": "experiments_gpu/tasks/task835.json"
   },
   {
    "name": "task1731",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1731",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1731.json"
+   "task_json": "experiments_gpu/tasks/task1731.json"
   }
  ]
 }

@@ -11,181 +11,181 @@
   {
    "name": "task190",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task190",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task190.json",
+   "task_json": "experiments_gpu/tasks/task190.json",
    "answer_regex": "\\b([ECN])\\b"
   },
   {
    "name": "task1391",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1391",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1391.json",
+   "task_json": "experiments_gpu/tasks/task1391.json",
    "answer_regex": "\\b([AB])\\b"
   },
   {
    "name": "task280",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task280",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task280.json",
+   "task_json": "experiments_gpu/tasks/task280.json",
    "answer_regex": "\\b(RACE|PROFESSION|GENDER|RELIGION)\\b"
   },
   {
    "name": "task290",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task290",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task290.json",
+   "task_json": "experiments_gpu/tasks/task290.json",
    "answer_regex": "\\b(NOT ANSWERABLE|ANSWERABLE)\\b"
   },
   {
    "name": "task391",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task391",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task391.json",
+   "task_json": "experiments_gpu/tasks/task391.json",
    "answer_regex": "\\b(NOT PLAUSIBLE|PLAUSIBLE)\\b"
   },
   {
    "name": "task363",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task363",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task363.json",
+   "task_json": "experiments_gpu/tasks/task363.json",
    "answer_regex": "\\b(POS|NEG)\\b"
   },
   {
    "name": "task400",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task400",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task400.json",
+   "task_json": "experiments_gpu/tasks/task400.json",
    "answer_regex": "\\b(NOT PARAPHRASE|PARAPHRASE)\\b"
   },
   {
    "name": "task379",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task379",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task379.json",
+   "task_json": "experiments_gpu/tasks/task379.json",
    "answer_regex": "\\b(WORLD|SPORTS|BUSINESS|SCI/TECH)\\b"
   },
   {
    "name": "task199",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task199",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task199.json",
+   "task_json": "experiments_gpu/tasks/task199.json",
    "answer_regex": "\\b(YES|NO)\\b"
   },
   {
    "name": "task322",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task322",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task322.json",
+   "task_json": "experiments_gpu/tasks/task322.json",
    "answer_regex": "\\b(NON-THREAT|THREAT)\\b"
   },
   {
    "name": "task333",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task333",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task333.json",
+   "task_json": "experiments_gpu/tasks/task333.json",
    "answer_regex": "\\b(NON-HATEFUL|HATEFUL)\\b"
   },
   {
    "name": "task195",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task195",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task195.json",
+   "task_json": "experiments_gpu/tasks/task195.json",
    "answer_regex": "\\b(POSITIVE|NEGATIVE)\\b"
   },
   {
    "name": "task387",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task387",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task387.json",
+   "task_json": "experiments_gpu/tasks/task387.json",
    "answer_regex": "\\b(POLARITY|SITUATIONAL|OTHER)\\b"
   },
   {
    "name": "task512",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task512",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task512.json",
+   "task_json": "experiments_gpu/tasks/task512.json",
    "answer_regex": "\\b(ANGER|JOY|SURPRISE|FEAR|LOVE)\\b"
   },
   {
    "name": "task296",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task296",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task296.json",
+   "task_json": "experiments_gpu/tasks/task296.json",
    "answer_regex": "\\b([AB])\\b"
   },
   {
    "name": "task609",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task609",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task609.json",
+   "task_json": "experiments_gpu/tasks/task609.json",
    "answer_regex": "\\b(YES|NO)\\b"
   },
   {
    "name": "task484",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task484",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task484.json",
+   "task_json": "experiments_gpu/tasks/task484.json",
    "answer_regex": "\\b(NEG|POS)\\b"
   },
   {
    "name": "task1210",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1210",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1210.json",
+   "task_json": "experiments_gpu/tasks/task1210.json",
    "answer_regex": "\\b(No|Yes)\\b"
   },
   {
    "name": "task1141",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1141",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1141.json",
+   "task_json": "experiments_gpu/tasks/task1141.json",
    "answer_regex": "\\b(A|B|C|D|E)\\b"
   },
   {
    "name": "task1723",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1723",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1723.json",
+   "task_json": "experiments_gpu/tasks/task1723.json",
    "answer_regex": "\\b(No|Yes)\\b"
   },
   {
    "name": "task903",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task903",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task903.json",
+   "task_json": "experiments_gpu/tasks/task903.json",
    "answer_regex": "\\b(false|true)\\b"
   },
   {
    "name": "task1604",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1604",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1604.json",
+   "task_json": "experiments_gpu/tasks/task1604.json",
    "answer_regex": "\\b(hate|not hate)\\b"
   },
   {
    "name": "task1354",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1354",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1354.json",
+   "task_json": "experiments_gpu/tasks/task1354.json",
    "answer_regex": "\\b(match|no)\\b"
   },
   {
    "name": "task321",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task321",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task321.json",
+   "task_json": "experiments_gpu/tasks/task321.json",
    "answer_regex": "\\b(anti-stereotype|stereotype|unrelated)\\b"
   },
   {
    "name": "task1505",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1505",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1505.json",
+   "task_json": "experiments_gpu/tasks/task1505.json",
    "answer_regex": "\\b(COORD|HYPER|RANDOM)\\b"
   },
   {
    "name": "task211",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task211",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task211.json",
+   "task_json": "experiments_gpu/tasks/task211.json",
    "answer_regex": "\\b(no|yes)\\b"
   },
   {
    "name": "task1310",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1310",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1310.json",
+   "task_json": "experiments_gpu/tasks/task1310.json",
    "answer_regex": "\\b(1|2|3|4|5)\\b"
   },
   {
    "name": "task383",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task383",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task383.json",
+   "task_json": "experiments_gpu/tasks/task383.json",
    "answer_regex": "\\b(No|Yes)\\b"
   },
   {
    "name": "task163",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task163",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task163.json",
+   "task_json": "experiments_gpu/tasks/task163.json",
    "answer_regex": "\\b(1|2|3|4)\\b"
   },
   {
    "name": "task1283",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1283",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1283.json",
+   "task_json": "experiments_gpu/tasks/task1283.json",
    "answer_regex": "\\b(0|1)\\b"
   }
  ]

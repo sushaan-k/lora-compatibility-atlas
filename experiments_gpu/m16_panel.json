@@ -11,97 +11,97 @@
   {
    "name": "task190",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task190",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task190.json",
+   "task_json": "experiments_gpu/tasks/task190.json",
    "answer_regex": "\\b([ECN])\\b"
   },
   {
    "name": "task1391",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task1391",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task1391.json",
+   "task_json": "experiments_gpu/tasks/task1391.json",
    "answer_regex": "\\b([AB])\\b"
   },
   {
    "name": "task280",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task280",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task280.json",
+   "task_json": "experiments_gpu/tasks/task280.json",
    "answer_regex": "\\b(RACE|PROFESSION|GENDER|RELIGION)\\b"
   },
   {
    "name": "task290",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task290",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task290.json",
+   "task_json": "experiments_gpu/tasks/task290.json",
    "answer_regex": "\\b(NOT ANSWERABLE|ANSWERABLE)\\b"
   },
   {
    "name": "task391",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task391",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task391.json",
+   "task_json": "experiments_gpu/tasks/task391.json",
    "answer_regex": "\\b(NOT PLAUSIBLE|PLAUSIBLE)\\b"
   },
   {
    "name": "task363",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task363",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task363.json",
+   "task_json": "experiments_gpu/tasks/task363.json",
    "answer_regex": "\\b(POS|NEG)\\b"
   },
   {
    "name": "task400",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task400",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task400.json",
+   "task_json": "experiments_gpu/tasks/task400.json",
    "answer_regex": "\\b(NOT PARAPHRASE|PARAPHRASE)\\b"
   },
   {
    "name": "task379",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task379",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task379.json",
+   "task_json": "experiments_gpu/tasks/task379.json",
    "answer_regex": "\\b(WORLD|SPORTS|BUSINESS|SCI/TECH)\\b"
   },
   {
    "name": "task199",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task199",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task199.json",
+   "task_json": "experiments_gpu/tasks/task199.json",
    "answer_regex": "\\b(YES|NO)\\b"
   },
   {
    "name": "task322",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task322",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task322.json",
+   "task_json": "experiments_gpu/tasks/task322.json",
    "answer_regex": "\\b(NON-THREAT|THREAT)\\b"
   },
   {
    "name": "task333",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task333",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task333.json",
+   "task_json": "experiments_gpu/tasks/task333.json",
    "answer_regex": "\\b(NON-HATEFUL|HATEFUL)\\b"
   },
   {
    "name": "task195",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task195",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task195.json",
+   "task_json": "experiments_gpu/tasks/task195.json",
    "answer_regex": "\\b(POSITIVE|NEGATIVE)\\b"
   },
   {
    "name": "task387",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task387",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task387.json",
+   "task_json": "experiments_gpu/tasks/task387.json",
    "answer_regex": "\\b(POLARITY|SITUATIONAL|OTHER)\\b"
   },
   {
    "name": "task512",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task512",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task512.json",
+   "task_json": "experiments_gpu/tasks/task512.json",
    "answer_regex": "\\b(ANGER|JOY|SURPRISE|FEAR|LOVE)\\b"
   },
   {
    "name": "task296",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task296",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task296.json",
+   "task_json": "experiments_gpu/tasks/task296.json",
    "answer_regex": "\\b([AB])\\b"
   },
   {
    "name": "task609",
    "repo": "Lots-of-LoRAs/Mistral-7B-Instruct-v0.2-4b-r16-task609",
-   "task_json": "/root/atlas/experiments_gpu/tasks/task609.json",
+   "task_json": "experiments_gpu/tasks/task609.json",
    "answer_regex": "\\b(YES|NO)\\b"
   }
  ]

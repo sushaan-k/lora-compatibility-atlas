@@ -5,7 +5,7 @@
   "substrates": {
     "qwen8": {
       "substrate": "qwen8",
-      "jets_path": "/Users/sushaankandukoori/Downloads/when_do_loras_merge_neurips2026_v20_paradigm_ready_package/tmlr_submission/results_public/shared_chart_decision/qwen8_jets.npz",
+      "jets_path": "results_public/shared_chart_decision/qwen8_jets.npz",
       "n_adapters": 8,
       "names": [
         "lhong4759_f68c5c87_934d_4399_b",
@@ -12682,7 +12682,7 @@
     },
     "tinyllama": {
       "substrate": "tinyllama",
-      "jets_path": "/Users/sushaankandukoori/Downloads/when_do_loras_merge_neurips2026_v20_paradigm_ready_package/tmlr_submission/results_public/shared_chart_decision/tinyllama_jets.npz",
+      "jets_path": "results_public/shared_chart_decision/tinyllama_jets.npz",
       "n_adapters": 8,
       "names": [
         "gsm8k",

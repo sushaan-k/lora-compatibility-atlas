@@ -2,12 +2,15 @@
 """Does the atlas's retained-loss predict task ACCURACY, and what would fix it?"""
 import json, re, random, torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from pathlib import Path
 from peft import PeftModel
 
+REPO = Path(__file__).resolve().parent.parent
+
 BASE = "mistralai/Mistral-7B-Instruct-v0.2"
-D = json.load(open("/root/atlas/mistral_merges.json"))
+D = json.load(open(REPO / "experiments_gpu/mistral_merges.json"))
 n2r = D["name2repo"]
-dat = json.load(open("/root/atlas/task190_natural.json"))
+dat = json.load(open(REPO / "experiments_gpu/tasks/task190.json"))
 DEFN, INST = dat["definition"], dat["instances"][:40]
 others = [a for a in n2r if a != "task190"]
 

@@ -8,7 +8,6 @@ import sys
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "peft_atlas_lite"))
-sys.path.insert(0, "/root/atlas/peft_atlas_lite")
 from run_peft_atlas_lite import fit_quadratic_model, predict_quadratic  # noqa: E402
 
 TAU_GRID = [0.55, 0.65, 0.7, 0.75, 0.85]

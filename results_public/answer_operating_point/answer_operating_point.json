@@ -1,5 +1,5 @@
 {
-  "source_panel": "/Users/sushaankandukoori/Downloads/when_do_loras_merge_neurips2026_v20_paradigm_ready_package/tmlr_submission/results_public/answer_token_panel/answer_token_panel.json",
+  "source_panel": "results_public/answer_token_panel/answer_token_panel.json",
   "label_convention": "retained iff accuracy >= base_acc + tau_acc * (alone_acc - base_acc), per surfaces.py cmd_analyze",
   "score_convention": "screens rank (merge,task) records by measured loss ascending (lower retention loss = keep); AUROC uses -loss as the score",
   "selection_rule": "top ceil(k*N) records at budget fraction k",
